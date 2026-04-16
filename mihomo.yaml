@@ -1,71 +1,7 @@
 proxies:
-  - cipher: none
-    name: "\U0001F1ED\U0001F1F0HK_1|2.5MB/s"
-    password: 79960b0b-7d31-4263-8915-6511b0e137a8
-    plugin: v2ray-plugin
-    plugin-opts:
-      host: woshinidie-et3.pages.dev
-      mode: websocket
-      mux: false
-      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
-      tls: true
-    port: 443
-    server: 172.64.159.248
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_2|1.4MB/s"
-    network: ws
-    port: 443
-    server: ct.090227.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: 704564fb-bd6e-4c9b-88fc-66ceebb85825
-    ws-opts:
-      headers:
-        Host: ts-13.pages.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
-      path: /
-    xudp: true
-    servername: ts-13.pages.dev
-  - cipher: none
-    name: "\U0001F1ED\U0001F1F0HK_3|3.1MB/s"
-    password: 79960b0b-7d31-4263-8915-6511b0e137a8
-    plugin: v2ray-plugin
-    plugin-opts:
-      host: woshinidie-et3.pages.dev
-      mode: websocket
-      mux: false
-      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
-      tls: true
-    port: 443
-    server: 172.64.156.45
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_1|579KB/s"
-    network: ws
-    port: 443
-    server: 43.165.3.87
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19
-    ws-opts:
-      headers:
-        Host: falankefu1.zqjsqapi.com
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/45.0.2454.101 Safari/537.36
-      path: /proxy
-    xudp: true
-    servername: falankefu1.zqjsqapi.com
   - down: ''
     fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_4|2.7MB/s"
+    name: "\U0001F1ED\U0001F1F0HK_1|3.1MB/s"
     obfs: salamander
     obfs-password: YmGRdMZ74sEC91FN
     password: de8e0342-ea12-4f9d-bc2a-e62409e1913f
@@ -75,22 +11,10 @@ proxies:
     sni: hkzz.66jc.xyz
     type: hysteria2
     up: ''
-  - name: "\U0001F1FA\U0001F1F8US_1|1.2MB/s"
-    network: ws
-    port: 8880
-    server: 138.2.18.82
-    tls: true
-    type: vless
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
-    ws-opts:
-      headers:
-        Host: snippet.danfeng.rr.kg
-      path: /danfeng
-    servername: snippet.danfeng.rr.kg
   - client-fingerprint: safari
     encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1E9\U0001F1EADE_2|869KB/s"
+    name: "\U0001F1E9\U0001F1EADE_1|2.3MB/s"
     network: tcp
     port: 443
     reality-opts:
@@ -103,43 +27,28 @@ proxies:
     uuid: fadab0a4-861d-4ebf-89ac-c9b34aef631a
     xudp: true
     servername: www.lamer.com
-  - alpn:
-      - http%2525252F1.1
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1F7\U0001F1FARU_1|724KB/s"
-    network: tcp
-    port: 52006
-    server: cluster11.anti-vpn.ru
+  - name: "\U0001F1FA\U0001F1F8US_1|2.9MB/s"
+    password: fadab0a4-861d-4ebf-89ac-c9b34aef631a
+    port: 36636
+    ports: 35000-39000
+    server: 129.153.25.59
     skip-cert-verify: true
-    tls: true
-    type: vless
+    sni: www.lamer.com.hk
+    tfo: false
+    type: hysteria2
+  - auth: 'rstnnl:7ltZBmta4ahLenTIoywBy3R1Z1PV7ZGf'
+    name: "\U0001F1FA\U0001F1F8US_2|2.5MB/s"
+    obfs: salamander
+    obfs-password: CvxXZnSth1bVJKGFP2cof4rI52ifHJ2W
+    password: 'rstnnl:7ltZBmta4ahLenTIoywBy3R1Z1PV7ZGf'
+    port: 8932
+    server: nrealistic.nn-foto.ru
+    skip-cert-verify: true
+    sni: nrealistic.nn-foto.ru
+    type: hysteria2
     udp: true
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-    xudp: true
-    servername: cluster11.anti-vpn.ru
   - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1E8\U0001F1EDCH_1|867KB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: DoZSKLwNQjogQMlE7oEEuB8TqpNa-umXzG-2Q6dTTEY
-      short-id: "4fa44664f6a566d3"
-    server: es.milas.click
-    tls: true
-    type: vless
-    udp: true
-    uuid: 913c6074-a747-492b-a7e9-5abfcad6369d
-    xudp: true
-    servername: es.milas.click
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_2|2.3MB/s"
+    name: "\U0001F1FA\U0001F1F8US_3|698KB/s"
     network: ws
     port: 443
     server: 63.141.128.188
@@ -151,48 +60,18 @@ proxies:
         Host: d2-us1.djwstlsweb.top
       path: /djjc/us1
     servername: d2-us1.djwstlsweb.top
-  - name: "\U0001F1ED\U0001F1F0HK_5|822KB/s"
-    network: ws
-    port: 80
-    server: 104.17.19.26
-    type: vless
-    udp: true
-    uuid: 43158d39-8066-4df4-b74e-2ab29f207e0a
-    ws-opts:
-      headers:
-        Host: 29.alij47649.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/61.0.3163.100 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1EC\U0001F1E7GB_1|1.9MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: '-ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk'
-      short-id: "c6118398"
-    server: 2.26.91.111
-    tls: true
-    type: vless
-    udp: true
-    uuid: d5f95f47-9399-49c6-a76b-aa6b289609ba
-    xudp: true
-    servername: gateway.icloud.com
-  - name: "\U0001F1F0\U0001F1F7KR_1|604KB/s"
-    port: 1090
-    server: 121.169.46.116
-    type: socks5
-    udp: true
-    username: T2clM0QlM0Q6
+  - name: "\U0001F1E7\U0001F1F7BR_1|2.1MB/s"
+    password: fadab0a4-861d-4ebf-89ac-c9b34aef631a
+    port: 37641
+    ports: 35000-39000
+    server: 167.234.251.78
+    skip-cert-verify: true
+    sni: www.apple.com
+    tfo: false
+    type: hysteria2
   - cipher: none
     delay: 1634
-    name: "\U0001F1EC\U0001F1E7GB_2|1007KB/s"
+    name: "\U0001F1EC\U0001F1E7GB_1|2.8MB/s"
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
     plugin: v2ray-plugin
     plugin-opts:
@@ -206,20 +85,43 @@ proxies:
     server: 198.12.144.16
     type: ss
     udp: true
-  - name: "\U0001F1F5\U0001F1F1PL_1|2.2MB/s"
-    network: ws
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_4|1.5MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: fadab0a4-861d-4ebf-89ac-c9b34aef631a
     port: 443
-    server: 92.118.205.66
+    server: 134.195.101.199
+    skip-cert-verify: true
+    sni: www.apple.com
+    type: hysteria2
+    up: ''
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1FA\U0001F1F8US_5|975KB/s"
+    password: e777513e-9df5-4dc3-bc84-74e564345a81
+    port: 13012
+    server: usgpt.slianrk.com
+    type: ss
+    udp: true
+  - client-fingerprint: safari
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1EF\U0001F1F5JP_1|1.9MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: yzIdIf5RpR-rTzlULRjJoCgcQdx3-yXKl7eT7IuThn4
+      short-id: "bb9ab0d5242d53e9"
+    server: kb.vmjp2.yydjc.top
     tls: true
     type: vless
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-    ws-opts:
-      headers:
-        Host: 1-jk1.pages.dev
-      path: /
-    servername: 1-jk1.pages.dev
+    udp: true
+    uuid: fadab0a4-861d-4ebf-89ac-c9b34aef631a
+    xudp: true
+    servername: iosapps.itunes.apple.com
   - cipher: none
-    name: "\U0001F1F3\U0001F1F1NL_1|2.5MB/s"
+    name: "\U0001F1E9\U0001F1EADE_2|1.0MB/s"
     password: 79960b0b-7d31-4263-8915-6511b0e137a8
     plugin: v2ray-plugin
     plugin-opts:
@@ -229,78 +131,25 @@ proxies:
       path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
       tls: true
     port: 8443
-    server: 212.192.20.65
+    server: 136.244.80.24
     type: ss
     udp: true
-  - cipher: none
-    name: "\U0001F1ED\U0001F1F0HK_6|808KB/s"
-    password: 79960b0b-7d31-4263-8915-6511b0e137a8
-    plugin: v2ray-plugin
-    plugin-opts:
-      host: woshinidie-et3.pages.dev
-      mode: websocket
-      mux: 0
-      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
-      skip-cert-verify: false
-      tls: true
-    port: 443
-    server: 104.18.33.237
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_2|1.4MB/s"
+    network: tcp
+    port: 7754
+    server: vm51544542.dns8656815.com
     skip-cert-verify: false
-    type: ss
-    udp: false
-  - cipher: chacha20-ietf
-    name: ❓Other_1|1004KB/s
-    password: asd123456
-    port: 8388
-    server: 103.141.221.124
-    type: ss
+    tls: false
+    type: vmess
     udp: true
-  - name: "\U0001F1EF\U0001F1F5JP_1|1003KB/s"
-    network: ws
-    port: 443
-    server: 63.141.128.188
-    tls: true
-    type: vless
-    uuid: d46056cf-da4e-4426-a3e4-39fcbfefa112
-    ws-opts:
-      headers:
-        Host: d2-jp1.djwstlsweb.top
-      path: /djjc/jp1
-    servername: d2-jp1.djwstlsweb.top
-  - name: "\U0001F1F9\U0001F1FCTW_1|1.1MB/s"
-    password: exaxgqkKkd0TAMrCxeonWg==
-    port: 1443
-    server: twmoon1-cdn-route.couldflare-cdn.com
-    tls: true
-    type: http
-    udp: true
-    username: mrwdfNTD8M79LCukCieldrqZWqs=
-    sni: twmoon1-cdn-route.couldflare-cdn.com
-  - name: "\U0001F1F9\U0001F1FCTW_2|1.0MB/s"
-    password: mrwdfNTD8M79LCukCieldrqZWqs=
-    port: 1443
-    server: twmoon1-cdn-route.couldflare-cdn.com
-    skip-cert-verify: true
-    sni: twmoon1-cdn-route.couldflare-cdn.com
-    tls: true
-    type: http
-    username: mrwdfNTD8M79LCukCieldrqZWqs=
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EE\U0001F1F3IN_1|1.7MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: d3f922d2-d95c-4c4d-8406-b1acc18111c8
-    port: 51000
-    server: 140.245.27.220
-    skip-cert-verify: true
-    sni: cn.cremedelamer.com
-    type: hysteria2
-    up: ''
+    uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
+    xudp: true
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1EC\U0001F1E7GB_3|2.5MB/s"
+    name: "\U0001F1EB\U0001F1EEFI_1|2.1MB/s"
     network: tcp
     port: 443
     reality-opts:
@@ -314,123 +163,48 @@ proxies:
     uuid: d5f95f47-9399-49c6-a76b-aa6b289609ba
     xudp: true
     servername: gateway.icloud.com
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_3|1.4MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: fadab0a4-861d-4ebf-89ac-c9b34aef631a
-    port: 443
-    server: 134.195.101.199
-    skip-cert-verify: true
-    sni: www.apple.com
-    type: hysteria2
-    up: ''
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US_4|792KB/s"
-    network: ws
-    port: 8443
-    server: 162.159.45.202
-    tls: true
-    type: vless
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_3|801KB/s"
+    network: tcp
+    port: 7754
+    server: efan.dnsefan04881.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
     udp: true
-    uuid: 3ab9683f-0d56-40b3-dbf6-94b79e2d094c
-    ws-opts:
-      headers:
-        Host: orus2.jakesolo.eu.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
-          (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
-      path: /ws
+    uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
     xudp: true
-    servername: orus2.jakesolo.eu.org
   - alterId: 0
     cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_7|1.3MB/s"
+    name: "\U0001F1ED\U0001F1F0HK_4|615KB/s"
     port: 7754
     server: efan.dnsefan04881.com
     type: vmess
     uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
     network: tcp
-  - cipher: none
-    name: "\U0001F1ED\U0001F1F0HK_8|2.1MB/s"
-    password: 79960b0b-7d31-4263-8915-6511b0e137a8
-    plugin: v2ray-plugin
-    plugin-opts:
-      host: woshinidie-et3.pages.dev
-      mode: websocket
-      mux: false
-      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
-      tls: true
-    port: 443
-    server: 172.64.146.11
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1F0\U0001F1F7KR_2|924KB/s"
-    port: 19001
-    reality-opts:
-      public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
-    server: krp01.jumperservice.com
-    tls: true
-    type: vless
-    uuid: 6eeb820e-89ef-4b60-9060-ddcaea0580f0
+  - alpn:
+      - ''
+    alterId: 0
+    cipher: auto
+    name: ❓Other_1|1.4MB/s
     network: tcp
-    servername: addons.mozilla.org
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1F0\U0001F1F7KR_3|793KB/s"
-    network: tcp
-    port: 19001
-    reality-opts:
-      public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
-      short-id: ''
-    server: krp01.jumperservice.com
-    tls: true
-    type: vless
+    port: 7754
+    server: efan.dnsefan04881.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
     udp: true
-    uuid: 6eeb820e-89ef-4b60-9060-ddcaea0580f0
+    uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
     xudp: true
-    servername: addons.mozilla.org
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1F0\U0001F1F7KR_4|785KB/s"
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_5|773KB/s"
+    port: 7754
+    server: efan.dnsefan04881.com
+    type: vmess
+    uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
     network: tcp
-    port: 19001
-    reality-opts:
-      public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
-      short-id: ''
-    server: krp01.jumperservice.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 455fc271-3ee2-493b-8c75-9324b4851e2f
-    xudp: true
-    servername: addons.mozilla.org
-  - client-fingerprint: firefox
-    name: "\U0001F1EB\U0001F1F7FR_1|1.2MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: fXdtB8vImCUJMQBLcCNK7p1v3rVzx6HllaDLk8Vc4EU
-      short-id: "239dcd11"
-    server: 57.128.81.193
-    tls: true
-    type: vless
-    udp: true
-    uuid: 53821f3c-5b03-456a-89f3-f8379f130752
-    xudp: true
-    servername: www.samsung.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
