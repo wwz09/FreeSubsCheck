@@ -1,99 +1,89 @@
 proxies:
-  - cipher: aes-256-gcm
-    country: "\U0001F1E6\U0001F1FA AU"
-    delay: 398
-    name: "\U0001F1F0\U0001F1F7KR_1|819KB/s"
-    password: dada1203
-    port: 80
-    server: 43.203.123.218
-    type: ss
-  - delay: 824
-    name: "\U0001F1F3\U0001F1F1NL_1|814KB/s"
-    password: M08tvzYWtUEJNtbpHp
+  - cipher: none
+    name: "\U0001F1ED\U0001F1F0HK_1|4.5MB/s"
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: ylnhh.us.ci
+      mode: websocket
+      mux: 0
+      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+      skip-cert-verify: false
+      tls: true
     port: 443
-    server: 194.124.216.179
-    skip-cert-verify: true
-    type: trojan
-    network: tcp
-  - name: "\U0001F1EE\U0001F1E9ID_1|1.2MB/s"
-    password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
-    port: 32233
-    server: 3483dc6f-t9zts0-tdfzix-fm2v.id.oshuawei.com
-    sni: 3483dc6f-t9zts0-tdfzix-fm2v.id.oshuawei.com
-    tls: true
-    type: http
-    username: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
-  - cipher: aes-256-cfb
-    country: "\U0001F1EA\U0001F1F8 ES"
-    delay: 1679
-    name: "\U0001F1EA\U0001F1F8ES_1|554KB/s"
-    password: EXN3S3eQpjE7EJu8
-    port: 9027
-    server: 5.188.181.201
+    server: registry.cyou
+    skip-cert-verify: false
     type: ss
-  - auth: dongtaiwang.com
-    name: "\U0001F1EB\U0001F1F7FR_1|2.6MB/s"
-    password: dongtaiwang.com
-    port: 40022
-    ports: 41000-42000
-    server: 163.172.113.118
+    udp: false
+  - cipher: none
+    name: "\U0001F1ED\U0001F1F0HK_2|5.6MB/s"
+    password: 79960b0b-7d31-4263-8915-6511b0e137a8
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: woshinidie-et3.pages.dev
+      mode: websocket
+      mux: false
+      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
+      tls: true
+    port: 443
+    server: 172.64.145.69
+    type: ss
+    udp: true
+  - alpn:
+      - h3
+    name: "\U0001F1F0\U0001F1F7KR_1|5.9MB/s"
+    password: 820409af-997a-41c4-9e51-46f373951a39
+    port: 50914
+    server: 144.24.74.102
     skip-cert-verify: true
-    sni: www.microsoft.com
+    sni: www.bing.com
     type: hysteria2
+  - cipher: none
+    name: "\U0001F1ED\U0001F1F0HK_3|8.0MB/s"
+    password: 79960b0b-7d31-4263-8915-6511b0e137a8
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: woshinidie-et3.pages.dev
+      mode: websocket
+      mux: false
+      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
+      tls: true
+    port: 443
+    server: 104.18.46.154
+    type: ss
     udp: true
-  - name: "\U0001F1F0\U0001F1F7KR_2|941KB/s"
-    port: 1090
-    server: 121.169.46.116
-    type: socks5
+  - cipher: none
+    name: "\U0001F1ED\U0001F1F0HK_4|2.5MB/s"
+    password: 79960b0b-7d31-4263-8915-6511b0e137a8
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: woshinidie-et3.pages.dev
+      mode: websocket
+      mux: false
+      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
+      tls: true
+    port: 443
+    server: cf.130519.xyz
+    type: ss
     udp: true
-    username: T2clM0QlM0Q6
-  - name: "\U0001F1E9\U0001F1EADE_1|3.4MB/s"
+  - name: "\U0001F1ED\U0001F1F0HK_5|6.0MB/s"
     network: ws
-    port: 80
-    server: 151.101.1.55
-    type: vless
-    udp: true
-    uuid: 74d47fb8-c057-49b1-85ff-447ecd6cfcd6
+    password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+    port: 443
+    server: 172.64.229.173
+    skip-cert-verify: true
+    sni: cm22-bgphhh.pages.dev
+    type: trojan
     ws-opts:
       headers:
-        Host: plus-mobile1.global.ssl.fastly.net
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/62.0.3202.94 Safari/537.36
-      path: /live
-    xudp: true
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1E9\U0001F1EADE_2|1.3MB/s"
-    port: 9443
-    reality-opts:
-      public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
-      short-id: "2344766a270a6298"
-    server: 159.195.82.187
-    tls: true
-    type: vless
-    uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
-    network: tcp
-    servername: yahoo.com
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: "\U0001F1F0\U0001F1F7KR_3|1.6MB/s"
-    port: 50911
-    reality-opts:
-      public-key: RGQRcZVfFRt6ioLDvH7HOicOXJcwonHFVqOgbix2w3w
-    server: 144.24.74.102
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 820409af-997a-41c4-9e51-46f373951a39
-    network: tcp
-    servername: www.iij.ad.jp
+        Host: cm22-bgphhh.pages.dev
+      path: >-
+        /hot/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80
   - client-fingerprint: chrome
     ech-opts:
       enable: true
       query-server-name: encryptedsni.com
-    name: "\U0001F1F0\U0001F1F7KR_4|3.1MB/s"
+    name: "\U0001F1F0\U0001F1F7KR_2|2.9MB/s"
     network: ws
     port: 30005
     server: 121.139.161.31
@@ -110,238 +100,50 @@ proxies:
       max-early-data: 2560
       path: /danfeng
     servername: s3vz.user-service.chinav.indevs.in
-  - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    name: "\U0001F1FA\U0001F1F8US_1|1.7MB/s"
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-us-006.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-us-006.fastervpn.world
-    type: hysteria2
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_1|1.4MB/s"
+    port: 180
+    server: 82.198.246.250
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    network: tcp
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_2|1.3MB/s"
+    network: tcp
+    port: 180
+    server: 82.198.246.250
+    skip-cert-verify: false
+    tls: false
+    type: vmess
     udp: true
-  - alpn:
-      - h3
-    name: "\U0001F1F0\U0001F1F7KR_5|4.6MB/s"
-    password: 820409af-997a-41c4-9e51-46f373951a39
-    port: 50914
-    server: 144.24.74.102
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    xudp: true
   - cipher: aes-256-cfb
     country: "\U0001F3C1 ZZ"
     delay: 1508
-    name: "\U0001F1FB\U0001F1F3VN_1|603KB/s"
+    name: "\U0001F1FB\U0001F1F3VN_1|554KB/s"
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     port: 38388
     server: 103.186.154.216
     type: ss
-  - cipher: none
-    name: "\U0001F1FA\U0001F1F8US_2|886KB/s"
-    password: 79960b0b-7d31-4263-8915-6511b0e137a8
-    plugin: v2ray-plugin
-    plugin-opts:
-      host: woshinidie-et3.pages.dev
-      mode: websocket
-      mux: false
-      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
-      tls: true
-    port: 19034
-    server: 45.151.132.228
-    type: ss
-    udp: true
-  - cipher: none
-    name: "\U0001F1EC\U0001F1E7GB_1|2.0MB/s"
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      host: ylnhh.us.ci
-      mode: websocket
-      mux: false
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
-      tls: true
-    port: 443
-    server: 198.12.144.16
-    type: ss
-    udp: true
-  - cipher: none
-    name: "\U0001F1E9\U0001F1EADE_3|1.1MB/s"
-    password: 79960b0b-7d31-4263-8915-6511b0e137a8
-    plugin: v2ray-plugin
-    plugin-opts:
-      host: woshinidie-et3.pages.dev
-      mode: websocket
-      mux: false
-      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
-      tls: true
-    port: 8443
-    server: 136.244.80.24
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1FB\U0001F1F3VN_2|4.6MB/s"
-    password: 80dd30d8-f9ad-4747-b77e-cac80fc7b9ef
-    port: 21325
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - alpn:
-      - h3
-    congestion-controller: bbr
-    disable-sni: false
-    name: "\U0001F1FA\U0001F1F8US_3|1.4MB/s"
-    password: 80dd30d8-f9ad-4747-b77e-cac80fc7b9ef
-    port: 35474
-    reduce-rtt: false
-    request-timeout: 0
-    server: us.03.jianz.xin
-    skip-cert-verify: true
-    type: tuic
-    udp-relay-mode: native
-    uuid: 80dd30d8-f9ad-4747-b77e-cac80fc7b9ef
-    sni: us.03.jianz.xin
-    version: 5
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_1|1.2MB/s"
-    network: ws
-    password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-    port: 443
-    server: ct.090227.xyz
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: "\U0001F1F0\U0001F1F7KR_3|741KB/s"
+    port: 50911
+    reality-opts:
+      public-key: RGQRcZVfFRt6ioLDvH7HOicOXJcwonHFVqOgbix2w3w
+    server: 144.24.74.102
     skip-cert-verify: false
-    sni: cm22-bgphhh.pages.dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.67 Safari/537.36
-      path: >-
-        /dl/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-  - cipher: aes-128-gcm
-    name: "\U0001F1EC\U0001F1E7GB_2|4.2MB/s"
-    password: 80dd30d8-f9ad-4747-b77e-cac80fc7b9ef
-    port: 23415
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1F9\U0001F1EDTH_1|530KB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-      short-id: '7266e6'
-    server: 47.81.9.160
     tls: true
     type: vless
     udp: true
-    uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-    xudp: true
-    servername: www.ilovepdf.com
-  - cipher: aes-128-gcm
-    name: "\U0001F1EE\U0001F1E9ID_2|3.3MB/s"
-    password: 80dd30d8-f9ad-4747-b77e-cac80fc7b9ef
-    port: 25469
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1FA\U0001F1F8US_4|1.1MB/s"
-    password: 80dd30d8-f9ad-4747-b77e-cac80fc7b9ef
-    port: 26547
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1EB\U0001F1F7FR_2|1.5MB/s"
-    password: 80dd30d8-f9ad-4747-b77e-cac80fc7b9ef
-    port: 25749
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1EA\U0001F1F8ES_2|2.6MB/s"
-    password: 80dd30d8-f9ad-4747-b77e-cac80fc7b9ef
-    port: 29874
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1E6\U0001F1EAAE_1|2.2MB/s"
-    password: 80dd30d8-f9ad-4747-b77e-cac80fc7b9ef
-    port: 34785
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1F5\U0001F1F1PL_1|1.3MB/s"
-    password: 80dd30d8-f9ad-4747-b77e-cac80fc7b9ef
-    port: 22563
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1EB\U0001F1EEFI_1|1.3MB/s"
-    password: 80dd30d8-f9ad-4747-b77e-cac80fc7b9ef
-    port: 23414
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1EE\U0001F1F1IL_1|1.1MB/s"
-    password: 80dd30d8-f9ad-4747-b77e-cac80fc7b9ef
-    port: 42785
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1F8\U0001F1ECSG_1|2.5MB/s"
-    password: 80dd30d8-f9ad-4747-b77e-cac80fc7b9ef
-    port: 15412
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - client-fingerprint: random
-    encryption: none
-    name: "\U0001F1F9\U0001F1EDTH_2|887KB/s"
+    uuid: 820409af-997a-41c4-9e51-46f373951a39
     network: tcp
-    port: 443
-    reality-opts:
-      public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-      short-id: ''
-    server: 47.87.65.216
-    tls: true
-    type: vless
-    udp: true
-    uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-    xudp: true
-    servername: api.digital-help-prd.autodesk.com
-  - alpn:
-      - h3
-    congestion-controller: bbr
-    disable-sni: false
-    name: "\U0001F1FA\U0001F1F8US_5|2.8MB/s"
-    password: 80dd30d8-f9ad-4747-b77e-cac80fc7b9ef
-    port: 35474
-    reduce-rtt: false
-    request-timeout: 0
-    server: us.05.jianz.xin
-    skip-cert-verify: true
-    type: tuic
-    udp-relay-mode: native
-    uuid: 80dd30d8-f9ad-4747-b77e-cac80fc7b9ef
-    sni: us.05.jianz.xin
-    version: 5
-  - cipher: aes-128-gcm
-    name: "\U0001F1EE\U0001F1F3IN_1|2.2MB/s"
-    password: 80dd30d8-f9ad-4747-b77e-cac80fc7b9ef
-    port: 21324
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
+    servername: www.iij.ad.jp
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
@@ -349,7 +151,7 @@ proxies:
       headers: {}
       path:
         - /
-    name: "\U0001F1E8\U0001F1FFCZ_1|665KB/s"
+    name: "\U0001F1E8\U0001F1FFCZ_1|1.6MB/s"
     network: tcp
     port: 443
     reality-opts:
@@ -362,44 +164,236 @@ proxies:
     uuid: 913c6074-a747-492b-a7e9-5abfcad6369d
     xudp: true
     servername: pl.milas.click
-  - cipher: aes-128-gcm
-    name: "\U0001F1F8\U0001F1ECSG_2|2.1MB/s"
-    password: 1cbd1345-7663-4de4-bd73-746556594c4a
-    port: 15412
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1EE\U0001F1E9ID_3|2.5MB/s"
-    password: 1cbd1345-7663-4de4-bd73-746556594c4a
-    port: 25469
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8US_6|1.4MB/s"
-    password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
-    port: 443
-    server: 2fc39b73-t9zts0-tdfzix-fm2v.jp.oshuawei.com
-    sni: 2fc39b73-t9zts0-tdfzix-fm2v.jp.oshuawei.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1E9\U0001F1EADE_1|694KB/s"
+    port: 9443
+    reality-opts:
+      public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
+      short-id: "2344766a270a6298"
+    server: 159.195.82.187
     tls: true
-    type: http
-    username: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
-  - name: "\U0001F1ED\U0001F1F0HK_2|627KB/s"
-    network: ws
-    password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-    port: 2087
-    server: 172.64.146.66
-    sni: cm22-bgphhh.pages.dev
-    type: trojan
-    ws-opts:
-      headers:
-        Host: cm22-bgphhh.pages.dev
-      path: /
-  - name: "\U0001F1ED\U0001F1F0HK_3|2.6MB/s"
+    type: vless
+    uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
+    network: tcp
+    servername: yahoo.com
+  - name: "\U0001F1FA\U0001F1F8US_3|2.2MB/s"
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: vpn-us-018.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-us-018.fastervpn.world
+    type: hysteria2
+  - client-fingerprint: chrome
+    name: "\U0001F1F9\U0001F1EDTH_1|1.7MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+      short-id: '7266e6'
+    server: 47.81.9.160
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+    xudp: true
+    servername: www.ilovepdf.com
+  - client-fingerprint: random
+    encryption: none
+    name: "\U0001F1F9\U0001F1EDTH_2|1.7MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+      short-id: ''
+    server: 47.87.65.216
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+    xudp: true
+    servername: api.digital-help-prd.autodesk.com
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_2|783KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.24
+    type: ss
+    udp: true
+  - cipher: none
+    name: "\U0001F1EC\U0001F1E7GB_1|2.2MB/s"
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: ylnhh.us.ci
+      mode: websocket
+      mux: false
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+      tls: true
+    port: 443
+    server: 198.12.144.16
+    type: ss
+    udp: true
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_3|786KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.236
+    type: ss
+    udp: true
+  - auth: dongtaiwang.com
+    name: "\U0001F1EB\U0001F1F7FR_1|3.1MB/s"
+    password: dongtaiwang.com
+    port: 40022
+    ports: 41000-42000
+    server: 163.172.113.118
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: hysteria2
+    udp: true
+  - cipher: none
+    name: "\U0001F1FA\U0001F1F8US_4|1.7MB/s"
+    password: 79960b0b-7d31-4263-8915-6511b0e137a8
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: woshinidie-et3.pages.dev
+      mode: websocket
+      mux: false
+      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
+      tls: true
+    port: 443
+    server: 162.159.38.139
+    type: ss
+    udp: true
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F8\U0001F1ECSG_1|2.5MB/s"
+    obfs: salamander
+    obfs-password: OrT7yQQIMqcvKdet
+    password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+    port: 443
+    server: sg-hy2.onetaplink.app
+    skip-cert-verify: true
+    sni: hy2-sg.onetaplink.app
+    type: hysteria2
+    up: ''
+  - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    name: "\U0001F1FA\U0001F1F8US_5|1.6MB/s"
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: vpn-us-006.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-us-006.fastervpn.world
+    type: hysteria2
+    udp: true
+  - cipher: none
+    name: "\U0001F1FA\U0001F1F8US_6|1.5MB/s"
+    password: 79960b0b-7d31-4263-8915-6511b0e137a8
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: woshinidie-et3.pages.dev
+      mode: websocket
+      mux: false
+      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
+      tls: true
+    port: 443
+    server: 172.64.52.92
+    type: ss
+    udp: true
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1ED\U0001F1F0HK_6|990KB/s"
+    obfs: salamander
+    obfs-password: YmGRdMZ74sEC91FN
+    password: de8e0342-ea12-4f9d-bc2a-e62409e1913f
+    port: 20003
+    server: zz.66jc.xyz
+    skip-cert-verify: true
+    sni: hkzz.66jc.xyz
+    type: hysteria2
+    up: ''
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    delay: 1187
+    name: "\U0001F1FB\U0001F1F3VN_4|665KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.148
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    delay: 490
+    name: "\U0001F1FB\U0001F1F3VN_5|737KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.218
+    type: ss
+  - client-fingerprint: chrome
+    name: "\U0001F1EF\U0001F1F5JP_1|2.0MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+      short-id: "2da72ce6"
+    server: 176.97.73.155
+    tls: true
+    type: vless
+    udp: true
+    uuid: f81c01c6-6791-4470-bfe4-e73350605e62
+    servername: navi.bankrate.com
+  - cipher: none
+    name: "\U0001F1FA\U0001F1F8US_7|1.0MB/s"
+    password: 79960b0b-7d31-4263-8915-6511b0e137a8
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: woshinidie-et3.pages.dev
+      mode: websocket
+      mux: false
+      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
+      tls: true
+    port: 443
+    server: 162.159.45.203
+    type: ss
+    udp: true
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_6|954KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.193
+    type: ss
+  - name: "\U0001F1EE\U0001F1F3IN_1|3.0MB/s"
+    password: ''
+    port: 1080
+    server: 139.59.24.173
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    delay: 487
+    name: "\U0001F1FB\U0001F1F3VN_7|572KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.52
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_8|1.1MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.220
+    type: ss
+  - name: "\U0001F1ED\U0001F1F0HK_7|1.9MB/s"
+    password: 3286b74d-a633-401f-8e22-6e8e61c5f1d9
+    port: 5555
+    server: 45.192.195.52
+    skip-cert-verify: true
+    tfo: false
+    type: hysteria2
+  - name: "\U0001F1ED\U0001F1F0HK_8|4.1MB/s"
     network: ws
     password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
     port: 443
-    server: 172.64.229.173
+    server: 172.64.229.174
     skip-cert-verify: true
     sni: cm22-bgphhh.pages.dev
     type: trojan
@@ -408,307 +402,24 @@ proxies:
         Host: cm22-bgphhh.pages.dev
       path: >-
         /hot/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80
-  - cipher: aes-128-gcm
-    name: "\U0001F1F0\U0001F1F7KR_6|2.5MB/s"
-    password: 80dd30d8-f9ad-4747-b77e-cac80fc7b9ef
-    port: 25468
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - alpn:
-      - h3
-    congestion-controller: bbr
-    disable-sni: false
-    name: "\U0001F1FA\U0001F1F8US_7|2.5MB/s"
-    password: 80dd30d8-f9ad-4747-b77e-cac80fc7b9ef
-    port: 24587
-    reduce-rtt: false
-    request-timeout: 0
-    server: us.01.jianz.xin
+  - name: "\U0001F1ED\U0001F1F0HK_9|4.4MB/s"
+    network: ws
+    password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+    port: 2053
+    server: 172.64.145.93
     skip-cert-verify: true
-    type: tuic
-    udp-relay-mode: native
-    uuid: 80dd30d8-f9ad-4747-b77e-cac80fc7b9ef
-    sni: us.01.jianz.xin
-    version: 5
-  - cipher: aes-128-gcm
-    name: "\U0001F1FF\U0001F1E6ZA_1|2.4MB/s"
-    password: 80dd30d8-f9ad-4747-b77e-cac80fc7b9ef
-    port: 44785
-    server: zz.gd.01.jianz.group
+    sni: cm22-bgphhh.pages.dev
+    type: trojan
+    ws-opts:
+      headers:
+        Host: cm22-bgphhh.pages.dev
+      path: /
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_9|753KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.156
     type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1E7\U0001F1ECBG_1|693KB/s"
-    password: 80dd30d8-f9ad-4747-b77e-cac80fc7b9ef
-    port: 31528
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1EC\U0001F1E7GB_3|1.1MB/s"
-    password: 1cbd1345-7663-4de4-bd73-746556594c4a
-    port: 23415
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1FA\U0001F1F8US_8|1.1MB/s"
-    password: 1cbd1345-7663-4de4-bd73-746556594c4a
-    port: 26547
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1E9\U0001F1EADE_4|1.8MB/s"
-    password: 80dd30d8-f9ad-4747-b77e-cac80fc7b9ef
-    port: 36574
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1FA\U0001F1E6UA_1|1.1MB/s"
-    password: 80dd30d8-f9ad-4747-b77e-cac80fc7b9ef
-    port: 45714
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1E9\U0001F1EADE_5|760KB/s"
-    password: 80dd30d8-f9ad-4747-b77e-cac80fc7b9ef
-    port: 21474
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1E8\U0001F1E6CA_1|1.0MB/s"
-    password: 80dd30d8-f9ad-4747-b77e-cac80fc7b9ef
-    port: 32658
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1F3\U0001F1F1NL_2|1.5MB/s"
-    password: 80dd30d8-f9ad-4747-b77e-cac80fc7b9ef
-    port: 23515
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1EE\U0001F1F9IT_1|1.6MB/s"
-    password: 80dd30d8-f9ad-4747-b77e-cac80fc7b9ef
-    port: 23915
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1E8\U0001F1EDCH_1|881KB/s"
-    password: 80dd30d8-f9ad-4747-b77e-cac80fc7b9ef
-    port: 23715
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1EB\U0001F1EEFI_2|1.6MB/s"
-    password: 1cbd1345-7663-4de4-bd73-746556594c4a
-    port: 23414
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1E6\U0001F1FAAU_1|1.6MB/s"
-    password: 80dd30d8-f9ad-4747-b77e-cac80fc7b9ef
-    port: 31546
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1E7\U0001F1ECBG_2|1.8MB/s"
-    password: 1cbd1345-7663-4de4-bd73-746556594c4a
-    port: 31528
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1ED\U0001F1F0HK_4|1.6MB/s"
-    password: 80dd30d8-f9ad-4747-b77e-cac80fc7b9ef
-    port: 34174
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - auth: 1cbd1345-7663-4de4-bd73-746556594c4a
-    name: "\U0001F1FA\U0001F1F8US_9|2.1MB/s"
-    obfs: salamander
-    obfs-password: O37wCCVO4jitH4FH
-    password: 1cbd1345-7663-4de4-bd73-746556594c4a
-    port: 54843
-    server: us.03.jianz.xin
-    skip-cert-verify: true
-    type: hysteria2
-    udp: true
-    sni: us.03.jianz.xin
-  - cipher: aes-128-gcm
-    name: "\U0001F1F6\U0001F1E6QA_1|938KB/s"
-    password: 80dd30d8-f9ad-4747-b77e-cac80fc7b9ef
-    port: 31543
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1F0\U0001F1F7KR_7|2.4MB/s"
-    password: 1cbd1345-7663-4de4-bd73-746556594c4a
-    port: 25468
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - auth: 1cbd1345-7663-4de4-bd73-746556594c4a
-    name: "\U0001F1FA\U0001F1F8US_10|2.1MB/s"
-    obfs: salamander
-    obfs-password: L3aYTowXgCJs0sJ3
-    password: 1cbd1345-7663-4de4-bd73-746556594c4a
-    port: 54843
-    server: us.01.jianz.xin
-    skip-cert-verify: true
-    type: hysteria2
-    udp: true
-    sni: us.01.jianz.xin
-  - cipher: aes-128-gcm
-    name: "\U0001F1EE\U0001F1F9IT_2|1.9MB/s"
-    password: 1cbd1345-7663-4de4-bd73-746556594c4a
-    port: 23915
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1EE\U0001F1F1IL_2|928KB/s"
-    password: 1cbd1345-7663-4de4-bd73-746556594c4a
-    port: 42785
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1EE\U0001F1F3IN_2|2.1MB/s"
-    password: 1cbd1345-7663-4de4-bd73-746556594c4a
-    port: 21324
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1E9\U0001F1EADE_6|1.2MB/s"
-    password: 1cbd1345-7663-4de4-bd73-746556594c4a
-    port: 36574
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1FB\U0001F1F3VN_3|3.0MB/s"
-    password: 1cbd1345-7663-4de4-bd73-746556594c4a
-    port: 21325
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1EB\U0001F1F7FR_3|2.0MB/s"
-    password: 1cbd1345-7663-4de4-bd73-746556594c4a
-    port: 25749
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1F6\U0001F1E6QA_2|755KB/s"
-    password: 1cbd1345-7663-4de4-bd73-746556594c4a
-    port: 31543
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1EA\U0001F1F8ES_3|534KB/s"
-    password: 1cbd1345-7663-4de4-bd73-746556594c4a
-    port: 29874
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1E6\U0001F1EAAE_2|2.3MB/s"
-    password: 1cbd1345-7663-4de4-bd73-746556594c4a
-    port: 34785
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1FA\U0001F1E6UA_2|1.4MB/s"
-    password: 1cbd1345-7663-4de4-bd73-746556594c4a
-    port: 45714
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1F3\U0001F1F1NL_3|1.6MB/s"
-    password: 1cbd1345-7663-4de4-bd73-746556594c4a
-    port: 23515
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1F5\U0001F1F1PL_2|1.3MB/s"
-    password: 1cbd1345-7663-4de4-bd73-746556594c4a
-    port: 22563
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1E8\U0001F1EDCH_2|2.0MB/s"
-    password: 1cbd1345-7663-4de4-bd73-746556594c4a
-    port: 23715
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1E6\U0001F1FAAU_2|2.3MB/s"
-    password: 1cbd1345-7663-4de4-bd73-746556594c4a
-    port: 31546
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - auth: 1cbd1345-7663-4de4-bd73-746556594c4a
-    name: "\U0001F1FA\U0001F1F8US_11|2.4MB/s"
-    obfs: salamander
-    obfs-password: 7IDC2Ulq6ANePrW3
-    password: 1cbd1345-7663-4de4-bd73-746556594c4a
-    port: 30500
-    server: us.05.jianz.xin
-    skip-cert-verify: true
-    type: hysteria2
-    udp: true
-    sni: us.05.jianz.xin
-  - cipher: aes-128-gcm
-    name: "\U0001F1E7\U0001F1EABE_1|2.0MB/s"
-    password: 1cbd1345-7663-4de4-bd73-746556594c4a
-    port: 23419
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1E8\U0001F1E6CA_2|1.9MB/s"
-    password: 1cbd1345-7663-4de4-bd73-746556594c4a
-    port: 32658
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1ED\U0001F1F0HK_5|1.6MB/s"
-    password: 1cbd1345-7663-4de4-bd73-746556594c4a
-    port: 34174
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1FF\U0001F1E6ZA_2|565KB/s"
-    password: 1cbd1345-7663-4de4-bd73-746556594c4a
-    port: 44785
-    server: zz.gd.01.jianz.group
-    type: ss
-    udp: true
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
