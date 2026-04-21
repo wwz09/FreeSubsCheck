@@ -1,7 +1,7 @@
 proxies:
   - down: ''
     fingerprint: ''
-    name: "\U0001F1F9\U0001F1FCTW_1|3.2MB/s"
+    name: "\U0001F1F9\U0001F1FCTW_1|3.5MB/s"
     obfs: ''
     obfs-password: ''
     password: qQe1z5kU8kN6SlKnDt9Ru3Qp
@@ -11,84 +11,74 @@ proxies:
     sni: vpn-tw-001.fastervpn.world
     type: hysteria2
     up: ''
-  - name: "\U0001F1E9\U0001F1EADE_1|3.1MB/s"
-    network: ws
-    port: 80
-    server: 151.101.1.55
+  - name: "\U0001F1EF\U0001F1F5JP_1|4.9MB/s"
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: vpn-jp-016.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-jp-016.fastervpn.world
+    type: hysteria2
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_1|1.2MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.32
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_2|800KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.58
+    type: ss
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_1|1.7MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: OEZ3C-1OCSYBikqcWudtPP3PpQq2RAI7rFPxWoTCDSc
+      short-id: "bffe9292"
+    server: 132.226.147.10
+    tls: true
     type: vless
     udp: true
-    uuid: 74d47fb8-c057-49b1-85ff-447ecd6cfcd6
-    ws-opts:
-      headers:
-        Host: plus-mobile1.global.ssl.fastly.net
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/63.0.3239.132 Safari/537.36
-      path: /live
+    uuid: bba65652-b714-4832-ba62-cbf861ea2dbe
     xudp: true
+    servername: musicstatus.tv.apple.com
   - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    name: "\U0001F1EC\U0001F1E7GB_1|2.2MB/s"
+    name: "\U0001F1EC\U0001F1E7GB_1|2.5MB/s"
     password: qQe1z5kU8kN6SlKnDt9Ru3Qp
     port: 443
     server: vpn-uk-004.fastervpn.world
     skip-cert-verify: true
     sni: vpn-uk-004.fastervpn.world
     type: hysteria2
-  - name: "\U0001F1E9\U0001F1EADE_2|3.0MB/s"
+  - name: "\U0001F1E9\U0001F1EADE_1|785KB/s"
     network: ws
-    port: 80
-    server: 151.101.1.55
-    tls: false
+    port: 2096
+    server: 5.129.231.66
+    tls: true
     type: vless
-    uuid: 74d47fb8-c057-49b1-85ff-447ecd6cfcd6
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     ws-opts:
       headers:
-        Host: plus-mobile1.global.ssl.fastly.net
-      path: /live
-    servername: plus-mobile1.global.ssl.fastly.net
-  - client-fingerprint: chrome
-    ech-opts:
-      enable: true
-      query-server-name: encryptedsni.com
-    name: "\U0001F1F0\U0001F1F7KR_1|1.4MB/s"
-    network: ws
-    port: 20332
-    server: 125.136.32.130
-    skip-cert-verify: false
+        Host: sni.111000.v6.army
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: sni.111000.v6.army
+  - name: "\U0001F1EB\U0001F1F7FR_1|2.5MB/s"
+    password: dongtaiwang.com
+    port: 41283
+    ports: '40022,41000-42000'
+    server: 163.172.113.118
+    skip-cert-verify: true
+    sni: www.microsoft.com
     tfo: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
-    ws-opts:
-      headers:
-        Host: s3vz.user-service.chinav.indevs.in
-      path: /danfeng
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: s3vz.user-service.chinav.indevs.in
-  - name: "\U0001F1EE\U0001F1E9ID_1|1.1MB/s"
-    password: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
-    port: 32233
-    server: f439019d-t9zts0-tdh9w7-ahsb.id.oshuawei.com
-    sni: f439019d-t9zts0-tdh9w7-ahsb.id.oshuawei.com
-    tls: true
-    type: http
-    username: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
-  - cipher: auto
-    client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_3|1010KB/s"
-    network: none
-    port: 2087
-    server: 178.104.118.247
-    tls: false
-    type: vless
-    uuid: a34a5f3e-e9fa-40a6-f3af-2984adbd701b
+    type: hysteria2
   - client-fingerprint: chrome
     ech-opts:
       enable: true
       query-server-name: encryptedsni.com
-    name: "\U0001F1F0\U0001F1F7KR_2|2.3MB/s"
+    name: "\U0001F1F0\U0001F1F7KR_1|2.5MB/s"
     network: ws
     port: 11371
     server: 125.141.32.222
@@ -105,35 +95,59 @@ proxies:
       max-early-data: 2560
       path: /danfeng
     servername: s3vz.user-service.chinav.indevs.in
-  - name: "\U0001F1E9\U0001F1EADE_4|1.2MB/s"
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: encryptedsni.com
+    name: "\U0001F1F0\U0001F1F7KR_2|3.2MB/s"
     network: ws
-    port: 2096
-    server: 5.129.231.66
+    port: 32412
+    server: 222.116.186.100
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    ws-opts:
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: s3vz.user-service.chinav.indevs.in
+      max-early-data: 2560
+      path: /danfeng
+    servername: s3vz.user-service.chinav.indevs.in
+  - name: "\U0001F1F1\U0001F1FBLV_1|1.5MB/s"
+    network: ws
+    port: 443
+    server: 5.34.215.226
     tls: true
     type: vless
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     ws-opts:
       headers:
-        Host: sni.111000.v6.army
+        Host: sni.111000.v6.rocks
       path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: sni.111000.v6.army
-  - name: "\U0001F1EB\U0001F1F7FR_1|1.6MB/s"
-    password: dongtaiwang.com
-    port: 41283
-    ports: '40022,41000-42000'
-    server: 163.172.113.118
+    servername: sni.111000.v6.rocks
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1ED\U0001F1F0HK_1|2.5MB/s"
+    obfs: salamander
+    obfs-password: YmGRdMZ74sEC91FN
+    password: de8e0342-ea12-4f9d-bc2a-e62409e1913f
+    port: 20003
+    server: zz.66jc.xyz
     skip-cert-verify: true
-    sni: www.microsoft.com
-    tfo: false
+    sni: hkzz.66jc.xyz
     type: hysteria2
+    up: ''
   - client-fingerprint: chrome
     ech-opts:
       enable: true
       query-server-name: encryptedsni.com
-    name: "\U0001F1F0\U0001F1F7KR_3|2.3MB/s"
+    name: "\U0001F1F0\U0001F1F7KR_3|3.2MB/s"
     network: ws
-    port: 18889
-    server: 14.40.27.140
+    port: 18245
+    server: 222.96.225.210
     skip-cert-verify: false
     tfo: false
     tls: true
@@ -148,37 +162,10 @@ proxies:
       path: /danfeng
     servername: s3vz.user-service.chinav.indevs.in
   - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US_1|786KB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: OEZ3C-1OCSYBikqcWudtPP3PpQq2RAI7rFPxWoTCDSc
-      short-id: "bffe9292"
-    server: 132.226.147.10
-    tls: true
-    type: vless
-    udp: true
-    uuid: bba65652-b714-4832-ba62-cbf861ea2dbe
-    xudp: true
-    servername: musicstatus.tv.apple.com
-  - name: "\U0001F1F1\U0001F1FBLV_1|1.1MB/s"
-    network: ws
-    port: 443
-    server: 5.34.215.226
-    tls: true
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: sni.111000.v6.rocks
-      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: sni.111000.v6.rocks
-  - client-fingerprint: chrome
     ech-opts:
       enable: true
       query-server-name: encryptedsni.com
-    name: "\U0001F1F0\U0001F1F7KR_4|2.3MB/s"
+    name: "\U0001F1F0\U0001F1F7KR_4|2.6MB/s"
     network: ws
     port: 37810
     server: 115.40.244.240
@@ -196,112 +183,38 @@ proxies:
       path: /danfeng
     servername: s3vz.user-service.chinav.indevs.in
   - client-fingerprint: chrome
-    ech-opts:
-      enable: true
-      query-server-name: encryptedsni.com
-    name: "\U0001F1F2\U0001F1FEMY_1|1.9MB/s"
-    network: ws
+    encryption: none
+    grpc-opts:
+      grpc-service-name: /sequre/grpc/
+    name: "\U0001F1F7\U0001F1FARU_1|2.6MB/s"
+    network: grpc
     port: 443
-    server: 168.93.198.149
-    skip-cert-verify: false
-    tfo: false
+    server: 87.249.49.51.vhub.pro
     tls: true
     type: vless
     udp: true
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
-    ws-opts:
-      headers:
-        Host: s3vz.user-service.chinav.indevs.in
-      path: /danfeng
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: s3vz.user-service.chinav.indevs.in
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1EF\U0001F1F5JP_1|2.6MB/s"
-    network: tcp
-    port: 39975
-    reality-opts:
-      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-      short-id: ''
-    server: 116.80.58.239
-    tls: true
-    type: vless
-    udp: true
-    uuid: 15b84012-d261-4b4c-807a-061bb4a901fd
+    uuid: 832f76f8-fca3-4efa-80be-870e123ad764
     xudp: true
-    servername: cloudcircus.jp
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1E9\U0001F1EADE_5|646KB/s"
-    port: 9443
-    reality-opts:
-      public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
-      short-id: "2344766a270a6298"
-    server: 159.195.82.187
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
-    network: tcp
-    servername: yahoo.com
-  - client-fingerprint: chrome
-    ech-opts:
-      enable: true
-      query-server-name: encryptedsni.com
-    name: "\U0001F1F0\U0001F1F7KR_5|2.2MB/s"
-    network: ws
-    port: 10909
-    server: 183.99.58.243
-    skip-cert-verify: false
-    tfo: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
-    ws-opts:
-      headers:
-        Host: s3vz.user-service.chinav.indevs.in
-      path: /danfeng
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: s3vz.user-service.chinav.indevs.in
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_1|1017KB/s"
-    obfs: salamander
-    obfs-password: YmGRdMZ74sEC91FN
-    password: de8e0342-ea12-4f9d-bc2a-e62409e1913f
-    port: 20003
-    server: zz.66jc.xyz
-    skip-cert-verify: true
-    sni: hkzz.66jc.xyz
-    type: hysteria2
-    up: ''
-  - name: "\U0001F1FA\U0001F1F8US_2|871KB/s"
-    password: 3a051724-4986-4f00-9409-7010466a097f
-    port: 40022
-    server: us2.catzl.top
-    type: anytls
-    udp: true
-    sni: us2.catzl.top
-  - name: ❓Other_1|924KB/s
-    password: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
-    port: 443
-    server: 3dc7339f-ta1og0-tdh9w7-ahsb.sg.oshuawei.com
-    sni: 3dc7339f-ta1og0-tdh9w7-ahsb.sg.oshuawei.com
-    tls: true
-    type: http
-    username: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
-  - name: "\U0001F1EF\U0001F1F5JP_2|4.0MB/s"
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-jp-016.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-jp-016.fastervpn.world
-    type: hysteria2
-  - name: "\U0001F1F1\U0001F1FBLV_2|857KB/s"
+    servername: 87.249.49.51.vhub.pro
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_3|903KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.53
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_4|540KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.5
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1F5\U0001F1FEPY_1|801KB/s"
+    password: f8f7aCzcPKbsF8p3
+    port: 989
+    server: 38.165.233.93
+    type: ss
+  - name: "\U0001F1E9\U0001F1EADE_2|2.2MB/s"
     network: ws
     port: 443
     server: 213.165.38.161
@@ -312,6 +225,1719 @@ proxies:
       headers:
         Host: sni.111000.v6.rocks
       path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: sni.111000.v6.rocks
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_5|662KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.35
+    type: ss
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_3|2.0MB/s"
+    network: ws
+    password: '1234567890'
+    port: 443
+    server: 144.31.138.127
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/39.0.2171.95 Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_4|1.0MB/s"
+    network: ws
+    password: '1234567890'
+    port: 443
+    server: 144.31.118.170
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/68.0.3440.106 Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_5|1.3MB/s"
+    network: ws
+    password: '1234567890'
+    port: 443
+    server: 152.53.119.132
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.106 Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_6|2.0MB/s"
+    network: ws
+    password: '1234567890'
+    port: 443
+    server: 193.23.218.192
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/52.0.2743.116 Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_2|1.0MB/s"
+    port: 180
+    server: 82.198.246.37
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    xudp: true
+    network: tcp
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_7|849KB/s"
+    network: ws
+    password: '1234567890'
+    port: 443
+    server: 185.219.84.221
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
+          (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_8|919KB/s"
+    network: ws
+    password: '1234567890'
+    port: 443
+    server: 152.53.228.86
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/63.0.3239.132 Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_3|1.1MB/s"
+    network: tcp
+    port: 180
+    server: 82.198.246.9
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    xudp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_9|1.7MB/s"
+    network: ws
+    password: '1234567890'
+    port: 443
+    server: 152.53.118.28
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/45.0.2454.101 Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_10|1.1MB/s"
+    network: ws
+    password: '1234567890'
+    port: 443
+    server: 64.188.70.233
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.106 Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_11|1.2MB/s"
+    network: ws
+    password: '1234567890'
+    port: 443
+    server: 64.188.105.7
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/45.0.2454.93 Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_12|1.0MB/s"
+    network: ws
+    password: '1234567890'
+    port: 443
+    server: 86.110.36.87
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+          Chrome/12.0.742.100 Safari/534.30
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_13|803KB/s"
+    network: ws
+    password: '1234567890'
+    port: 8443
+    server: 152.53.227.239
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.87 Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_14|977KB/s"
+    network: ws
+    password: '1234567890'
+    port: 443
+    server: 94.156.114.13
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.110 Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_6|1.0MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.224
+    type: ss
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_15|880KB/s"
+    network: ws
+    password: '1234567890'
+    port: 443
+    server: 144.31.85.72
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/48.0.2564.116 Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_4|1.3MB/s"
+    port: 180
+    server: 82.198.246.46
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    network: tcp
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_16|576KB/s"
+    network: ws
+    password: '1234567890'
+    port: 8443
+    server: 103.27.157.111
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.101 Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_7|707KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.46
+    type: ss
+  - cipher: aes-256-gcm
+    country: "\U0001F1FA\U0001F1F8US"
+    delay: 291
+    name: "\U0001F1F0\U0001F1F7KR_5|3.8MB/s"
+    password: dada1203
+    port: 80
+    server: 43.203.222.70
+    type: ss
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_5|1.1MB/s"
+    port: 180
+    server: 82.198.246.9
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    xudp: true
+    network: tcp
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_17|1.2MB/s"
+    network: ws
+    password: '1234567890'
+    port: 443
+    server: 104.248.20.85
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko)
+          Chrome/11.0.696.3 Safari/534.24
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_18|1.2MB/s"
+    network: ws
+    password: '1234567890'
+    port: 443
+    server: 64.226.99.166
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/61.0.3163.100 Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - name: "\U0001F1F1\U0001F1F9LT_1|729KB/s"
+    network: ws
+    port: 443
+    server: 216.173.68.156
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: sni.111000.v6.rocks
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_19|855KB/s"
+    network: ws
+    password: '1234567890'
+    port: 443
+    server: 138.68.91.42
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/36.0.1985.143 Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - delay: 1106
+    name: "\U0001F1F9\U0001F1FCTW_2|1.7MB/s"
+    password: e5c22f63-e473-496a-beff-fdc5655008c1
+    port: 2096
+    server: tvhinet.lajichang.xyz
+    skip-cert-verify: true
+    sni: bing.com
+    type: trojan
+    network: tcp
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_20|1.5MB/s"
+    network: ws
+    password: '1234567890'
+    port: 443
+    server: 207.154.234.18
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/56.0.2924.87 Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - name: "\U0001F1E9\U0001F1EADE_21|1.6MB/s"
+    network: ws
+    port: 8443
+    server: 216.57.107.234
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.army
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: sni.111000.v6.army
+  - name: "\U0001F1F1\U0001F1FBLV_2|1.9MB/s"
+    network: ws
+    port: 443
+    server: 45.43.79.225
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: sni.111000.v6.rocks
+  - client-fingerprint: chrome
+    name: "\U0001F1ED\U0001F1F0HK_2|1.6MB/s"
+    port: 443
+    reality-opts:
+      public-key: A1OvYDljz8ZJr7_1xe4j2H1AHsMuYEKifyjdWhdybzk
+      short-id: '11e2'
+    server: 216.57.105.74
+    tls: true
+    type: vless
+    uuid: 73c0a723-c0ab-4ad8-8f25-799b9bd54e36
+    network: tcp
+    servername: yahoo.com
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_22|1.6MB/s"
+    network: ws
+    password: '1234567890'
+    port: 443
+    server: 45.9.116.160
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/63.0.3239.84 Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_23|531KB/s"
+    network: ws
+    password: '1234567890'
+    port: 443
+    server: 103.109.234.41
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
+          Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_24|839KB/s"
+    network: ws
+    password: '1234567890'
+    port: 443
+    server: 92.42.99.21
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
+          Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_25|919KB/s"
+    network: ws
+    password: '1234567890'
+    port: 443
+    server: 172.104.239.38
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.101 Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_26|909KB/s"
+    network: ws
+    password: '1234567890'
+    port: 2053
+    server: 159.69.178.173
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_27|693KB/s"
+    network: ws
+    password: '1234567890'
+    port: 443
+    server: 103.109.234.64
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - name: "\U0001F1F1\U0001F1F9LT_2|1.6MB/s"
+    network: ws
+    port: 443
+    server: 45.43.79.130
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: sni.111000.v6.rocks
+  - name: "\U0001F1F8\U0001F1EASE_1|2.2MB/s"
+    network: ws
+    port: 443
+    server: 46.243.6.25
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: sni.111000.v6.rocks
+  - name: "\U0001F1F8\U0001F1EASE_2|2.1MB/s"
+    network: ws
+    port: 443
+    server: 46.243.4.78
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: sni.111000.v6.rocks
+  - name: "\U0001F1F8\U0001F1EASE_3|1.7MB/s"
+    network: ws
+    port: 443
+    server: 46.243.4.193
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: sni.111000.v6.rocks
+  - name: "\U0001F1F3\U0001F1F1NL_1|542KB/s"
+    network: ws
+    port: 443
+    server: 93.183.124.129
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.army
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: sni.111000.v6.army
+  - name: "\U0001F1E9\U0001F1EADE_28|1.8MB/s"
+    network: ws
+    port: 8443
+    server: 144.31.139.232
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.latonyamadeline.ndjp.net
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: sni.latonyamadeline.ndjp.net
+  - name: "\U0001F1EC\U0001F1E7GB_2|1.8MB/s"
+    network: ws
+    port: 2053
+    server: 134.209.185.10
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: sni.111000.v6.rocks
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1E8\U0001F1EDCH_1|1.9MB/s"
+    port: 443
+    reality-opts:
+      public-key: DoZSKLwNQjogQMlE7oEEuB8TqpNa-umXzG-2Q6dTTEY
+      short-id: "4fa44664f6a566d3"
+    server: 138.124.98.9
+    tls: true
+    type: vless
+    uuid: 913c6074-a747-492b-a7e9-5abfcad6369d
+    network: tcp
+    servername: nl.milas.click
+  - name: "\U0001F1F3\U0001F1F1NL_2|1.3MB/s"
+    network: ws
+    port: 2053
+    server: 46.8.229.26
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.army
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: sni.111000.v6.army
+  - name: "\U0001F1F3\U0001F1F1NL_3|1.6MB/s"
+    network: ws
+    port: 8443
+    server: 130.49.176.227
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.army
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: sni.111000.v6.army
+  - name: "\U0001F1F3\U0001F1F1NL_4|1.6MB/s"
+    network: ws
+    port: 8443
+    server: 46.8.229.26
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.army
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: sni.111000.v6.army
+  - name: "\U0001F1E9\U0001F1EADE_29|1.3MB/s"
+    network: ws
+    port: 443
+    server: 148.253.210.141
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.latonyamadeline.ndjp.net
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: sni.latonyamadeline.ndjp.net
+  - name: "\U0001F1F3\U0001F1F1NL_5|2.0MB/s"
+    network: ws
+    port: 8443
+    server: 91.84.100.104
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.army
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: sni.111000.v6.army
+  - name: "\U0001F1E9\U0001F1EADE_30|1.2MB/s"
+    network: ws
+    port: 443
+    server: 148.253.211.49
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: sni.111000.v6.rocks
+  - name: "\U0001F1F3\U0001F1F1NL_6|716KB/s"
+    network: ws
+    port: 8443
+    server: 138.124.16.38
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.army
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: sni.111000.v6.army
+  - name: "\U0001F1F8\U0001F1EASE_4|2.0MB/s"
+    network: ws
+    port: 443
+    server: 103.71.22.186
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: sni.111000.v6.rocks
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F9\U0001F1FCTW_3|5.1MB/s"
+    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+    plugin: obfs
+    plugin-opts:
+      host: '403880e.default.nintendo.eu:164892'
+      mode: tls
+    port: 2377
+    server: 403880e.r8.gladns.com
+    type: ss
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1ECSG_1|1.4MB/s"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 443
+    server: 128.199.128.117
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/65.0.3325.181 Safari/537.36
+      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+  - name: "\U0001F1E9\U0001F1EADE_31|590KB/s"
+    network: ws
+    port: 443
+    server: 62.60.153.248
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: sni.111000.v6.rocks
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F9\U0001F1FCTW_4|3.2MB/s"
+    password: a9a0d092-6f0e-4701-81ee-454643d6d506
+    port: 50099
+    server: namrcg001640lrm.cybervena.com
+    type: ss
+    udp: true
+  - name: "\U0001F1EE\U0001F1F3IN_1|2.6MB/s"
+    password: ''
+    port: 1080
+    server: 139.59.24.173
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - name: "\U0001F1FA\U0001F1F8US_6|1.5MB/s"
+    password: b736089b-2bdc-475b-a5d9-b4d1a96e9fad
+    port: 40023
+    server: us3.catzl.top
+    type: anytls
+    udp: true
+    sni: us3.catzl.top
+  - name: "\U0001F1F3\U0001F1F1NL_7|1019KB/s"
+    network: ws
+    port: 443
+    server: 151.242.69.201
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.army
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: sni.111000.v6.army
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1F8\U0001F1ECSG_2|2.4MB/s"
+    network: ws
+    port: 16618
+    server: planb.mojcn.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
+    ws-opts:
+      headers:
+        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
+      path: /
+    xudp: true
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: encryptedsni.com
+    name: "\U0001F1F0\U0001F1F7KR_6|2.6MB/s"
+    network: ws
+    port: 11211
+    server: 121.149.124.119
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    ws-opts:
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: s3vz.user-service.chinav.indevs.in
+      max-early-data: 2560
+      path: /danfeng
+    servername: s3vz.user-service.chinav.indevs.in
+  - cipher: aes-256-gcm
+    name: "\U0001F1EE\U0001F1F3IN_2|852KB/s"
+    password: dada1203
+    port: 80
+    server: 13.201.27.175
+    type: ss
+    udp: true
+  - name: "\U0001F1F9\U0001F1FCTW_5|1.3MB/s"
+    password: b736089b-2bdc-475b-a5d9-b4d1a96e9fad
+    port: 40071
+    server: tw1.catzl.top
+    type: anytls
+    udp: true
+    sni: tw1.catzl.top
+  - name: "\U0001F1F1\U0001F1FBLV_3|2.0MB/s"
+    network: ws
+    port: 443
+    server: 5.34.211.137
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: sni.111000.v6.rocks
+  - name: "\U0001F1E9\U0001F1EADE_32|951KB/s"
+    network: ws
+    port: 443
+    server: 83.147.254.14
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: sni.111000.v6.rocks
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: encryptedsni.com
+    name: "\U0001F1FA\U0001F1F8US_7|2.5MB/s"
+    network: ws
+    port: 443
+    server: 152.42.231.219
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    ws-opts:
+      headers:
+        Host: s3vz.user-service.chinav.indevs.in
+      path: /danfeng
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: s3vz.user-service.chinav.indevs.in
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1EASE_5|2.2MB/s"
+    network: ws
+    port: 2053
+    server: 176.125.240.186
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.111000.v6.rocks
+  - name: "\U0001F1E9\U0001F1EADE_33|763KB/s"
+    network: ws
+    port: 443
+    server: 109.107.190.141
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: sni.111000.v6.rocks
+  - name: "\U0001F1F3\U0001F1F1NL_8|1.3MB/s"
+    network: ws
+    port: 2053
+    server: 46.8.229.218
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.army
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: sni.111000.v6.army
+  - name: "\U0001F1E9\U0001F1EADE_34|1.1MB/s"
+    network: ws
+    port: 443
+    server: 138.124.59.201
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: sni.111000.v6.rocks
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1EASE_6|601KB/s"
+    network: ws
+    port: 2053
+    server: 176.125.240.63
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/52.0.2743.116 Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.111000.v6.rocks
+  - encryption: none
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1E9\U0001F1EADE_35|2.0MB/s"
+    network: tcp
+    port: 8443
+    server: respect679.duckdns.org
+    type: vless
+    udp: true
+    uuid: a1421a9c-6d88-4cb5-903d-6b3ea2dcd4ab
+    xudp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1F3\U0001F1F1NL_9|815KB/s"
+    network: ws
+    port: 443
+    server: 185.171.83.147
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.army
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/61.0.3163.100 Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.111000.v6.army
+  - client-fingerprint: chrome
+    encryption: none
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1E8\U0001F1FECY_1|1.1MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: nPqVTzYN01hXkSjYrdI6wvdexYLvl0O4E72ncZ1RzFQ
+      short-id: "e5b9e22d"
+    server: 45.15.129.188
+    tls: true
+    type: vless
+    udp: true
+    uuid: d9bcac3d-1399-40c7-994b-766b3bb109c9
+    xudp: true
+    servername: www.sony.com
+  - client-fingerprint: chrome
+    name: "\U0001F1F3\U0001F1F1NL_10|2.1MB/s"
+    network: ws
+    port: 443
+    server: 171.22.117.29
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.army
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/54.0.2840.99 Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.111000.v6.army
+  - client-fingerprint: chrome
+    name: "\U0001F1F1\U0001F1FBLV_4|1.5MB/s"
+    network: ws
+    port: 443
+    server: 188.253.19.186
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.111000.v6.rocks
+  - client-fingerprint: chrome
+    name: "\U0001F1F1\U0001F1F9LT_3|1.8MB/s"
+    network: ws
+    port: 8443
+    server: 185.22.175.125
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.112 Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.111000.v6.rocks
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1FA\U0001F1F8US_8|2.0MB/s"
+    network: tcp
+    port: 8443
+    server: nl6.frostmotiveseed.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3a6cdcf4-903c-45e5-b019-ca7c6d768972
+    xudp: true
+    servername: nl6.frostmotiveseed.net
+  - client-fingerprint: chrome
+    name: "\U0001F1F1\U0001F1F9LT_4|1.7MB/s"
+    network: ws
+    port: 8443
+    server: 185.22.173.50
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.111000.v6.rocks
+  - client-fingerprint: chrome
+    name: "\U0001F1F1\U0001F1F9LT_5|2.0MB/s"
+    network: ws
+    port: 443
+    server: 185.242.105.115
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.63 Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.111000.v6.rocks
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1EB\U0001F1F7FR_2|2.2MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: 3mzvB6oezGe8hhBCVkXs4HIH1nkiPc3QCMurERaB_Ro
+      short-id: "b87063a35aaa942e"
+    server: 51.159.99.137
+    tls: true
+    type: vless
+    udp: true
+    uuid: 43488128-319e-f480-64ea-0acdc712e2a8
+    xudp: true
+    servername: www.cdiscount.com
+  - client-fingerprint: chrome
+    name: "\U0001F1F1\U0001F1F9LT_6|1.8MB/s"
+    network: ws
+    port: 443
+    server: 188.253.17.14
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/40.0.2214.111 Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.111000.v6.rocks
+  - client-fingerprint: random
+    encryption: none
+    name: "\U0001F1F9\U0001F1EDTH_1|2.2MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+      short-id: ''
+    server: 47.87.65.216
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+    xudp: true
+    servername: api.digital-help-prd.autodesk.com
+  - client-fingerprint: chrome
+    name: "\U0001F1F1\U0001F1F9LT_7|1.4MB/s"
+    network: ws
+    port: 8443
+    server: 185.22.174.208
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.106 Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.111000.v6.rocks
+  - name: "\U0001F1F3\U0001F1F1NL_11|553KB/s"
+    network: ws
+    port: 8443
+    server: 150.251.147.97
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.army
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: sni.111000.v6.army
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1ECSG_3|1.9MB/s"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 22000
+    server: 47.79.237.236
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: encryptedsni.com
+    name: "\U0001F1F8\U0001F1ECSG_4|2.1MB/s"
+    network: ws
+    port: 2087
+    server: 125.227.233.197
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    ws-opts:
+      headers:
+        Host: s3vz.user-service.chinav.indevs.in
+      path: /danfeng
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: s3vz.user-service.chinav.indevs.in
+  - client-fingerprint: chrome
+    name: "\U0001F1EC\U0001F1E7GB_3|1.2MB/s"
+    network: ws
+    port: 8443
+    server: 193.219.99.21
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.111000.v6.rocks
+  - client-fingerprint: chrome
+    name: "\U0001F1EC\U0001F1E7GB_4|1.4MB/s"
+    network: ws
+    port: 2087
+    server: 167.172.48.224
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/36.0.1985.125 Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.111000.v6.rocks
+  - client-fingerprint: chrome
+    name: "\U0001F1EC\U0001F1E7GB_5|2.1MB/s"
+    network: ws
+    port: 8443
+    server: 193.219.99.201
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/47.0.2526.106 Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.111000.v6.rocks
+  - client-fingerprint: chrome
+    name: "\U0001F1EC\U0001F1E7GB_6|1.6MB/s"
+    network: ws
+    port: 443
+    server: 167.172.56.248
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/62.0.3202.89 Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.111000.v6.rocks
+  - client-fingerprint: chrome
+    name: "\U0001F1F7\U0001F1F4RO_1|1.5MB/s"
+    network: ws
+    port: 8443
+    server: 176.97.77.241
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/63.0.3239.84 Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.111000.v6.rocks
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_36|1.2MB/s"
+    network: ws
+    port: 20205
+    server: 169.150.210.140
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.latonyamadeline.ndjp.net
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.latonyamadeline.ndjp.net
+  - client-fingerprint: chrome
+    name: "\U0001F1EC\U0001F1E7GB_7|2.3MB/s"
+    network: ws
+    port: 8443
+    server: 193.219.99.118
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.117 Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.111000.v6.rocks
+  - client-fingerprint: chrome
+    name: "\U0001F1EC\U0001F1E7GB_8|1.4MB/s"
+    network: ws
+    port: 2083
+    server: 178.128.168.108
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/45.0.2454.101 Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.111000.v6.rocks
+  - client-fingerprint: chrome
+    name: "\U0001F1EC\U0001F1E7GB_9|1.7MB/s"
+    network: ws
+    port: 443
+    server: 178.128.164.237
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/65.0.3325.181 Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.111000.v6.rocks
+  - client-fingerprint: chrome
+    name: "\U0001F1EC\U0001F1E7GB_10|1.5MB/s"
+    network: ws
+    port: 8443
+    server: 193.219.99.146
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.111000.v6.rocks
+  - client-fingerprint: chrome
+    name: "\U0001F1F3\U0001F1F1NL_12|1.9MB/s"
+    network: ws
+    port: 443
+    server: 165.22.202.20
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.army
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.111000.v6.army
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_37|547KB/s"
+    network: ws
+    port: 443
+    server: 193.233.233.197
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/41.0.2272.101 Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.111000.v6.rocks
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_38|1.3MB/s"
+    network: ws
+    port: 20205
+    server: 169.150.210.147
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.latonyamadeline.ndjp.net
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.latonyamadeline.ndjp.net
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_39|2.1MB/s"
+    network: ws
+    port: 44406
+    server: 194.107.126.20
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.latonyamadeline.ndjp.net
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/56.0.2924.87 Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.latonyamadeline.ndjp.net
+  - client-fingerprint: chrome
+    name: "\U0001F1F3\U0001F1F1NL_13|1.5MB/s"
+    network: ws
+    port: 8443
+    server: 167.99.214.123
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.army
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.103 Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.111000.v6.army
+  - client-fingerprint: chrome
+    name: "\U0001F1F3\U0001F1F1NL_14|1.1MB/s"
+    network: ws
+    port: 2087
+    server: 209.38.103.169
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.army
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile
+          Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.111000.v6.army
+  - client-fingerprint: chrome
+    name: "\U0001F1F3\U0001F1F1NL_15|545KB/s"
+    network: ws
+    port: 443
+    server: 194.116.215.205
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.army
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.111000.v6.army
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_40|594KB/s"
+    network: ws
+    port: 443
+    server: 195.133.15.145
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.army
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/68.0.3440.106 Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.111000.v6.army
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_41|1.3MB/s"
+    network: ws
+    port: 443
+    server: 195.133.15.147
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.army
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/50.0.2661.102 Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.111000.v6.army
+  - client-fingerprint: chrome
+    name: "\U0001F1F3\U0001F1F1NL_16|1.8MB/s"
+    network: ws
+    port: 443
+    server: 194.147.33.251
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.army
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile
+          Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.111000.v6.army
+  - client-fingerprint: chrome
+    name: "\U0001F1EC\U0001F1E7GB_11|1.2MB/s"
+    network: ws
+    port: 2083
+    server: 167.99.80.243
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.111000.v6.rocks
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_42|1.1MB/s"
+    network: ws
+    port: 20205
+    server: 169.150.210.148
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.latonyamadeline.ndjp.net
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/52.0.2743.116 Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.latonyamadeline.ndjp.net
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_43|1.5MB/s"
+    network: ws
+    port: 20205
+    server: 169.150.210.153
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.latonyamadeline.ndjp.net
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile
+          Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.latonyamadeline.ndjp.net
+  - client-fingerprint: chrome
+    name: "\U0001F1F3\U0001F1F1NL_17|680KB/s"
+    network: ws
+    port: 2053
+    server: 194.116.216.143
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.army
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.139 Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.111000.v6.army
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1EASE_7|908KB/s"
+    network: ws
+    port: 8443
+    server: 164.215.97.12
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.111000.v6.rocks
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_44|566KB/s"
+    network: ws
+    port: 8443
+    server: 185.147.127.234
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.army
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.113 Safari/537.36
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.111000.v6.army
+  - client-fingerprint: chrome
+    name: "\U0001F1F9\U0001F1F7TR_1|1.6MB/s"
+    network: ws
+    port: 443
+    server: 198.105.123.25
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
     servername: sni.111000.v6.rocks
 proxy-groups:
   - name: "\U0001F680 节点选择"
