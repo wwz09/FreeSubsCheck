@@ -1,13 +1,24 @@
 proxies:
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      name: "\U0001F1F9\U0001F1FCTW_1|552KB/s"
-      password: A537EA13-778F-4967-953F-EE29617B8E55
-      port: 8080
-      server: tw7.dexlos.com
-      sni: tw7.dexlos.com
-      type: tuic
+    - auth: bfd27af3-7e6f-47e6-955f-9cafa04e0499
+      down: 5000
+      name: "\U0001F1EF\U0001F1F5JP_1|820KB/s"
+      password: bfd27af3-7e6f-47e6-955f-9cafa04e0499
+      port: 30002
+      server: hy2.cloudsegl1.ccwu.cc
+      skip-cert-verify: true
+      sni: www.iq.com
+      type: hysteria2
       udp: true
-      udp-relay-mode: native
-      uuid: A537EA13-778F-4967-953F-EE29617B8E55
+      up: 5000
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1ED\U0001F1F0HK_1|563KB/s"
+      obfs: salamander
+      obfs-password: YmGRdMZ74sEC91FN
+      password: de8e0342-ea12-4f9d-bc2a-e62409e1913f
+      port: "20003"
+      server: zz.66jc.xyz
+      skip-cert-verify: true
+      sni: hkzz.66jc.xyz
+      type: hysteria2
+      up: ""
