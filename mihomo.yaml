@@ -1,316 +1,8 @@
 proxies:
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_1|4.4MB/s"
-    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-    plugin: obfs
-    plugin-opts:
-      host: '403880e.default.epicgames.com:164892'
-      mode: tls
-    port: 2377
-    server: 403880e.k4.gladns.com
-    type: ss
-    udp: true
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F9\U0001F1FCTW_2|7.8MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-tw-001.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-tw-001.fastervpn.world
-    type: hysteria2
-    up: ''
-  - name: "\U0001F1EF\U0001F1F5JP_1|2.5MB/s"
-    password: f8eca8df-a1a5-4918-a194-d34112a3673f
-    port: 7443
-    server: jc7U654714155239.asia.steamliveonline.com
-    tls: true
-    type: http
-    username: f8eca8df-a1a5-4918-a194-d34112a3673f
-    sni: jc7U654714155239.asia.steamliveonline.com
-  - name: "\U0001F1EF\U0001F1F5JP_2|649KB/s"
-    password: f8eca8df-a1a5-4918-a194-d34112a3673f
-    port: 443
-    server: cj04.71edgeiqiyi.com
-    tls: true
-    type: http
-    username: f8eca8df-a1a5-4918-a194-d34112a3673f
-    sni: cj04.71edgeiqiyi.com
-  - client-fingerprint: chrome
-    ech-opts:
-      enable: true
-      query-server-name: encryptedsni.com
-    name: "\U0001F1F0\U0001F1F7KR_1|2.9MB/s"
-    network: ws
-    port: 27015
-    server: 169.211.181.68
-    skip-cert-verify: false
-    tfo: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: mug.support.gfw.hidns.co
-      max-early-data: 2560
-      path: /danfeng
-    servername: mug.support.gfw.hidns.co
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_1|2.0MB/s"
-    obfs: salamander
-    obfs-password: YmGRdMZ74sEC91FN
-    password: de8e0342-ea12-4f9d-bc2a-e62409e1913f
-    port: 20003
-    server: zz.66jc.xyz
-    skip-cert-verify: true
-    sni: hkzz.66jc.xyz
-    type: hysteria2
-    up: ''
-  - client-fingerprint: chrome
-    ech-opts:
-      enable: true
-      query-server-name: encryptedsni.com
-    name: "\U0001F1F0\U0001F1F7KR_2|3.2MB/s"
-    network: ws
-    port: 31337
-    server: 175.206.85.140
-    skip-cert-verify: false
-    tfo: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: ynwta9.api-edge.fgfw.qzz.io
-      max-early-data: 2560
-      path: /danfeng
-    servername: ynwta9.api-edge.fgfw.qzz.io
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US_1|1.7MB/s"
-    port: 52335
-    reality-opts:
-      public-key: lwhFlU5V70GDf5OKTFeIAPC5uMKfvlGb3Y6nE-MmRmI
-      short-id: '72'
-    server: 85.209.153.60
-    tls: true
-    type: vless
-    uuid: 6ec3c298-1058-43bd-81e3-54b155c4ae21
-    network: tcp
-    servername: www.deepl.com
-  - delay: 2889
-    name: "\U0001F1F8\U0001F1ECSG_1|4.7MB/s"
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 443
-    server: 178.128.209.190
-    skip-cert-verify: true
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_2|1.8MB/s"
-    port: 180
-    server: 82.198.246.9
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    xudp: true
-    network: tcp
-  - alpn:
-      - h2
-    client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: /sequre/grpc/
-    name: "\U0001F1F5\U0001F1F1PL_1|2.5MB/s"
-    network: grpc
-    port: 443
-    server: 193.34.212.80.vhub.pro
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7c1d17f5-4f43-4f78-9505-d50c38efc40b
-    xudp: true
-    servername: 193.34.212.80.vhub.pro
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1EC\U0001F1E7 GB"
-    delay: 471
-    http-opts: {}
-    name: "\U0001F1FA\U0001F1F8US_3|1.5MB/s"
-    network: tcp
-    port: 180
-    server: 82.198.246.37
-    skip-cert-verify: true
-    type: vmess
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    ws-path: /
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_3|2.0MB/s"
-    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-    plugin: obfs
-    plugin-opts:
-      host: '403880e.default.nintendo.eu:164892'
-      mode: tls
-    port: 2377
-    server: 403880e.r8.gladns.com
-    type: ss
-    udp: true
-  - name: "\U0001F1EC\U0001F1E7GB_1|2.5MB/s"
-    obfs: salamander
-    obfs-password: cry_me_a_r1ver_2026
-    password: strong-secret-pass-777
-    port: 444
-    server: 45.140.167.209
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: hysteria2
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_5|2.0MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-us-001.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-us-001.fastervpn.world
-    type: hysteria2
-    up: ''
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_4|1.6MB/s"
-    network: raw
-    port: 180
-    server: 82.198.246.9
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    xudp: true
-  - name: "\U0001F1F8\U0001F1ECSG_2|1.6MB/s"
-    password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-    port: 3253
-    server: 5311840a-te8ao0-telzv3-4550.fourtwo.cdnbytescm.com
-    tls: true
-    type: http
-    username: 6286105c-fb6d-11ef-be96-f23c93136cb3
-    sni: 5311840a-te8ao0-telzv3-4550.fourtwo.cdnbytescm.com
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1FA\U0001F1F8US_6|1.2MB/s"
-    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-    plugin: obfs
-    plugin-opts:
-      host: '403880e.default.microsoft.is:164892'
-      mode: tls
-    port: 2377
-    server: 403880e.q8.gladns.com
-    type: ss
-  - name: "\U0001F1E9\U0001F1EADE_1|2.0MB/s"
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-de-002.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-de-002.fastervpn.world
-    tfo: false
-    type: hysteria2
-  - name: "\U0001F1E9\U0001F1EADE_2|1.3MB/s"
-    network: ws
-    port: 80
-    server: 162.159.160.117
-    type: vless
-    udp: true
-    uuid: ede7605e-b6ce-4154-b51a-d58df0b737dd
-    ws-opts:
-      headers:
-        Host: broken-wood-c503.amiralinorozjam.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/41.0.2272.104 Safari/537.36
-      path: >-
-        /eyJqdW5rIjoiR05OSGljcG00NkVaIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ%3D%3D
-    xudp: true
-  - name: "\U0001F1EF\U0001F1F5JP_3|1.4MB/s"
-    password: c870fe5a-0729-11f0-8cf9-f23c93136cb3
-    port: 3235
-    server: ffb0709d-te7og0-tgp57k-ddgs.fourtwo.cdnbytescm.com
-    tls: true
-    type: http
-    username: c870fe5a-0729-11f0-8cf9-f23c93136cb3
-    sni: ffb0709d-te7og0-tgp57k-ddgs.fourtwo.cdnbytescm.com
-  - alpn:
-      - h2
-    client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: /sequre/grpc/
-    name: "\U0001F1F5\U0001F1F1PL_2|2.4MB/s"
-    network: grpc
-    port: 443
-    server: 193.34.212.80.vhub.pro
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7c1d17f5-4f43-4f78-9505-d50c38efc40b
-    xudp: true
-    servername: 193.34.212.80.vhub.pro
   - ech-opts:
       enable: true
       query-server-name: encryptedsni.com
-    name: ❓Other_1|1.1MB/s
-    network: ws
-    port: 32770
-    server: 222.119.19.248
-    skip-cert-verify: false
-    tfo: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: mug.support.gfw.hidns.co
-      max-early-data: 2560
-      path: /danfeng
-    servername: mug.support.gfw.hidns.co
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1FA\U0001F1F8US_7|1.2MB/s"
-    network: tcp
-    port: 52335
-    reality-opts:
-      public-key: lwhFlU5V70GDf5OKTFeIAPC5uMKfvlGb3Y6nE-MmRmI
-      short-id: '72'
-    server: 85.209.153.60
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6ec3c298-1058-43bd-81e3-54b155c4ae21
-    xudp: true
-    servername: www.deepl.com
-  - ech-opts:
-      enable: true
-      query-server-name: encryptedsni.com
-    name: "\U0001F1F0\U0001F1F7KR_3|2.4MB/s"
+    name: ❓Other_1|3.0MB/s
     network: ws
     port: 33848
     server: 121.151.210.54
@@ -327,35 +19,293 @@ proxies:
       max-early-data: 2560
       path: /danfeng
     servername: mug.support.gfw.hidns.co
-  - name: "\U0001F1EF\U0001F1F5JP_4|2.1MB/s"
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F9\U0001F1FCTW_1|3.0MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: vpn-tw-001.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-tw-001.fastervpn.world
+    type: hysteria2
+    up: ''
+  - name: "\U0001F1EF\U0001F1F5JP_1|4.6MB/s"
+    network: ws
+    port: 25242
+    server: 47.79.144.103
+    tls: false
+    type: vless
+    uuid: a12b0d31-f599-498e-b76e-8558a14b766b
+    ws-opts:
+      path: /a12b0d31
+  - name: "\U0001F1F3\U0001F1F1NL_1|611KB/s"
+    network: ws
+    port: 443
+    server: 212.34.145.169
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: support.zoom.us.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: support.zoom.us.joss.jak.biz.id
+  - name: "\U0001F1EF\U0001F1F5JP_2|2.9MB/s"
     password: f8eca8df-a1a5-4918-a194-d34112a3673f
     port: 443
-    server: jdataU654714155239871.jcdn.cdnxiaohongshu.com
+    server: cj04.71edgeiqiyi.com
     tls: true
     type: http
     username: f8eca8df-a1a5-4918-a194-d34112a3673f
-    sni: jdataU654714155239871.jcdn.cdnxiaohongshu.com
-  - name: "\U0001F1FA\U0001F1F8US_8|2.8MB/s"
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-us-021.fastervpn.world
+    sni: cj04.71edgeiqiyi.com
+  - name: "\U0001F1EF\U0001F1F5JP_3|2.7MB/s"
+    password: f8eca8df-a1a5-4918-a194-d34112a3673f
+    port: 40443
+    server: jbU654714155239871.j4cdn.cdnxiaohongshu.com
+    tls: true
+    type: http
+    username: f8eca8df-a1a5-4918-a194-d34112a3673f
+    sni: jbU654714155239871.j4cdn.cdnxiaohongshu.com
+  - name: "\U0001F1EC\U0001F1E7GB_1|597KB/s"
+    obfs: salamander
+    obfs-password: cry_me_a_r1ver_2026
+    password: strong-secret-pass-777
+    port: 444
+    server: 45.140.167.209
     skip-cert-verify: true
-    sni: vpn-us-021.fastervpn.world
+    sni: www.microsoft.com
     type: hysteria2
-  - name: "\U0001F1F8\U0001F1ECSG_3|749KB/s"
+  - name: "\U0001F1F3\U0001F1F1NL_2|1.7MB/s"
     network: ws
-    password: '8r<[9''l6hAO#8ZQi'
     port: 443
-    server: 139.59.239.116
-    skip-cert-verify: true
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
+    server: 194.87.82.149
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     ws-opts:
       headers:
-        Host: Koma-YT.PAGeS.Dev
-      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+        Host: support.zoom.us.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: support.zoom.us.joss.jak.biz.id
+  - cipher: aes-256-cfb
+    name: "\U0001F1F3\U0001F1F1NL_3|1.5MB/s"
+    password: f8f7aCzcPKbsF8p3
+    port: 989
+    server: 51.15.17.169
+    type: ss
+    udp: true
+  - alpn:
+      - h2
+    client-fingerprint: chrome
+    grpc-opts:
+      grpc-service-name: /sequre/grpc/
+    name: "\U0001F1F5\U0001F1F1PL_1|2.1MB/s"
+    network: grpc
+    port: 443
+    server: 193.34.212.80.vhub.pro
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7c1d17f5-4f43-4f78-9505-d50c38efc40b
+    xudp: true
+    servername: 193.34.212.80.vhub.pro
+  - alpn:
+      - h2
+    client-fingerprint: chrome
+    grpc-opts:
+      grpc-service-name: /sequre/grpc/
+    name: "\U0001F1F5\U0001F1F1PL_2|2.3MB/s"
+    network: grpc
+    port: 443
+    server: 193.34.212.80.vhub.pro
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7c1d17f5-4f43-4f78-9505-d50c38efc40b
+    xudp: true
+    servername: 193.34.212.80.vhub.pro
   - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_4|1.3MB/s"
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_1|680KB/s"
+    port: 443
+    reality-opts:
+      public-key: fN3l3mYSDO44IWNPHWOQo2JMUw2isUGoOqrS6hCFfBQ
+      short-id: "d1f93724859d75ac"
+    server: pl2-gws4.onnstreaming.ru
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
+    network: tcp
+    servername: pl2-gws4.onnstreaming.ru
+  - client-fingerprint: chrome
+    name: "\U0001F1ED\U0001F1F0HK_1|2.4MB/s"
+    network: ws
+    port: 443
+    server: 103.100.176.193
+    tls: true
+    type: vless
+    udp: true
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    ws-opts:
+      headers:
+        Host: mug.support.gfw.hidns.co
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
+          (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+      path: /danfeng
+    xudp: true
+    servername: mug.support.gfw.hidns.co
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1E9\U0001F1EADE_1|1.9MB/s"
+    port: 9443
+    reality-opts:
+      public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
+      short-id: "2344766a270a6298"
+    server: 159.195.82.187
+    tls: true
+    type: vless
+    uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
+    network: tcp
+    servername: yahoo.com
+  - name: "\U0001F1EC\U0001F1E7GB_2|775KB/s"
+    network: ws
+    port: 8443
+    server: 193.219.99.172
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: santong.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: santong.joss.jak.biz.id
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_2|2.4MB/s"
+    port: 180
+    server: 82.198.246.9
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    xudp: true
+    network: tcp
+  - name: "\U0001F1EC\U0001F1E7GB_3|2.1MB/s"
+    network: ws
+    port: 8880
+    server: 66.81.247.201
+    tls: false
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: www.udemy.com.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - name: "\U0001F1EC\U0001F1E7GB_4|2.5MB/s"
+    network: ws
+    port: 8880
+    server: 50.62.88.201
+    tls: false
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: www.udemy.com.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - cipher: none
+    delay: 735
+    name: "\U0001F1EC\U0001F1E7GB_5|2.3MB/s"
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: ylnhh.us.ci
+      mode: websocket
+      mux: false
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+      skip-cert-verify: true
+      tls: true
+    port: 443
+    server: 198.12.144.16
+    type: ss
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8US_3|2.3MB/s"
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: vpn-us-004.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-us-004.fastervpn.world
+    tfo: false
+    type: hysteria2
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_2|524KB/s"
+    network: ws
+    password: '1234567890'
+    port: 2053
+    server: 104.248.245.101
+    skip-cert-verify: true
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/41.0.2272.76 Safari/537.36
+      path: /?https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3=
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_3|652KB/s"
+    network: ws
+    password: '1234567890'
+    port: 443
+    server: 152.53.236.205
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.67 Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - name: "\U0001F1F3\U0001F1F1NL_4|1.1MB/s"
+    network: ws
+    port: 443
+    server: 95.85.12.169
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: support.zoom.us.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: support.zoom.us.joss.jak.biz.id
+  - name: "\U0001F1F3\U0001F1F1NL_5|653KB/s"
+    network: ws
+    port: 443
+    server: 194.116.215.29
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: support.zoom.us.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: support.zoom.us.joss.jak.biz.id
+  - cipher: aes-256-gcm
+    name: "\U0001F1F7\U0001F1FARU_1|590KB/s"
+    password: c5fcdf7829112cb4
+    port: 40412
+    server: 45.140.169.225
+    type: ss
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1ECSG_1|1.3MB/s"
     network: ws
     port: 443
     server: 216.236.53.43
@@ -373,181 +323,76 @@ proxies:
       path: /fp=chrome
     xudp: true
     servername: czvjaheuiweghruiwegfbldsafsdgaryreygnxvbhsfgretgreyhthsfgj.pages.dev
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F0\U0001F1F7KR_4|5.1MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  - name: "\U0001F1EF\U0001F1F5JP_4|1.2MB/s"
+    password: f8eca8df-a1a5-4918-a194-d34112a3673f
     port: 443
-    server: vpn-kr-001.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-kr-001.fastervpn.world
-    type: hysteria2
-    up: ''
-  - client-fingerprint: chrome
-    name: ❓Other_2|1.7MB/s
-    network: ws
-    port: 8443
-    server: 185.31.200.45
-    tls: true
-    type: vless
-    udp: true
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
-    ws-opts:
-      headers:
-        Host: mug.support.gfw.hidns.co
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/41.0.2228.0 Safari/537.36
-      path: /danfengfp=chrome
-    xudp: true
-    servername: mug.support.gfw.hidns.co
-  - name: "\U0001F1ED\U0001F1F0HK_2|1.0MB/s"
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 2096
-    server: 172.64.152.23
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    ws-opts:
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-      path: /tr
-  - name: "\U0001F1ED\U0001F1F0HK_3|2.5MB/s"
-    password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-    port: 8443
-    server: 19016135-te7og0-tfo5nb-yjq0.hkt.cdnhuawei.com
+    server: jdataU654714155239871.jcdn.cdnxiaohongshu.com
     tls: true
     type: http
-    username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-    sni: 19016135-te7og0-tfo5nb-yjq0.hkt.cdnhuawei.com
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EC\U0001F1E7GB_2|3.1MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-uk-001.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-uk-001.fastervpn.world
-    type: hysteria2
-    up: ''
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_3|765KB/s"
+    username: f8eca8df-a1a5-4918-a194-d34112a3673f
+    sni: jdataU654714155239871.jcdn.cdnxiaohongshu.com
+  - name: "\U0001F1E9\U0001F1EADE_4|1.3MB/s"
     network: ws
-    password: '1234567890'
-    port: 8443
-    server: 152.53.227.239
-    skip-cert-verify: false
-    sni: kfm-bn0.pages.dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/56.0.2924.87 Safari/537.36
-      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_9|1.6MB/s"
-    port: 29709
-    server: 216.167.126.14
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    uuid: c19c51e3-11ff-4f1c-92c6-200784acd4fc
-    network: tcp
-  - client-fingerprint: chrome
-    name: "\U0001F1F0\U0001F1F7KR_5|621KB/s"
-    network: ws
-    password: '1234567890'
-    port: 10002
-    server: 121.128.161.235
-    skip-cert-verify: false
-    sni: kfm-bn0.pages.dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US_10|859KB/s"
-    port: 443
-    reality-opts:
-      public-key: fN3l3mYSDO44IWNPHWOQo2JMUw2isUGoOqrS6hCFfBQ
-      short-id: "d1f93724859d75ac"
-    server: pl2-gws4.onnstreaming.ru
-    skip-cert-verify: false
+    port: 2053
+    server: 142.93.97.115
     tls: true
     type: vless
-    udp: true
-    uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
-    network: tcp
-    servername: pl2-gws4.onnstreaming.ru
-  - name: "\U0001F1FA\U0001F1F8US_11|2.1MB/s"
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-us-004.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-us-004.fastervpn.world
-    tfo: false
-    type: hysteria2
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    delay: 727
-    name: "\U0001F1FB\U0001F1F3VN_1|892KB/s"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.134
-    type: ss
-  - name: "\U0001F1EF\U0001F1F5JP_5|6.1MB/s"
-    network: ws
-    port: 25242
-    server: 47.79.144.103
-    tls: false
-    type: vless
-    uuid: a12b0d31-f599-498e-b76e-8558a14b766b
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     ws-opts:
-      path: /a12b0d31
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    down: '1000'
-    name: "\U0001F1E9\U0001F1EADE_4|1.9MB/s"
-    port: 54177
-    protocol: udp
-    server: 5.83.129.90
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    udp: true
-    up: '500'
-  - cipher: none
-    delay: 735
-    name: "\U0001F1EC\U0001F1E7GB_3|2.9MB/s"
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      host: ylnhh.us.ci
-      mode: websocket
-      mux: false
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
-      skip-cert-verify: true
-      tls: true
+      headers:
+        Host: jamuur.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: jamuur.joss.jak.biz.id
+  - name: "\U0001F1E9\U0001F1EADE_5|2.0MB/s"
+    network: ws
     port: 443
-    server: 198.12.144.16
-    type: ss
-    udp: true
+    server: 162.19.224.15
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: jamuur.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: jamuur.joss.jak.biz.id
+  - name: "\U0001F1F3\U0001F1F1NL_6|1.7MB/s"
+    network: ws
+    port: 8443
+    server: 95.85.11.110
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: support.zoom.us.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: support.zoom.us.joss.jak.biz.id
+  - name: "\U0001F1F3\U0001F1F1NL_7|1.5MB/s"
+    network: ws
+    port: 8443
+    server: 95.85.1.22
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: support.zoom.us.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: support.zoom.us.joss.jak.biz.id
+  - name: "\U0001F1F3\U0001F1F1NL_8|1.6MB/s"
+    network: ws
+    port: 2083
+    server: 95.85.16.34
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: support.zoom.us.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: support.zoom.us.joss.jak.biz.id
   - cipher: none
-    name: "\U0001F1F3\U0001F1F1NL_1|536KB/s"
+    name: "\U0001F1F3\U0001F1F1NL_9|1.8MB/s"
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
     plugin: v2ray-plugin
     plugin-opts:
@@ -565,97 +410,135 @@ proxies:
     tls: true
     type: ss
     udp: false
-  - name: "\U0001F1FA\U0001F1F8US_12|1.2MB/s"
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-us-016.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-us-016.fastervpn.world
-    type: hysteria2
-  - name: "\U0001F1ED\U0001F1F0HK_4|1.1MB/s"
-    network: ws
-    port: 443
-    server: 143.20.204.5
-    tls: true
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: zaintest.vuclip.com.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: zaintest.vuclip.com.joss.jak.biz.id
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1FA\U0001F1F8US_13|849KB/s"
-    network: tcp
-    port: 9443
-    reality-opts:
-      public-key: p75gT6zCDyjl0mx_idUuXC-5pv-d_XfRB1IOkd3t-x4
-      short-id: "406b12590e157047"
-    server: us.convert24.ru
-    tls: true
-    type: vless
-    udp: true
-    uuid: 67d3388c-f5cf-0005-9a13-c3c13d459cc0
-    xudp: true
-    servername: www.bing.com
-  - name: "\U0001F1EF\U0001F1F5JP_6|3.3MB/s"
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 4196
-    server: 185.184.223.138
-    skip-cert-verify: true
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    ws-opts:
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-  - name: "\U0001F1EF\U0001F1F5JP_7|3.7MB/s"
+  - name: "\U0001F1E9\U0001F1EADE_6|2.0MB/s"
     network: ws
     port: 8443
-    server: 38.47.124.159
+    server: 45.145.43.205
     tls: true
     type: vless
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     ws-opts:
       headers:
-        Host: zaintest.vuclip.com.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: zaintest.vuclip.com.joss.jak.biz.id
-  - name: "\U0001F1EF\U0001F1F5JP_8|3.2MB/s"
+        Host: jamuur.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: jamuur.joss.jak.biz.id
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    down: '1000'
+    name: "\U0001F1E9\U0001F1EADE_7|1.1MB/s"
+    port: 54177
+    protocol: udp
+    server: 5.83.129.90
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    udp: true
+    up: '500'
+  - encryption: none
+    name: "\U0001F1FA\U0001F1F8US_4|1.5MB/s"
     network: ws
-    port: 43920
-    server: 38.47.124.77
+    port: 443
+    security: tls
+    server: 43.162.119.244
+    tls: true
+    type: vless
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    ws-opts:
+      headers:
+        Host: mug.support.gfw.hidns.co
+      path: /danfeng
+    servername: mug.support.gfw.hidns.co
+  - name: "\U0001F1F8\U0001F1ECSG_2|866KB/s"
+    password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+    port: 3253
+    server: 5311840a-te8ao0-telzv3-4550.fourtwo.cdnbytescm.com
+    tls: true
+    type: http
+    username: 6286105c-fb6d-11ef-be96-f23c93136cb3
+    sni: 5311840a-te8ao0-telzv3-4550.fourtwo.cdnbytescm.com
+  - name: "\U0001F1F3\U0001F1F1NL_10|1.4MB/s"
+    network: ws
+    port: 2087
+    server: 209.38.36.100
     tls: true
     type: vless
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     ws-opts:
       headers:
-        Host: zaintest.vuclip.com.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: zaintest.vuclip.com.joss.jak.biz.id
+        Host: support.zoom.us.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: support.zoom.us.joss.jak.biz.id
   - alterId: 0
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_14|1.5MB/s"
-    port: 180
-    server: 82.198.246.250
+    name: "\U0001F1ED\U0001F1F0HK_2|4.3MB/s"
+    network: ws
+    port: 16622
+    server: m.cnmjin.net
     skip-cert-verify: false
     tls: false
     type: vmess
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    network: tcp
+    udp: true
+    uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
+    ws-opts:
+      headers:
+        Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
+      path: /
+  - name: "\U0001F1F3\U0001F1F1NL_11|581KB/s"
+    network: ws
+    port: 2053
+    server: 209.38.36.100
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: support.zoom.us.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: support.zoom.us.joss.jak.biz.id
+  - name: "\U0001F1F3\U0001F1F1NL_12|1.6MB/s"
+    network: ws
+    port: 443
+    server: 95.85.57.125
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: support.zoom.us.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: support.zoom.us.joss.jak.biz.id
+  - name: "\U0001F1F3\U0001F1F1NL_13|2.0MB/s"
+    network: ws
+    port: 443
+    server: 185.196.41.56
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: support.zoom.us.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: support.zoom.us.joss.jak.biz.id
+  - name: "\U0001F1F3\U0001F1F1NL_14|1.5MB/s"
+    network: ws
+    port: 443
+    server: 95.85.7.75
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: support.zoom.us.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: support.zoom.us.joss.jak.biz.id
   - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_5|1006KB/s"
+    name: "\U0001F1F0\U0001F1F7KR_1|581KB/s"
     network: ws
     password: '1234567890'
-    port: 443
-    server: 144.31.85.72
+    port: 22335
+    server: 222.121.232.215
     skip-cert-verify: false
     sni: kfm-bn0.pages.dev
     type: trojan
@@ -663,229 +546,624 @@ proxies:
     ws-opts:
       headers:
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/69.0.3497.100 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-  - name: "\U0001F1EF\U0001F1F5JP_9|5.1MB/s"
-    network: ws
-    port: 26048
-    server: 38.47.125.152
-    tls: true
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: zaintest.vuclip.com.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: zaintest.vuclip.com.joss.jak.biz.id
-  - name: "\U0001F1EF\U0001F1F5JP_10|2.3MB/s"
-    network: ws
-    port: 14345
-    server: 64.81.113.90
-    tls: true
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: zaintest.vuclip.com.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: zaintest.vuclip.com.joss.jak.biz.id
-  - name: "\U0001F1F8\U0001F1ECSG_5|2.2MB/s"
+          Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
+          Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - name: "\U0001F1EC\U0001F1E7GB_6|1.5MB/s"
     network: ws
     port: 443
-    server: 43.163.109.39
+    server: 142.93.34.72
     tls: true
     type: vless
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     ws-opts:
       headers:
-        Host: zaintest.vuclip.com.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: zaintest.vuclip.com.joss.jak.biz.id
-  - name: "\U0001F1F8\U0001F1ECSG_6|3.4MB/s"
-    network: ws
-    port: 443
-    server: 43.165.195.160
-    tls: true
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: zaintest.vuclip.com.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: zaintest.vuclip.com.joss.jak.biz.id
-  - name: "\U0001F1F8\U0001F1ECSG_7|4.3MB/s"
-    network: ws
-    port: 443
-    server: 143.198.85.69
-    tls: true
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: zaintest.vuclip.com.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: zaintest.vuclip.com.joss.jak.biz.id
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1E9\U0001F1EADE_6|1.3MB/s"
-    port: 9443
-    reality-opts:
-      public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
-      short-id: "2344766a270a6298"
-    server: 159.195.82.187
-    tls: true
-    type: vless
-    uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
-    network: tcp
-    servername: yahoo.com
+        Host: santong.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: santong.joss.jak.biz.id
   - alterId: 0
     cipher: auto
-    name: "\U0001F1EF\U0001F1F5JP_11|1.7MB/s"
+    name: "\U0001F1F9\U0001F1FCTW_2|791KB/s"
     network: ws
-    port: 16617
+    port: 16616
     server: t.cnmjcn.cyou
     skip-cert-verify: false
     tls: false
     type: vmess
-    uuid: f091e44a-daee-4782-a910-d699a0c1145f
+    udp: true
+    uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
     ws-opts:
       headers:
-        Host: 9ca5d7234ca908eb0cefe9fdb6d61d35.mobgslb.tbcache.com
+        Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
       path: /
-  - name: "\U0001F1F8\U0001F1ECSG_8|4.2MB/s"
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F3\U0001F1F1NL_15|1.1MB/s"
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    port: 8080
+    server: 82.38.31.191
+    type: ss
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_16|877KB/s"
     network: ws
-    port: 443
-    server: 68.183.227.216
+    port: 2083
+    server: 206.189.12.181
     tls: true
     type: vless
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     ws-opts:
       headers:
-        Host: zaintest.vuclip.com.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: zaintest.vuclip.com.joss.jak.biz.id
-  - name: "\U0001F1EC\U0001F1E7GB_4|943KB/s"
+        Host: support.zoom.us.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: support.zoom.us.joss.jak.biz.id
+  - name: "\U0001F1F3\U0001F1F1NL_17|1.2MB/s"
     network: ws
-    port: 8880
-    server: 50.62.88.201
-    tls: false
+    port: 8443
+    server: 142.93.136.4
+    tls: true
     type: vless
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     ws-opts:
       headers:
-        Host: www.udemy.com.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-  - name: "\U0001F1EC\U0001F1E7GB_5|657KB/s"
+        Host: support.zoom.us.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: support.zoom.us.joss.jak.biz.id
+  - name: "\U0001F1E9\U0001F1EADE_8|1.5MB/s"
     network: ws
-    port: 8880
-    server: 209.94.90.201
-    tls: false
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: www.udemy.com.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-  - name: "\U0001F1EC\U0001F1E7GB_6|2.6MB/s"
-    network: ws
-    port: 8880
-    server: 216.24.57.201
-    tls: false
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: www.udemy.com.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-  - client-fingerprint: random
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1E9\U0001F1EADE_7|692KB/s"
-    network: tcp
     port: 443
-    reality-opts:
-      public-key: wi3hRlGNIWwcyKxyQmItdaa9jXvYWb8uQFvbsSZZtA4
-      short-id: "fbbffd72f5121b83"
-    server: 161.104.105.157
+    server: 193.23.219.213
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: jamuur.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: jamuur.joss.jak.biz.id
+  - client-fingerprint: chrome
+    name: "\U0001F1F3\U0001F1F1NL_18|1.2MB/s"
+    network: ws
+    port: 8443
+    server: 78.159.131.224
     tls: true
     type: vless
     udp: true
-    uuid: 9d9de5ad-4ce8-4d1e-870d-59fb859f5fa4
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    ws-opts:
+      headers:
+        Host: mug.support.gfw.hidns.co
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.87 Safari/537.36
+      path: /danfeng
     xudp: true
-    servername: cdn1.ozone.ru
+    servername: mug.support.gfw.hidns.co
+  - ech-opts:
+      enable: true
+      query-server-name: encryptedsni.com
+    name: "\U0001F1ED\U0001F1F0HK_3|522KB/s"
+    network: ws
+    port: 443
+    server: 103.100.176.193
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    ws-opts:
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: mug.support.gfw.hidns.co
+      max-early-data: 2560
+      path: /danfeng
+    servername: mug.support.gfw.hidns.co
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_5|2.0MB/s"
+    network: tcp
+    port: 180
+    server: 82.198.246.37
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    xudp: true
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_6|1.1MB/s"
+    network: tcp
+    port: 180
+    server: 82.198.246.9
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    xudp: true
   - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_8|711KB/s"
+    flow: xtls-rprx-vision
+    name: "\U0001F1E8\U0001F1FFCZ_1|1.5MB/s"
+    port: 443
+    reality-opts:
+      public-key: xzCEjrybgdtiyOYNKgEAEWzHjvsE2Pkj198_Ch1gZ2U
+      short-id: "41427aa565e28984"
+    server: 86.54.82.239
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 43488128-319e-f480-64ea-0acdc712e2a8
+    network: tcp
+    servername: store.steampowered.com
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_1|781KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.226
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_2|1.7MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.251
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_3|895KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.82
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_4|547KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.58
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_5|1.8MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.198
+    type: ss
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1F9\U0001F1FCTW_3|2.1MB/s"
+    network: ws
+    port: 16616
+    server: m.cnmjin.net
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
+    ws-opts:
+      headers:
+        Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
+      path: /
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_6|1.1MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.182
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_7|982KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.214
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_8|725KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.215
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_9|778KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.230
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_10|516KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.190
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_11|585KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.80
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_12|973KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.66
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_13|657KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.183
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_14|853KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.54
+    type: ss
+  - cipher: aes-256-cfb
+    name: ❓Other_2|621KB/s
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.147
+    type: ss
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1F8\U0001F1ECSG_3|2.5MB/s"
+    network: ws
+    port: 16618
+    server: m.cnmjin.net
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
+    ws-opts:
+      headers:
+        Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
+      path: /
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1F8\U0001F1ECSG_4|3.1MB/s"
+    network: ws
+    port: 16618
+    server: t.cnmjcn.cyou
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
+    ws-opts:
+      headers:
+        Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
+      path: /
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_15|715KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.39
+    type: ss
+  - client-fingerprint: chrome
+    name: "\U0001F1ED\U0001F1F0HK_4|3.4MB/s"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 2096
+    server: 172.64.147.106
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/54.0.2840.99 Safari/537.36
+      path: /tr
+  - cipher: aes-256-gcm
+    name: "\U0001F1F7\U0001F1FARU_2|1.8MB/s"
+    password: f34579d0148b2581
+    port: 60290
+    server: 46.17.40.12
+    type: ss
+    udp: true
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_16|611KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.13
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_17|648KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.73
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_18|636KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.78
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_19|532KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.150
+    type: ss
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_9|568KB/s"
     network: ws
     password: '1234567890'
     port: 443
-    server: 144.31.118.170
-    skip-cert-verify: true
+    server: 91.107.220.103
+    skip-cert-verify: false
     sni: kfm-bn0.pages.dev
     type: trojan
     udp: true
     ws-opts:
       headers:
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/70.0.3538.102 Safari/537.36
-      path: /?https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3=
-  - name: "\U0001F1EC\U0001F1E7GB_7|2.5MB/s"
-    network: ws
-    port: 8880
-    server: 66.81.247.201
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_20|523KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.248
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_21|766KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.143
+    type: ss
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_7|2.1MB/s"
+    network: raw
+    port: 180
+    server: 82.198.246.9
+    skip-cert-verify: false
     tls: false
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: www.udemy.com.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-  - name: "\U0001F1EC\U0001F1E7GB_8|2.3MB/s"
-    network: ws
-    port: 8443
-    server: 193.219.99.172
-    tls: true
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: santong.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: santong.joss.jak.biz.id
-  - name: "\U0001F1FA\U0001F1F8US_15|679KB/s"
-    network: ws
-    port: 8880
-    server: 66.45.118.201
-    tls: false
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: www.udemy.com.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    type: vmess
+    udp: true
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    xudp: true
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_22|811KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.35
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_23|682KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.84
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_24|801KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.236
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_25|619KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.151
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_26|892KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.66
+    type: ss
   - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1ED\U0001F1F0HK_5|5.0MB/s"
-    port: 443
-    reality-opts:
-      public-key: lIXzhYg3mhR9wY_qQG4H6O7nffkq4A3gUa8LWO6DkTo
-      short-id: "f977afd3"
-    server: 5.102.124.89
-    tls: true
-    type: vless
-    uuid: d82595e5-e41f-4f92-a5be-06173d7e8052
+    flow: xtls-rprx-vision-udp443-udp443
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F9\U0001F1FCTW_4|578KB/s"
     network: tcp
-    servername: www.apple.com.cn
-  - name: "\U0001F1F3\U0001F1F1NL_2|2.1MB/s"
+    port: 443
+    server: taipei1.ap221.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: c71ab922-2c35-4f6e-abfe-4950658f7bce
+    xudp: true
+    servername: taipei.ap221.com
+  - auth: a9989dbb-5059-48e8-b024-fc2f8818ee02
+    down: 5000
+    name: "\U0001F1EF\U0001F1F5JP_5|1.5MB/s"
+    password: a9989dbb-5059-48e8-b024-fc2f8818ee02
+    port: 30002
+    server: hy2.cloudsegl1.ccwu.cc
+    skip-cert-verify: true
+    sni: www.iq.com
+    type: hysteria2
+    udp: true
+    up: 5000
+  - auth: 5f461f14-b756-4e7f-987c-297de42b1c06
+    down: 5000
+    name: "\U0001F1FA\U0001F1F8US_8|2.0MB/s"
+    password: 5f461f14-b756-4e7f-987c-297de42b1c06
+    port: 30003
+    server: us1.cloudsegl1.ccwu.cc
+    skip-cert-verify: true
+    sni: www.iq.com
+    type: hysteria2
+    udp: true
+    up: 5000
+  - auth: 2ecbe7d5-656f-4b68-b531-6fd1ae3882c6
+    name: "\U0001F1FA\U0001F1F8US_9|2.5MB/s"
+    password: 2ecbe7d5-656f-4b68-b531-6fd1ae3882c6
+    port: 30003
+    server: us1.cloudsegl1.ccwu.cc
+    skip-cert-verify: true
+    sni: www.iq.com
+    type: hysteria2
+    udp: true
+  - auth: a9989dbb-5059-48e8-b024-fc2f8818ee02
+    down: 5000
+    name: "\U0001F1FA\U0001F1F8US_10|2.5MB/s"
+    password: a9989dbb-5059-48e8-b024-fc2f8818ee02
+    port: 30004
+    server: us1.cloudsegl1.ccwu.cc
+    skip-cert-verify: false
+    sni: us1.cloudsegl1.ccwu.cc
+    type: hysteria2
+    udp: true
+    up: 5000
+  - auth: 2ecbe7d5-656f-4b68-b531-6fd1ae3882c6
+    name: "\U0001F1FA\U0001F1F8US_11|2.8MB/s"
+    password: 2ecbe7d5-656f-4b68-b531-6fd1ae3882c6
+    port: 30005
+    server: us1.cloudsegl1.ccwu.cc
+    skip-cert-verify: true
+    sni: www.iq.com
+    type: hysteria2
+    udp: true
+  - auth: bedd1aec-9b5b-47f3-94ed-32b32b84d204
+    name: "\U0001F1EF\U0001F1F5JP_6|2.5MB/s"
+    password: bedd1aec-9b5b-47f3-94ed-32b32b84d204
+    port: 30002
+    server: hy2.cloudsegl1.ccwu.cc
+    skip-cert-verify: true
+    sni: www.iq.com
+    type: hysteria2
+    udp: true
+  - auth: bedd1aec-9b5b-47f3-94ed-32b32b84d204
+    name: "\U0001F1FA\U0001F1F8US_12|2.2MB/s"
+    password: bedd1aec-9b5b-47f3-94ed-32b32b84d204
+    port: 30003
+    server: us1.cloudsegl1.ccwu.cc
+    skip-cert-verify: true
+    sni: www.iq.com
+    type: hysteria2
+    udp: true
+  - auth: 5f461f14-b756-4e7f-987c-297de42b1c06
+    down: 5000
+    name: "\U0001F1FA\U0001F1F8US_13|1.8MB/s"
+    password: 5f461f14-b756-4e7f-987c-297de42b1c06
+    port: 30006
+    server: us1.cloudsegl1.ccwu.cc
+    skip-cert-verify: true
+    sni: www.iq.com
+    type: hysteria2
+    udp: true
+    up: 5000
+  - auth: 5f461f14-b756-4e7f-987c-297de42b1c06
+    down: 5000
+    name: "\U0001F1FA\U0001F1F8US_14|2.7MB/s"
+    password: 5f461f14-b756-4e7f-987c-297de42b1c06
+    port: 30005
+    server: us1.cloudsegl1.ccwu.cc
+    skip-cert-verify: true
+    sni: www.iq.com
+    type: hysteria2
+    udp: true
+    up: 5000
+  - auth: 5f461f14-b756-4e7f-987c-297de42b1c06
+    down: 5000
+    name: "\U0001F1FA\U0001F1F8US_15|2.3MB/s"
+    password: 5f461f14-b756-4e7f-987c-297de42b1c06
+    port: 30004
+    server: us1.cloudsegl1.ccwu.cc
+    skip-cert-verify: false
+    sni: us1.cloudsegl1.ccwu.cc
+    type: hysteria2
+    udp: true
+    up: 5000
+  - auth: a9989dbb-5059-48e8-b024-fc2f8818ee02
+    down: 5000
+    name: "\U0001F1FA\U0001F1F8US_16|2.2MB/s"
+    password: a9989dbb-5059-48e8-b024-fc2f8818ee02
+    port: 30006
+    server: us1.cloudsegl1.ccwu.cc
+    skip-cert-verify: true
+    sni: www.iq.com
+    type: hysteria2
+    udp: true
+    up: 5000
+  - auth: bedd1aec-9b5b-47f3-94ed-32b32b84d204
+    name: "\U0001F1FA\U0001F1F8US_17|2.6MB/s"
+    password: bedd1aec-9b5b-47f3-94ed-32b32b84d204
+    port: 30004
+    server: us1.cloudsegl1.ccwu.cc
+    skip-cert-verify: false
+    sni: us1.cloudsegl1.ccwu.cc
+    type: hysteria2
+    udp: true
+  - auth: 5f461f14-b756-4e7f-987c-297de42b1c06
+    down: 5000
+    name: "\U0001F1EF\U0001F1F5JP_7|2.0MB/s"
+    password: 5f461f14-b756-4e7f-987c-297de42b1c06
+    port: 30002
+    server: hy2.cloudsegl1.ccwu.cc
+    skip-cert-verify: true
+    sni: www.iq.com
+    type: hysteria2
+    udp: true
+    up: 5000
+  - auth: a9989dbb-5059-48e8-b024-fc2f8818ee02
+    down: 5000
+    name: "\U0001F1FA\U0001F1F8US_18|2.5MB/s"
+    password: a9989dbb-5059-48e8-b024-fc2f8818ee02
+    port: 30005
+    server: us1.cloudsegl1.ccwu.cc
+    skip-cert-verify: true
+    sni: www.iq.com
+    type: hysteria2
+    udp: true
+    up: 5000
+  - auth: bedd1aec-9b5b-47f3-94ed-32b32b84d204
+    name: "\U0001F1FA\U0001F1F8US_19|3.3MB/s"
+    password: bedd1aec-9b5b-47f3-94ed-32b32b84d204
+    port: 30006
+    server: us1.cloudsegl1.ccwu.cc
+    skip-cert-verify: true
+    sni: www.iq.com
+    type: hysteria2
+    udp: true
+  - auth: 2ecbe7d5-656f-4b68-b531-6fd1ae3882c6
+    name: "\U0001F1FA\U0001F1F8US_20|845KB/s"
+    password: 2ecbe7d5-656f-4b68-b531-6fd1ae3882c6
+    port: 30004
+    server: us1.cloudsegl1.ccwu.cc
+    skip-cert-verify: false
+    sni: us1.cloudsegl1.ccwu.cc
+    type: hysteria2
+    udp: true
+  - auth: 2ecbe7d5-656f-4b68-b531-6fd1ae3882c6
+    name: "\U0001F1EF\U0001F1F5JP_8|2.7MB/s"
+    password: 2ecbe7d5-656f-4b68-b531-6fd1ae3882c6
+    port: 30002
+    server: hy2.cloudsegl1.ccwu.cc
+    skip-cert-verify: true
+    sni: www.iq.com
+    type: hysteria2
+    udp: true
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_27|521KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.74
+    type: ss
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1F8\U0001F1ECSG_5|1.6MB/s"
+    port: 47034
+    server: 47.79.236.9
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 6f2879e2-7595-4fc2-ca7e-3c163dbe0d4b
+    network: tcp
+  - name: "\U0001F1E9\U0001F1EADE_10|1.4MB/s"
     network: ws
     port: 443
-    server: 212.34.145.169
+    server: 216.57.107.219
     tls: true
     type: vless
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -894,10 +1172,10 @@ proxies:
         Host: support.zoom.us.joss.jak.biz.id
       path: "/Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
     servername: support.zoom.us.joss.jak.biz.id
-  - name: "\U0001F1F3\U0001F1F1NL_3|679KB/s"
+  - name: "\U0001F1F3\U0001F1F1NL_19|867KB/s"
     network: ws
     port: 443
-    server: 194.87.82.149
+    server: 68.183.10.74
     tls: true
     type: vless
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -906,34 +1184,10 @@ proxies:
         Host: support.zoom.us.joss.jak.biz.id
       path: "/Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
     servername: support.zoom.us.joss.jak.biz.id
-  - name: "\U0001F1F3\U0001F1F1NL_4|3.2MB/s"
-    network: ws
-    port: 443
-    server: 213.188.223.161
-    tls: true
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: support.zoom.us.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: support.zoom.us.joss.jak.biz.id
-  - name: "\U0001F1F3\U0001F1F1NL_5|1.7MB/s"
-    network: ws
-    port: 443
-    server: 194.116.215.29
-    tls: true
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: support.zoom.us.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: support.zoom.us.joss.jak.biz.id
-  - name: "\U0001F1F3\U0001F1F1NL_6|584KB/s"
+  - name: "\U0001F1F3\U0001F1F1NL_20|787KB/s"
     network: ws
     port: 8443
-    server: 94.103.80.218
+    server: 95.85.24.170
     tls: true
     type: vless
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -942,10 +1196,10 @@ proxies:
         Host: support.zoom.us.joss.jak.biz.id
       path: "/Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
     servername: support.zoom.us.joss.jak.biz.id
-  - name: "\U0001F1F3\U0001F1F1NL_7|1.0MB/s"
+  - name: "\U0001F1F3\U0001F1F1NL_21|1.0MB/s"
     network: ws
     port: 443
-    server: 94.131.105.72
+    server: 212.193.1.234
     tls: true
     type: vless
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -954,43 +1208,7 @@ proxies:
         Host: support.zoom.us.joss.jak.biz.id
       path: "/Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
     servername: support.zoom.us.joss.jak.biz.id
-  - name: "\U0001F1E9\U0001F1EADE_9|713KB/s"
-    network: ws
-    port: 443
-    server: 85.192.31.252
-    tls: true
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: santong.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: santong.joss.jak.biz.id
-  - name: "\U0001F1ED\U0001F1F0HK_6|4.7MB/s"
-    network: ws
-    port: 15660
-    server: 149.104.28.66
-    tls: true
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: zaintest.vuclip.com.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: zaintest.vuclip.com.joss.jak.biz.id
-  - name: "\U0001F1F9\U0001F1EDTH_1|1.8MB/s"
-    network: ws
-    port: 443
-    server: 47.81.9.160
-    tls: true
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: zaintest.vuclip.com.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: zaintest.vuclip.com.joss.jak.biz.id
-  - name: "\U0001F1F3\U0001F1F1NL_8|2.1MB/s"
+  - name: "\U0001F1F3\U0001F1F1NL_22|1.6MB/s"
     network: ws
     port: 2053
     server: 77.91.127.210
@@ -1002,32 +1220,137 @@ proxies:
         Host: support.zoom.us.joss.jak.biz.id
       path: "/Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
     servername: support.zoom.us.joss.jak.biz.id
-  - name: "\U0001F1F9\U0001F1EDTH_2|1.4MB/s"
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_21|660KB/s"
     network: ws
-    port: 27015
-    server: 47.87.66.91
+    port: 2096
+    server: 172.64.149.54
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.jpmj.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/48.0.2564.116 Safari/537.36
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: sni.jpmj.dev
+  - encryption: none
+    name: "\U0001F1FA\U0001F1F8US_22|549KB/s"
+    network: ws
+    port: 2052
+    server: 172.64.149.54
+    type: vless
+    udp: true
+    uuid: cdec8542-a21f-4377-9da3-ea60bb6d3a30
+    ws-opts:
+      headers:
+        Host: chosenflyesqt-q3y28ipf-v2.chosen-fly-esqt.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7
+          (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+      path: / @ProxyVPN11
+    xudp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_11|583KB/s"
+    network: ws
+    password: '1234567890'
+    port: 8443
+    server: 46.225.5.182
+    skip-cert-verify: true
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/65.0.3325.181 Safari/537.36
+      path: /?https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3=
+  - name: "\U0001F1F3\U0001F1F1NL_23|1.2MB/s"
+    network: ws
+    port: 443
+    server: 95.85.5.217
     tls: true
     type: vless
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     ws-opts:
       headers:
-        Host: zaintest.vuclip.com.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: zaintest.vuclip.com.joss.jak.biz.id
+        Host: support.zoom.us.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: support.zoom.us.joss.jak.biz.id
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_12|553KB/s"
+    network: ws
+    password: '1234567890'
+    port: 2096
+    server: 104.248.132.134
+    skip-cert-verify: true
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/45.0.2454.101 Safari/537.36
+      path: /?https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3=
+  - name: "\U0001F1E9\U0001F1EADE_13|2.1MB/s"
+    network: ws
+    port: 8443
+    server: 5.129.208.147
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: support.zoom.us.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: support.zoom.us.joss.jak.biz.id
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F3\U0001F1F1NL_24|856KB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: '-ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk'
+      short-id: "c6118398"
+    server: 77.239.108.36
+    tls: true
+    type: vless
+    udp: true
+    uuid: 322ffd77-9adc-4e10-8302-a8bcc14555a0
+    xudp: true
+    servername: gateway.icloud.com
   - alterId: 0
     cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_7|9.3MB/s"
-    port: 40011
-    server: gtkgwycedblxi.jkdddvews.com
+    name: "\U0001F1F9\U0001F1FCTW_5|618KB/s"
+    network: ws
+    port: 16616
+    server: t.cnmjcn.cyou
+    skip-cert-verify: false
     tls: false
     type: vmess
-    udp: true
-    uuid: 5e88cea8-4034-487d-852a-caec6f5b7d5e
-    network: tcp
-  - name: "\U0001F1FA\U0001F1F8US_16|1017KB/s"
+    uuid: f091e44a-daee-4782-a910-d699a0c1145f
+    ws-opts:
+      headers:
+        Host: 9ca5d7234ca908eb0cefe9fdb6d61d35.mobgslb.tbcache.com
+      path: /
+  - name: "\U0001F1FA\U0001F1F8US_23|1.2MB/s"
     network: ws
     port: 8880
-    server: 5.10.246.201
+    server: 5.10.245.201
     tls: false
     type: vless
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -1035,72 +1358,79 @@ proxies:
       headers:
         Host: www.udemy.com.joss.jak.biz.id
       path: "/Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-  - name: "\U0001F1E9\U0001F1EADE_10|512KB/s"
+  - name: "\U0001F1F8\U0001F1EASE_1|1.3MB/s"
     network: ws
     port: 443
-    server: 212.113.103.4
+    server: 5.34.215.226
     tls: true
     type: vless
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     ws-opts:
       headers:
-        Host: santong.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: santong.joss.jak.biz.id
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1EF\U0001F1F5JP_12|2.7MB/s"
-    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-    plugin: obfs
-    plugin-opts:
-      host: '403880e.default.microsoft.io:164892'
-      mode: tls
-    port: 2377
-    server: 403880e.j6.gladns.com
-    type: ss
-    udp: true
-  - name: "\U0001F1E9\U0001F1EADE_11|587KB/s"
+        Host: e.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/LV?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: e.joss.jak.biz.id
+  - name: "\U0001F1FA\U0001F1F8US_24|810KB/s"
+    network: ws
+    port: 2083
+    server: 104.248.68.179
+    tls: true
+    type: vless
+    uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
+    ws-opts:
+      headers:
+        Host: babayaga-6i7.pages.dev
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3+@WangCai2"
+    servername: babayaga-6i7.pages.dev
+  - name: "\U0001F1F3\U0001F1F1NL_25|1.6MB/s"
     network: ws
     port: 443
-    server: 77.232.143.96
+    server: 95.85.52.153
     tls: true
     type: vless
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     ws-opts:
       headers:
-        Host: santong.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: santong.joss.jak.biz.id
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_2|529KB/s"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.190
-    type: ss
-  - name: "\U0001F1E9\U0001F1EADE_12|878KB/s"
+        Host: support.zoom.us.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: support.zoom.us.joss.jak.biz.id
+  - name: "\U0001F1F3\U0001F1F1NL_26|747KB/s"
     network: ws
     port: 443
-    server: 193.232.178.63
+    server: 209.38.98.71
     tls: true
     type: vless
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     ws-opts:
       headers:
-        Host: santong.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: santong.joss.jak.biz.id
-  - name: "\U0001F1E9\U0001F1EADE_13|743KB/s"
+        Host: support.zoom.us.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: support.zoom.us.joss.jak.biz.id
+  - name: "\U0001F1F3\U0001F1F1NL_27|1.9MB/s"
     network: ws
     port: 443
-    server: 217.144.186.133
+    server: 94.131.105.72
     tls: true
     type: vless
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     ws-opts:
       headers:
-        Host: santong.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: santong.joss.jak.biz.id
-  - name: "\U0001F1E9\U0001F1EADE_14|699KB/s"
+        Host: support.zoom.us.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: support.zoom.us.joss.jak.biz.id
+  - name: "\U0001F1F1\U0001F1F9LT_1|1.8MB/s"
+    network: ws
+    port: 443
+    server: 5.34.211.150
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: e.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/LV?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: e.joss.jak.biz.id
+  - name: "\U0001F1E9\U0001F1EADE_14|696KB/s"
     network: ws
     port: 443
     server: 89.22.232.232
@@ -1112,25 +1442,166 @@ proxies:
         Host: santong.joss.jak.biz.id
       path: "/Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
     servername: santong.joss.jak.biz.id
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_3|1.3MB/s"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.231
-    type: ss
-  - name: "\U0001F1F8\U0001F1EASE_1|538KB/s"
+  - name: "\U0001F1E9\U0001F1EADE_15|1.1MB/s"
     network: ws
     port: 443
-    server: 213.21.235.22
+    server: 193.232.178.176
     tls: true
     type: vless
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     ws-opts:
       headers:
-        Host: jamuur.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: jamuur.joss.jak.biz.id
-  - name: "\U0001F1EE\U0001F1F9IT_1|573KB/s"
+        Host: santong.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: santong.joss.jak.biz.id
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_16|802KB/s"
+    network: ws
+    password: '1234567890'
+    port: 2083
+    server: 46.101.246.237
+    skip-cert-verify: true
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.113 Safari/537.36
+      path: /?https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3=
+  - name: "\U0001F1F3\U0001F1F1NL_28|1.7MB/s"
+    network: ws
+    port: 443
+    server: 95.85.62.66
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: support.zoom.us.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: support.zoom.us.joss.jak.biz.id
+  - name: "\U0001F1F3\U0001F1F1NL_29|1.6MB/s"
+    network: ws
+    port: 443
+    server: 95.85.4.83
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: support.zoom.us.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: support.zoom.us.joss.jak.biz.id
+  - name: "\U0001F1E9\U0001F1EADE_17|1015KB/s"
+    network: ws
+    port: 443
+    server: 217.144.186.133
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: santong.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: santong.joss.jak.biz.id
+  - name: "\U0001F1E9\U0001F1EADE_18|594KB/s"
+    network: ws
+    port: 443
+    server: 85.192.31.252
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: santong.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: santong.joss.jak.biz.id
+  - client-fingerprint: qq
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F8\U0001F1ECSG_6|5.8MB/s"
+    network: tcp
+    port: 8899
+    reality-opts:
+      public-key: 4ciiQdZe4F8wyoRKpNzW5xwmQzGyIJnlPHrK70iU6DQ
+      short-id: "f0cce996"
+    security: reality
+    server: 168.138.166.89
+    tls: true
+    type: vless
+    uuid: b9727d8b-8eaa-435d-b436-b655b9fdd98a
+    servername: www.lovelive-anime.jp
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_19|1.0MB/s"
+    network: ws
+    password: '1234567890'
+    port: 2053
+    server: 104.248.132.134
+    skip-cert-verify: true
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/63.0.3239.84 Safari/537.36
+      path: /?https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3=
+  - name: "\U0001F1EE\U0001F1F9IT_1|1007KB/s"
+    network: ws
+    port: 8443
+    server: 213.21.252.200
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: e.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/LV?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: e.joss.jak.biz.id
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: ❓Other_3|2.1MB/s
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: QbZBeFzqbP3XfrldMaIkdu-tr91zqBUIQ-WIkXM2p14
+      short-id: "96e03e0f184639ef"
+    server: 139.84.228.27
+    tls: true
+    type: vless
+    udp: true
+    uuid: 2e1add4a64494887bd4b2a3a211e58e6
+    xudp: true
+    servername: www.asus.com
+  - name: "\U0001F1EE\U0001F1F9IT_2|904KB/s"
+    network: ws
+    port: 2083
+    server: 213.21.252.200
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: e.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/LV?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: e.joss.jak.biz.id
+  - name: "\U0001F1E9\U0001F1EADE_20|620KB/s"
+    network: ws
+    port: 443
+    server: 64.188.97.205
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: support.zoom.us.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: support.zoom.us.joss.jak.biz.id
+  - name: "\U0001F1EE\U0001F1F9IT_3|514KB/s"
     network: ws
     port: 8443
     server: 77.110.97.17
@@ -1143,140 +1614,26 @@ proxies:
       path: "/Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
     servername: jamuur.joss.jak.biz.id
   - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_8|2.6MB/s"
-    network: ws
-    port: 443
-    server: 23.141.52.166
-    tls: true
-    type: vless
-    udp: true
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
-    ws-opts:
-      headers:
-        Host: mug.support.gfw.hidns.co
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/55.0.2883.87 Safari/537.36
-      path: /danfeng
-    xudp: true
-    servername: mug.support.gfw.hidns.co
-  - name: "\U0001F1E9\U0001F1EADE_15|1.4MB/s"
-    network: ws
-    port: 8443
-    server: 77.110.103.243
-    tls: true
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: support.zoom.us.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: support.zoom.us.joss.jak.biz.id
-  - name: "\U0001F1E9\U0001F1EADE_16|660KB/s"
-    network: ws
-    port: 443
-    server: 94.159.104.158
-    tls: true
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: jamuur.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: jamuur.joss.jak.biz.id
-  - name: "\U0001F1E9\U0001F1EADE_17|1.5MB/s"
-    network: ws
-    port: 8443
-    server: 193.33.153.160
-    tls: true
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: santong.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: santong.joss.jak.biz.id
-  - name: "\U0001F1EF\U0001F1F5JP_13|1.2MB/s"
-    password: f8eca8df-a1a5-4918-a194-d34112a3673f
-    port: 40443
-    server: jbU654714155239871.j4cdn.cdnxiaohongshu.com
-    tls: true
-    type: http
-    username: f8eca8df-a1a5-4918-a194-d34112a3673f
-    sni: jbU654714155239871.j4cdn.cdnxiaohongshu.com
-  - client-fingerprint: chrome
+    encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1F9\U0001F1FCTW_4|1.1MB/s"
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: ❓Other_4|2.1MB/s
     network: tcp
     port: 443
-    server: taipei1.ap221.com
+    reality-opts:
+      public-key: QbZBeFzqbP3XfrldMaIkdu-tr91zqBUIQ-WIkXM2p14
+      short-id: "96e03e0f184639ef"
+    server: 45.12.132.251
     tls: true
     type: vless
     udp: true
-    uuid: c71ab922-2c35-4f6e-abfe-4950658f7bce
+    uuid: 63c8ce32-f4ba-5929-bd8d-47b92ac9766b
     xudp: true
-    servername: taipei.ap221.com
-  - name: "\U0001F1E9\U0001F1EADE_18|591KB/s"
-    network: ws
-    port: 8443
-    server: 89.208.97.224
-    tls: true
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: jamuur.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: jamuur.joss.jak.biz.id
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_9|6.0MB/s"
-    network: ws
-    port: 39738
-    server: 47.239.228.138
-    tls: true
-    type: vless
-    udp: true
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
-    ws-opts:
-      headers:
-        Host: mug.support.gfw.hidns.co
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.77 Safari/537.36
-      path: /danfeng
-    xudp: true
-    servername: mug.support.gfw.hidns.co
-  - name: "\U0001F1F8\U0001F1EASE_2|627KB/s"
-    network: ws
-    port: 8443
-    server: 212.113.102.199
-    tls: true
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: jamuur.joss.jak.biz.id
-      path: "/Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: jamuur.joss.jak.biz.id
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_10|2.2MB/s"
-    network: ws
-    port: 443
-    server: 103.100.176.193
-    tls: true
-    type: vless
-    udp: true
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
-    ws-opts:
-      headers:
-        Host: mug.support.gfw.hidns.co
-        User-Agent: >-
-          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
-          (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-      path: /danfeng
-    xudp: true
-    servername: mug.support.gfw.hidns.co
-  - name: "\U0001F1EE\U0001F1F9IT_2|661KB/s"
+    servername: www.asus.com
+  - name: "\U0001F1EE\U0001F1F9IT_4|834KB/s"
     network: ws
     port: 443
     server: 213.21.251.234
@@ -1288,44 +1645,84 @@ proxies:
         Host: jamuur.joss.jak.biz.id
       path: "/Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
     servername: jamuur.joss.jak.biz.id
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_9|1.2MB/s"
+  - name: "\U0001F1E9\U0001F1EADE_21|880KB/s"
+    network: ws
+    port: 443
+    server: 94.159.104.158
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: jamuur.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: jamuur.joss.jak.biz.id
+  - name: "\U0001F1F8\U0001F1EASE_2|2.0MB/s"
+    network: ws
+    port: 443
+    server: 5.34.215.68
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: e.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/LV?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: e.joss.jak.biz.id
+  - name: "\U0001F1F8\U0001F1EASE_3|844KB/s"
+    network: ws
+    port: 2053
+    server: 212.113.100.10
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: jamuur.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: jamuur.joss.jak.biz.id
+  - name: "\U0001F1E9\U0001F1EADE_22|1.7MB/s"
+    network: ws
+    port: 443
+    server: 185.246.217.55
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: jamuur.joss.jak.biz.id
+      path: "/Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: jamuur.joss.jak.biz.id
+  - name: "\U0001F1F8\U0001F1EASE_4|726KB/s"
     network: ws
     password: '8r<[9''l6hAO#8ZQi'
     port: 443
-    server: 43.160.195.223
+    server: 185.102.136.201
     skip-cert-verify: true
     sni: Koma-YT.PAGeS.Dev
     type: trojan
-    udp: true
     ws-opts:
       headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.63 Safari/537.36
+        Host: Koma-YT.PAGeS.Dev
       path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_4|598KB/s"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.197
-    type: ss
   - client-fingerprint: chrome
-    flow: xtls-rprx-vision-udp443
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1F7\U0001F1FARU_1|571KB/s"
-    network: tcp
-    port: 52006
-    server: 82.202.249.3
+    name: "\U0001F1E9\U0001F1EADE_23|990KB/s"
+    network: ws
+    port: 4443
+    server: 144.31.16.68
     tls: true
     type: vless
     udp: true
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    uuid: 00000000-0000-4000-8000-000000000000
+    ws-opts:
+      headers:
+        Host: ji52i2alvx8ntcpgjev.acg.xx.kg
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: /%40Marisa_kristi
     xudp: true
-    servername: cluster-russia-1.firstvideocdn.ru
+    servername: ji52i2alvx8ntcpgjev.acg.xx.kg
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
