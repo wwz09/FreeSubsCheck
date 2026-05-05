@@ -1,41 +1,22 @@
 proxies:
-    - alpn:
-        - |
-          http/1.1
-      encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_1|1.2MB/s"
-      network: ws
+    - cipher: rc4-md5
+      name: "\U0001F1EC\U0001F1E7GB_1|2.0MB/s"
+      password: 14fFPrbezE3HDZzsMOr6
+      port: "8080"
+      server: 146.70.61.37
+      type: ss
+      udp: true
+    - flow: xtls-rprx-vision
+      name: "\U0001F1EC\U0001F1E7GB_2|1.6MB/s"
       port: 443
-      security: tls
-      server: 54.254.116.18
-      servername: n63n17.mail.sh21.eu.org
+      server: ukos.ksnodes.net
+      servername: ukos.ksnodes.net
       tls: true
       type: vless
-      uuid: 26524cce-d514-4014-a426-365fb266a14d
-      ws-opts:
-        headers:
-            Host: n63n17.mail.sh21.eu.org
-        path: /danfeng?ed=2560
-    - name: "\U0001F1FA\U0001F1F8US_1|680KB/s"
-      password: b0a64227-d7ba-43ee-bd9b-25e4549459ab
-      port: 40022
-      server: us2.catzl.top
-      type: anytls
       udp: true
-    - name: "\U0001F1FA\U0001F1F8US_2|1.0MB/s"
-      password: 3ee7a6f4-9dda-4751-8c2a-9716a129d117
-      port: 40022
-      server: us2.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_3|827KB/s"
-      password: 4329c7e9-0992-4e70-b132-1145d651128e
-      port: 40022
-      server: us2.catzl.top
-      type: anytls
-      udp: true
+      uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
     - client-fingerprint: chrome
-      name: "\U0001F1F0\U0001F1F7KR_1|1.9MB/s"
+      name: "\U0001F1F0\U0001F1F7KR_1|3.2MB/s"
       network: ws
       port: "25979"
       server: 121.151.83.94
@@ -51,7 +32,7 @@ proxies:
       xudp: true
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_1|1.0MB/s"
+      name: "\U0001F1EC\U0001F1E7GB_3|1.3MB/s"
       port: 443
       server: 130.78.218.82
       servername: ukos.ksnodes.net
@@ -59,31 +40,7 @@ proxies:
       type: vless
       udp: true
       uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F3\U0001F1F1NL_1|631KB/s"
-      network: ws
-      port: "2053"
-      server: 46.8.229.218
-      servername: sni.111000.v6.army
-      tls: true
-      type: vless
-      udp: true
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      ws-opts:
-        headers:
-            Host: sni.111000.v6.army
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36
-        path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      xudp: true
-    - cipher: rc4-md5
-      name: "\U0001F1EC\U0001F1E7GB_2|1.3MB/s"
-      password: 14fFPrbezE3HDZzsMOr6
-      port: "8080"
-      server: 146.70.61.37
-      type: ss
-      udp: true
-    - name: "\U0001F1F8\U0001F1ECSG_2|2.3MB/s"
+    - name: "\U0001F1F8\U0001F1ECSG_1|2.0MB/s"
       network: ws
       port: "80"
       server: 141.193.213.21
@@ -96,22 +53,26 @@ proxies:
             User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
         path: /@Tech_Sonic
       xudp: true
-    - flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_3|1.1MB/s"
+    - name: "\U0001F1F8\U0001F1ECSG_2|1.9MB/s"
+      network: ws
+      password: 8r<[9'l6hAO#8ZQi
       port: 443
-      server: ukos.ksnodes.net
-      servername: ukos.ksnodes.net
+      server: 188.239.19.177
+      skip-cert-verify: true
+      sni: Koma-YT.PAGeS.Dev
       tls: true
-      type: vless
-      udp: true
-      uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
-    - name: "\U0001F1F9\U0001F1FCTW_1|2.0MB/s"
-      password: bf9464e5-172f-42fb-a213-fe31947ff595
-      port: 40071
-      server: tw1.catzl.top
+      type: trojan
+      ws-opts:
+        headers:
+            Host: Koma-YT.PAGeS.Dev
+        path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+    - name: "\U0001F1FA\U0001F1F8US_1|1.3MB/s"
+      password: b0a64227-d7ba-43ee-bd9b-25e4549459ab
+      port: 40022
+      server: us2.catzl.top
       type: anytls
       udp: true
-    - name: "\U0001F1F8\U0001F1EASE_1|728KB/s"
+    - name: "\U0001F1E9\U0001F1EADE_1|1.5MB/s"
       network: ws
       port: 443
       server: 45.139.77.52
@@ -125,23 +86,21 @@ proxies:
         headers:
             Host: sni.111000.v6.army
         path: /
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_3|765KB/s"
-      network: ws
-      password: 8r<[9'l6hAO#8ZQi
-      port: "443"
-      server: 157.245.56.32
-      skip-cert-verify: true
-      sni: Koma-YT.PAGeS.Dev
-      type: trojan
+    - name: "\U0001F1FA\U0001F1F8US_2|2.3MB/s"
+      password: 3ee7a6f4-9dda-4751-8c2a-9716a129d117
+      port: 40022
+      server: us2.catzl.top
+      type: anytls
       udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36
-        path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+    - name: "\U0001F1FA\U0001F1F8US_3|1.2MB/s"
+      password: 4329c7e9-0992-4e70-b132-1145d651128e
+      port: 40022
+      server: us2.catzl.top
+      type: anytls
+      udp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F8\U0001F1EASE_2|701KB/s"
+      name: "\U0001F1E9\U0001F1EADE_2|1.3MB/s"
       network: ws
       port: "2096"
       server: 5.129.231.66
@@ -156,16 +115,17 @@ proxies:
             User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.104 Safari/537.36
         path: /?ed=2560
       xudp: true
-    - name: "\U0001F1F8\U0001F1ECSG_4|834KB/s"
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_3|949KB/s"
       network: ws
       password: 8r<[9'l6hAO#8ZQi
-      port: 443
-      server: 188.239.19.177
+      port: "443"
+      server: 157.245.56.32
       skip-cert-verify: true
       sni: Koma-YT.PAGeS.Dev
-      tls: true
       type: trojan
+      udp: true
       ws-opts:
         headers:
-            Host: Koma-YT.PAGeS.Dev
+            User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36
         path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
