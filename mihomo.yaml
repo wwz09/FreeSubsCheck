@@ -1,85 +1,28 @@
 proxies:
-  - name: "\U0001F1FA\U0001F1F8US_1|3.1MB/s"
-    password: d527d905-ccbf-4dd7-814c-343c2b57878b
-    port: 40022
-    server: us2.catzl.top
-    type: anytls
-    udp: true
-    sni: us2.catzl.top
-  - name: "\U0001F1FA\U0001F1F8US_2|820KB/s"
-    password: 56e2b73a-c024-4457-800f-fbc44d410ace
-    port: 40023
-    server: us3.catzl.top
-    type: anytls
-    udp: true
-    sni: us3.catzl.top
-  - name: "\U0001F1FA\U0001F1F8US_3|825KB/s"
-    password: d527d905-ccbf-4dd7-814c-343c2b57878b
-    port: 40023
-    server: us3.catzl.top
-    type: anytls
-    udp: true
-    sni: us3.catzl.top
-  - name: "\U0001F1FA\U0001F1F8US_4|558KB/s"
-    password: aa21a9f8-dd46-4701-98f1-ebae06c5b18d
-    port: 40022
-    server: us2.catzl.top
-    type: anytls
-    udp: true
-    sni: us2.catzl.top
-  - name: "\U0001F1FA\U0001F1F8US_5|1.8MB/s"
-    password: 56e2b73a-c024-4457-800f-fbc44d410ace
-    port: 40022
-    server: us2.catzl.top
-    type: anytls
-    udp: true
-    sni: us2.catzl.top
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_1|586KB/s"
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 443
-    server: 140.83.50.165
-    skip-cert-verify: true
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-  - name: "\U0001F1EF\U0001F1F5JP_2|1.0MB/s"
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 8443
-    server: 140.83.34.214
-    skip-cert-verify: true
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    ws-opts:
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-  - cipher: aes-256-cfb
-    country: "\U0001F1FA\U0001F1F8US"
-    delay: 654
-    name: "\U0001F1F8\U0001F1EASE_1|779KB/s"
-    password: amazonskr05
-    port: 443
-    server: 13.60.226.42
+  - cipher: none
+    name: "\U0001F1F0\U0001F1F7KR_1|2.5MB/s"
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: woshinidie-et3.pages.dev
+      mode: websocket
+      mux: 0
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed=2560
+      tls: true
+    port: 12000
+    server: 59.11.151.238
     type: ss
+    udp: true
   - cipher: aes-256-cfb
     country: "\U0001F1EF\U0001F1F5JP"
     delay: 729
-    name: "\U0001F1EF\U0001F1F5JP_3|613KB/s"
+    name: "\U0001F1EF\U0001F1F5JP_1|4.8MB/s"
     password: amazonskr05
     port: 443
     server: 54.95.184.62
     type: ss
   - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_1|514KB/s"
+    name: "\U0001F1ED\U0001F1F0HK_1|671KB/s"
     network: ws
     password: '8r<[9''l6hAO#8ZQi'
     port: 8443
@@ -96,125 +39,17 @@ proxies:
           Safari/537.36
       path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
   - cipher: aes-256-cfb
-    country: "\U0001F1FA\U0001F1F8US"
-    delay: 1854
-    name: "\U0001F1F8\U0001F1EASE_2|715KB/s"
-    password: amazonskr05
-    port: 443
-    server: 51.21.246.160
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F1EC\U0001F1E7GB"
-    delay: 493
-    name: "\U0001F1EC\U0001F1E7GB_1|762KB/s"
-    password: amazonskr05
-    port: 443
-    server: 18.130.149.114
-    type: ss
-  - cipher: aes-256-cfb
     country: "\U0001F1EF\U0001F1F5JP"
     delay: 2981
-    name: "\U0001F1EF\U0001F1F5JP_4|1.2MB/s"
+    name: "\U0001F1EF\U0001F1F5JP_2|4.7MB/s"
     password: amazonskr05
     port: 443
     server: 3.112.29.249
     type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F1EC\U0001F1E7GB"
-    delay: 484
-    name: "\U0001F1EC\U0001F1E7GB_2|740KB/s"
-    password: amazonskr05
-    port: 443
-    server: 3.8.174.97
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F1FA\U0001F1F8US"
-    delay: 504
-    name: "\U0001F1F8\U0001F1EASE_3|635KB/s"
-    password: amazonskr05
-    port: 443
-    server: 51.20.89.202
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F1F8\U0001F1EASE"
-    delay: 520
-    name: "\U0001F1F8\U0001F1EASE_4|743KB/s"
-    password: amazonskr05
-    port: 443
-    server: 13.49.223.133
-    type: ss
-  - alterId: 2
-    cipher: auto
-    name: ❓Other_1|2.0MB/s
-    network: tcp
-    port: 30813
-    server: v13.zgtfqs.click
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    xudp: true
-  - name: "\U0001F1FA\U0001F1F8US_6|910KB/s"
-    password: 2fcd8aa0-cc4d-45c4-801d-d8d32659da7b
-    port: 40022
-    server: us2.catzl.top
-    type: anytls
-    udp: true
-    sni: us2.catzl.top
-  - alterId: 2
-    cipher: auto
-    name: ❓Other_2|2.5MB/s
-    port: 30813
-    server: v13.zgtfqs.click
-    type: vmess
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    network: tcp
-  - name: "\U0001F1F9\U0001F1FCTW_1|2.7MB/s"
-    password: 48fbb574-3fe8-4c4f-81b6-c0631b504821
-    port: 40071
-    server: tw1.catzl.top
-    type: anytls
-    udp: true
-    sni: tw1.catzl.top
-  - cipher: aes-256-cfb
-    country: "\U0001F1FA\U0001F1F8US"
-    delay: 1510
-    name: "\U0001F1F8\U0001F1EASE_5|1.1MB/s"
-    password: amazonskr05
-    port: 443
-    server: 13.62.223.164
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F1EC\U0001F1E7GB"
-    delay: 1201
-    name: "\U0001F1EC\U0001F1E7GB_3|686KB/s"
-    password: amazonskr05
-    port: 443
-    server: 18.171.160.146
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F1EF\U0001F1F5JP"
-    delay: 2211
-    name: "\U0001F1EF\U0001F1F5JP_5|1.4MB/s"
-    password: amazonskr05
-    port: 443
-    server: 52.199.62.19
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F1FA\U0001F1F8US"
-    delay: 520
-    name: "\U0001F1F8\U0001F1EASE_6|892KB/s"
-    password: amazonskr05
-    port: 443
-    server: 51.20.95.47
-    type: ss
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F8\U0001F1EASE_7|669KB/s"
+  - name: "\U0001F1F3\U0001F1F1NL_1|821KB/s"
     network: ws
-    port: 2096
-    server: 5.129.231.66
+    port: 2053
+    server: 178.255.222.103
     tls: true
     type: vless
     udp: true
@@ -222,18 +57,33 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.v6.army
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
-          Safari/537.36
       path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
     servername: sni.111000.v6.army
+  - cipher: none
+    name: "\U0001F1ED\U0001F1F0HK_2|870KB/s"
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: woshinidie-et3.pages.dev
+      mode: websocket
+      mux: 0
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed=2560
+      tls: true
+    port: 443
+    server: 68.64.182.39
+    type: ss
+    udp: true
+  - cipher: aes-256-cfb
+    country: "\U0001F1EC\U0001F1E7GB"
+    delay: 493
+    name: "\U0001F1EC\U0001F1E7GB_1|818KB/s"
+    password: amazonskr05
+    port: 443
+    server: 18.130.149.114
+    type: ss
   - client-fingerprint: random
     encryption: none
-    name: "\U0001F1F9\U0001F1EDTH_1|654KB/s"
+    name: "\U0001F1F9\U0001F1EDTH_1|1.0MB/s"
     network: tcp
     port: 443
     reality-opts:
@@ -246,6 +96,377 @@ proxies:
     uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
     xudp: true
     servername: api.digital-help-prd.autodesk.com
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1F9\U0001F1FCTW_1|3.0MB/s"
+    network: tcp
+    port: 30813
+    server: v13.zgtfqs.click
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    xudp: true
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1F9\U0001F1FCTW_2|2.5MB/s"
+    port: 30813
+    server: v13.zgtfqs.click
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    network: tcp
+  - cipher: aes-256-cfb
+    country: "\U0001F1FA\U0001F1F8US"
+    delay: 504
+    name: "\U0001F1F8\U0001F1EASE_1|1.3MB/s"
+    password: amazonskr05
+    port: 443
+    server: 51.20.89.202
+    type: ss
+  - name: "\U0001F1F3\U0001F1F1NL_2|974KB/s"
+    network: ws
+    port: 443
+    server: 194.147.33.251
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.army
+      path: /
+    servername: sni.111000.v6.army
+  - name: "\U0001F1F3\U0001F1F1NL_3|546KB/s"
+    network: ws
+    port: 443
+    server: 151.242.69.201
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.army
+      path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: sni.111000.v6.army
+  - name: "\U0001F1E9\U0001F1EADE_2|594KB/s"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 8443
+    server: 91.107.147.214
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: "/trTelegram\U0001F1E8\U0001F1F3+@WangCai2"
+  - cipher: aes-256-cfb
+    country: "\U0001F1FA\U0001F1F8US"
+    delay: 654
+    name: "\U0001F1F8\U0001F1EASE_2|1.4MB/s"
+    password: amazonskr05
+    port: 443
+    server: 13.60.226.42
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F1F8\U0001F1EASE"
+    delay: 520
+    name: "\U0001F1F8\U0001F1EASE_3|1.6MB/s"
+    password: amazonskr05
+    port: 443
+    server: 13.49.223.133
+    type: ss
+  - client-fingerprint: chrome
+    name: "\U0001F1EF\U0001F1F5JP_3|630KB/s"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 41607
+    server: 45.159.48.37
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.99 Safari/537.36
+      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+  - client-fingerprint: chrome
+    name: "\U0001F1ED\U0001F1F0HK_3|2.0MB/s"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 443
+    server: 8.223.63.150
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+  - multiplexing: MULTIPLEXING_LOW
+    name: "\U0001F1FA\U0001F1F8US_1|2.5MB/s"
+    password: dongtaiwang.com
+    port: 28866
+    server: 45.221.98.11
+    transport: TCP
+    type: mieru
+    username: dongtaiwang.com
+  - name: "\U0001F1E9\U0001F1EADE_1|1.0MB/s"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 8443
+    server: 23.88.97.94
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: "/trTelegram\U0001F1E8\U0001F1F3+@WangCai2"
+  - cipher: none
+    name: "\U0001F1F0\U0001F1F7KR_2|2.2MB/s"
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: woshinidie-et3.pages.dev
+      mode: websocket
+      mux: 0
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed=2560
+      skip-cert-verify: false
+      tls: true
+    port: 30047
+    server: 211.194.210.183
+    skip-cert-verify: false
+    type: ss
+    udp: false
+  - client-fingerprint: chrome
+    name: "\U0001F1E7\U0001F1EABE_1|535KB/s"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 443
+    server: 45.145.171.206
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_3|672KB/s"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 2053
+    server: 144.31.122.101
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/62.0.3202.94 Safari/537.36
+      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+  - client-fingerprint: chrome
+    name: "\U0001F1ED\U0001F1F0HK_4|3.4MB/s"
+    network: ws
+    port: 443
+    server: 106.13.252.134
+    tls: true
+    type: vless
+    udp: true
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    ws-opts:
+      headers:
+        Host: psp09.data.chinav.eu.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.87 Safari/537.36
+      path: /danfeng?ed=2560fp=firefox
+    xudp: true
+    servername: psp09.data.chinav.eu.org
+  - name: "\U0001F1FA\U0001F1F8US_2|1.8MB/s"
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: vpn-us-004.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-us-004.fastervpn.world
+    type: hysteria2
+  - client-fingerprint: chrome
+    name: "\U0001F1EC\U0001F1E7GB_2|2.0MB/s"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 443
+    server: 192.169.220.253
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+  - client-fingerprint: qq
+    encryption: none
+    grpc-opts:
+      grpc-service-name: grpc
+    name: "\U0001F1E9\U0001F1EADE_4|2.3MB/s"
+    network: grpc
+    port: 2053
+    reality-opts:
+      public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+      short-id: '23'
+    server: 89.106.83.60
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 629d2ccc-3a2a-4dd3-83d2-86b25fc8783e
+    xudp: true
+    servername: www.apple.com
+  - client-fingerprint: chrome
+    name: "\U0001F1F7\U0001F1FARU_1|512KB/s"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 443
+    server: 95.213.226.60
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+  - auth: 18fdf11b-6a5a-49a9-b645-b65a20576465
+    down: 5000
+    name: "\U0001F1FA\U0001F1F8US_3|3.0MB/s"
+    password: 18fdf11b-6a5a-49a9-b645-b65a20576465
+    port: 30006
+    server: us1.cloudsegl1.ccwu.cc
+    skip-cert-verify: true
+    sni: www.iq.com
+    type: hysteria2
+    udp: true
+    up: 5000
+  - name: "\U0001F1F9\U0001F1FCTW_3|3.7MB/s"
+    password: d527d905-ccbf-4dd7-814c-343c2b57878b
+    port: 40071
+    server: tw1.catzl.top
+    type: anytls
+    udp: true
+    sni: tw1.catzl.top
+  - auth: f07b6ca9-87ba-48eb-99e8-d2ba5c5a27b4
+    name: "\U0001F1FA\U0001F1F8US_4|1.6MB/s"
+    password: f07b6ca9-87ba-48eb-99e8-d2ba5c5a27b4
+    port: 30005
+    server: us1.cloudsegl1.ccwu.cc
+    skip-cert-verify: true
+    sni: www.iq.com
+    type: hysteria2
+    udp: true
+  - auth: f07b6ca9-87ba-48eb-99e8-d2ba5c5a27b4
+    name: "\U0001F1FA\U0001F1F8US_7|2.0MB/s"
+    password: f07b6ca9-87ba-48eb-99e8-d2ba5c5a27b4
+    port: 30004
+    server: us1.cloudsegl1.ccwu.cc
+    skip-cert-verify: false
+    sni: us1.cloudsegl1.ccwu.cc
+    type: hysteria2
+    udp: true
+  - auth: 18fdf11b-6a5a-49a9-b645-b65a20576465
+    down: 5000
+    name: "\U0001F1FA\U0001F1F8US_5|848KB/s"
+    password: 18fdf11b-6a5a-49a9-b645-b65a20576465
+    port: 30005
+    server: us1.cloudsegl1.ccwu.cc
+    skip-cert-verify: true
+    sni: www.iq.com
+    type: hysteria2
+    udp: true
+    up: 5000
+  - name: "\U0001F1FA\U0001F1F8US_6|897KB/s"
+    password: d689e6e3-751b-4fff-9268-5e927aada6cb
+    port: 40022
+    server: us2.catzl.top
+    type: anytls
+    udp: true
+    sni: us2.catzl.top
+  - name: "\U0001F1FA\U0001F1F8US_8|831KB/s"
+    password: 09f7ecf8-98a7-4264-b9aa-1a8cb3931ec4
+    port: 40023
+    server: us3.catzl.top
+    type: anytls
+    udp: true
+    sni: us3.catzl.top
+  - name: "\U0001F1FA\U0001F1F8US_9|993KB/s"
+    password: 2fcd8aa0-cc4d-45c4-801d-d8d32659da7b
+    port: 40023
+    server: us3.catzl.top
+    type: anytls
+    udp: true
+    sni: us3.catzl.top
+  - auth: 18fdf11b-6a5a-49a9-b645-b65a20576465
+    down: 5000
+    name: "\U0001F1FA\U0001F1F8US_10|1.9MB/s"
+    password: 18fdf11b-6a5a-49a9-b645-b65a20576465
+    port: 30003
+    server: us1.cloudsegl1.ccwu.cc
+    skip-cert-verify: true
+    sni: www.iq.com
+    type: hysteria2
+    udp: true
+    up: 5000
+  - auth: 18fdf11b-6a5a-49a9-b645-b65a20576465
+    down: 5000
+    name: "\U0001F1FA\U0001F1F8US_12|2.4MB/s"
+    password: 18fdf11b-6a5a-49a9-b645-b65a20576465
+    port: 30004
+    server: us1.cloudsegl1.ccwu.cc
+    skip-cert-verify: false
+    sni: us1.cloudsegl1.ccwu.cc
+    type: hysteria2
+    udp: true
+    up: 5000
+  - name: "\U0001F1F9\U0001F1FCTW_4|3.2MB/s"
+    password: 2fcd8aa0-cc4d-45c4-801d-d8d32659da7b
+    port: 40071
+    server: tw1.catzl.top
+    type: anytls
+    udp: true
+    sni: tw1.catzl.top
+  - name: "\U0001F1FA\U0001F1F8US_11|1.1MB/s"
+    password: aa21a9f8-dd46-4701-98f1-ebae06c5b18d
+    port: 40023
+    server: us3.catzl.top
+    type: anytls
+    udp: true
+    sni: us3.catzl.top
+  - auth: f07b6ca9-87ba-48eb-99e8-d2ba5c5a27b4
+    name: ❓Other_1|2.0MB/s
+    password: f07b6ca9-87ba-48eb-99e8-d2ba5c5a27b4
+    port: 30006
+    server: us1.cloudsegl1.ccwu.cc
+    skip-cert-verify: true
+    sni: www.iq.com
+    type: hysteria2
+    udp: true
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
