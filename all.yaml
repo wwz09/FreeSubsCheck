@@ -1,61 +1,78 @@
 proxies:
-    - name: ❓Other_1|1.9MB/s
-      password: 77f4f8fe-865e-44d9-ac3e-8d7319786df6
-      port: 40023
-      server: us3.catzl.top
+    - name: ❓Other_1|1.2MB/s
+      password: 9b588953-7586-4bac-a53a-f2c066430971
+      port: 42385
+      server: a1.lsyllzf.cn
+      skip-cert-verify: true
       type: anytls
       udp: true
-    - name: ❓Other_2|2.1MB/s
-      password: 77f4f8fe-865e-44d9-ac3e-8d7319786df6
+    - name: ❓Other_2|1.0MB/s
+      password: 9b588953-7586-4bac-a53a-f2c066430971
+      port: 15064
+      server: a1.lsyllzf.cn
+      skip-cert-verify: true
+      type: anytls
+      udp: true
+    - name: ❓Other_3|2.2MB/s
+      password: 9b588953-7586-4bac-a53a-f2c066430971
       port: 48383
       server: a1.lsyllzf.cn
       skip-cert-verify: true
       type: anytls
       udp: true
-    - name: ❓Other_3|882KB/s
-      password: 77f4f8fe-865e-44d9-ac3e-8d7319786df6
-      port: 13763
-      server: a1.lsyllzf.cn
-      skip-cert-verify: true
-      type: anytls
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1EASE_1|563KB/s"
-      network: ws
-      password: 8r<[9'l6hAO#8ZQi
-      port: "2053"
-      server: 176.125.240.63
-      skip-cert-verify: true
-      sni: Koma-YT.PAGeS.Dev
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
-        path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-    - name: "\U0001F1FA\U0001F1F8US_1|1.7MB/s"
+    - name: "\U0001F1EF\U0001F1F5JP_1|886KB/s"
       password: 9b588953-7586-4bac-a53a-f2c066430971
-      port: 12999
+      port: 46905
       server: a1.lsyllzf.cn
       skip-cert-verify: true
       type: anytls
       udp: true
-    - cipher: none
-      name: "\U0001F1F0\U0001F1F7KR_1|751KB/s"
-      password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-      plugin: v2ray-plugin
-      plugin-opts:
-        host: woshinidie-et3.pages.dev
-        mode: websocket
-        mux: false
-        path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed=2560
-        tls: true
-      port: 14147
-      server: 222.113.253.35
-      type: ss
+    - name: "\U0001F1E9\U0001F1EADE_1|795KB/s"
+      password: 4ad6a816-9c37-478b-a2c8-1e82d5725f82
+      port: 48383
+      server: a1.lsyllzf.cn
+      skip-cert-verify: true
+      type: anytls
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_1|568KB/s"
+      password: 9b588953-7586-4bac-a53a-f2c066430971
+      port: 38445
+      server: a1.lsyllzf.cn
+      skip-cert-verify: true
+      type: anytls
+      udp: true
+    - name: "\U0001F1F9\U0001F1FCTW_1|715KB/s"
+      password: 268a199d-c9a2-4d3f-b65b-3037accf8fb4
+      port: 61480
+      server: a1.lsyllzf.cn
+      skip-cert-verify: true
+      type: anytls
+      udp: true
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_1|684KB/s"
+      network: tcp
+      port: 38967
+      reality-opts:
+        public-key: TFAGMtH1LB503O0SJadbPxBs8S_LACshWQpEIAyuS1g
+        short-id: 9b1cdc34dd5664
+      security: reality
+      server: 18.143.151.84
+      servername: www.icloud.com
+      spider-x: /
+      tls: true
+      type: vless
+      uuid: 20ae58df-d562-40b3-908c-21b4881315d4
+    - name: "\U0001F1E9\U0001F1EADE_2|1.2MB/s"
+      password: 4ad6a816-9c37-478b-a2c8-1e82d5725f82
+      port: 10849
+      server: a1.lsyllzf.cn
+      skip-cert-verify: true
+      type: anytls
       udp: true
     - cipher: aes-128-gcm
-      name: "\U0001F1ED\U0001F1F0HK_1|3.2MB/s"
+      name: "\U0001F1ED\U0001F1F0HK_1|1.0MB/s"
       password: "666"
       plugin: v2ray-plugin
       plugin-opts:
@@ -68,22 +85,67 @@ proxies:
       skip-cert-verify: false
       type: ss
       udp: false
-    - name: "\U0001F1FA\U0001F1F8US_2|1.3MB/s"
-      password: 4c5066a8-bd41-470c-b095-72bd325334c8
-      port: 62597
-      server: a1.lsyllzf.cn
-      skip-cert-verify: true
-      type: anytls
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_3|748KB/s"
+    - name: "\U0001F1FA\U0001F1F8US_2|922KB/s"
       password: 9b588953-7586-4bac-a53a-f2c066430971
-      port: 62597
+      port: 40023
+      server: us3.catzl.top
+      type: anytls
+      udp: true
+    - multiplexing: MULTIPLEXING_LOW
+      name: "\U0001F1FA\U0001F1F8US_3|759KB/s"
+      password: dongtaiwang.com
+      port: 28866
+      server: 45.221.98.11
+      transport: TCP
+      type: mieru
+      username: dongtaiwang.com
+    - name: "\U0001F1FA\U0001F1F8US_4|1.2MB/s"
+      password: 268a199d-c9a2-4d3f-b65b-3037accf8fb4
+      port: 40022
+      server: us2.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1F9\U0001F1FCTW_2|852KB/s"
+      password: 4ad6a816-9c37-478b-a2c8-1e82d5725f82
+      port: 13763
       server: a1.lsyllzf.cn
       skip-cert-verify: true
       type: anytls
       udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_2|1.2MB/s"
+      password: 4ad6a816-9c37-478b-a2c8-1e82d5725f82
+      port: 42385
+      server: a1.lsyllzf.cn
+      skip-cert-verify: true
+      type: anytls
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_5|820KB/s"
+      password: 4ad6a816-9c37-478b-a2c8-1e82d5725f82
+      port: 12999
+      server: a1.lsyllzf.cn
+      skip-cert-verify: true
+      type: anytls
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_6|1.9MB/s"
+      password: 268a199d-c9a2-4d3f-b65b-3037accf8fb4
+      port: 12999
+      server: a1.lsyllzf.cn
+      skip-cert-verify: true
+      type: anytls
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_8|1.9MB/s"
+      network: ws
+      password: 8r<[9'l6hAO#8ZQi
+      port: 2053
+      server: 154.17.8.126
+      sni: Koma-YT.PAGeS.Dev
+      type: trojan
+      ws-opts:
+        headers:
+            Host: Koma-YT.PAGeS.Dev
+        path: "/trTelegram\U0001F1E8\U0001F1F3+@WangCai2"
     - cipher: none
-      name: "\U0001F1F0\U0001F1F7KR_2|565KB/s"
+      name: "\U0001F1F0\U0001F1F7KR_1|1.8MB/s"
       password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
       plugin: v2ray-plugin
       plugin-opts:
@@ -93,226 +155,62 @@ proxies:
         path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed=2560
         skip-cert-verify: false
         tls: true
-      port: 12121
-      server: 175.213.181.45
+      port: 10912
+      server: 218.150.34.228
       skip-cert-verify: false
       type: ss
       udp: false
-    - name: "\U0001F1F2\U0001F1FEMY_1|666KB/s"
-      password: 9b588953-7586-4bac-a53a-f2c066430971
-      port: 25489
-      server: a1.lsyllzf.cn
-      skip-cert-verify: true
+    - name: "\U0001F1FA\U0001F1F8US_7|661KB/s"
+      password: 268a199d-c9a2-4d3f-b65b-3037accf8fb4
+      port: 40023
+      server: us3.catzl.top
       type: anytls
       udp: true
-    - name: "\U0001F1EF\U0001F1F5JP_1|917KB/s"
-      password: 9b588953-7586-4bac-a53a-f2c066430971
-      port: 46905
-      server: a1.lsyllzf.cn
-      skip-cert-verify: true
-      type: anytls
-      udp: true
-    - name: "\U0001F1EF\U0001F1F5JP_2|898KB/s"
-      password: 4c5066a8-bd41-470c-b095-72bd325334c8
+    - name: "\U0001F1EF\U0001F1F5JP_3|1.2MB/s"
+      password: 268a199d-c9a2-4d3f-b65b-3037accf8fb4
       port: 42385
       server: a1.lsyllzf.cn
       skip-cert-verify: true
       type: anytls
       udp: true
-    - name: "\U0001F1F2\U0001F1FEMY_3|716KB/s"
-      password: 4c5066a8-bd41-470c-b095-72bd325334c8
-      port: 25489
-      server: a1.lsyllzf.cn
-      skip-cert-verify: true
-      type: anytls
-      udp: true
-    - name: "\U0001F1F2\U0001F1FEMY_2|567KB/s"
-      password: 4c5066a8-bd41-470c-b095-72bd325334c8
-      port: 15064
-      server: a1.lsyllzf.cn
-      skip-cert-verify: true
-      type: anytls
-      udp: true
-    - name: "\U0001F1EF\U0001F1F5JP_3|672KB/s"
-      password: 9b588953-7586-4bac-a53a-f2c066430971
-      port: 42385
-      server: a1.lsyllzf.cn
-      skip-cert-verify: true
-      type: anytls
-      udp: true
-    - name: "\U0001F1F0\U0001F1F7KR_3|1.0MB/s"
-      password: 9b588953-7586-4bac-a53a-f2c066430971
-      port: 13003
-      server: a1.lsyllzf.cn
-      skip-cert-verify: true
-      type: anytls
-      udp: true
-    - name: "\U0001F1F9\U0001F1FCTW_1|1.5MB/s"
-      password: 9b588953-7586-4bac-a53a-f2c066430971
-      port: 61480
-      server: a1.lsyllzf.cn
-      skip-cert-verify: true
-      type: anytls
-      udp: true
-    - name: "\U0001F1F9\U0001F1FCTW_2|739KB/s"
-      password: 4c5066a8-bd41-470c-b095-72bd325334c8
-      port: 13763
-      server: a1.lsyllzf.cn
-      skip-cert-verify: true
-      type: anytls
-      udp: true
-    - name: "\U0001F1F9\U0001F1FCTW_3|987KB/s"
-      password: 9b588953-7586-4bac-a53a-f2c066430971
-      port: 13763
-      server: a1.lsyllzf.cn
-      skip-cert-verify: true
-      type: anytls
-      udp: true
-    - name: "\U0001F1F9\U0001F1FCTW_4|557KB/s"
-      password: 4c5066a8-bd41-470c-b095-72bd325334c8
-      port: 61480
-      server: a1.lsyllzf.cn
-      skip-cert-verify: true
-      type: anytls
-      udp: true
-    - name: ❓Other_4|1.2MB/s
-      password: 77f4f8fe-865e-44d9-ac3e-8d7319786df6
-      port: 42385
-      server: a1.lsyllzf.cn
-      skip-cert-verify: true
-      type: anytls
-      udp: true
-    - name: "\U0001F1F2\U0001F1FEMY_4|658KB/s"
-      password: 9b588953-7586-4bac-a53a-f2c066430971
-      port: 15064
-      server: a1.lsyllzf.cn
-      skip-cert-verify: true
-      type: anytls
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_4|826KB/s"
-      password: 4c5066a8-bd41-470c-b095-72bd325334c8
-      port: 40022
-      server: us2.catzl.top
-      type: anytls
-      udp: true
-    - name: ❓Other_5|1.6MB/s
-      password: 77f4f8fe-865e-44d9-ac3e-8d7319786df6
-      port: 62597
-      server: a1.lsyllzf.cn
-      skip-cert-verify: true
-      type: anytls
-      udp: true
-    - name: ❓Other_6|1.8MB/s
-      password: 77f4f8fe-865e-44d9-ac3e-8d7319786df6
-      port: 12999
-      server: a1.lsyllzf.cn
-      skip-cert-verify: true
-      type: anytls
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_5|921KB/s"
-      password: 4c5066a8-bd41-470c-b095-72bd325334c8
-      port: 12999
-      server: a1.lsyllzf.cn
-      skip-cert-verify: true
-      type: anytls
-      udp: true
-    - name: "\U0001F1F0\U0001F1F7KR_4|572KB/s"
-      password: 4c5066a8-bd41-470c-b095-72bd325334c8
-      port: 13003
-      server: a1.lsyllzf.cn
-      skip-cert-verify: true
-      type: anytls
-      udp: true
-    - name: "\U0001F1E9\U0001F1EADE_1|667KB/s"
-      password: 9b588953-7586-4bac-a53a-f2c066430971
-      port: 48383
-      server: a1.lsyllzf.cn
-      skip-cert-verify: true
-      type: anytls
-      udp: true
-    - name: "\U0001F1EF\U0001F1F5JP_4|731KB/s"
-      password: 4c5066a8-bd41-470c-b095-72bd325334c8
-      port: 46905
-      server: a1.lsyllzf.cn
-      skip-cert-verify: true
-      type: anytls
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_6|698KB/s"
-      password: 4c5066a8-bd41-470c-b095-72bd325334c8
+    - name: "\U0001F1FA\U0001F1F8US_9|1.4MB/s"
+      password: 268a199d-c9a2-4d3f-b65b-3037accf8fb4
       port: 38445
       server: a1.lsyllzf.cn
       skip-cert-verify: true
       type: anytls
       udp: true
-    - name: "\U0001F1FA\U0001F1F8US_7|756KB/s"
-      password: 9b588953-7586-4bac-a53a-f2c066430971
-      port: 40023
-      server: us3.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_8|910KB/s"
-      password: 4c5066a8-bd41-470c-b095-72bd325334c8
-      port: 40023
-      server: us3.catzl.top
-      type: anytls
-      udp: true
-    - encryption: none
-      name: "\U0001F1F5\U0001F1F1PL_1|654KB/s"
-      network: ws
-      port: "443"
-      server: srv181.towersflowerss.com
-      type: vless
-      udp: true
-      uuid: b43a13be-150c-4a6a-8501-b71c1b6476fb
-      ws-opts:
-        headers:
-            Host: ""
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
-        path: /
-      xudp: true
-    - name: "\U0001F1F9\U0001F1FCTW_5|1.6MB/s"
-      password: 9b588953-7586-4bac-a53a-f2c066430971
-      port: 40072
-      server: tw2.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1E9\U0001F1EADE_2|877KB/s"
-      password: 4c5066a8-bd41-470c-b095-72bd325334c8
-      port: 10849
+    - name: "\U0001F1F0\U0001F1F7KR_2|837KB/s"
+      password: 4ad6a816-9c37-478b-a2c8-1e82d5725f82
+      port: 13003
       server: a1.lsyllzf.cn
       skip-cert-verify: true
       type: anytls
       udp: true
-    - name: "\U0001F1FA\U0001F1F8US_9|539KB/s"
+    - name: "\U0001F1F0\U0001F1F7KR_3|871KB/s"
       password: 9b588953-7586-4bac-a53a-f2c066430971
-      port: 38445
+      port: 23008
       server: a1.lsyllzf.cn
       skip-cert-verify: true
       type: anytls
       udp: true
-    - delay: 553
-      name: "\U0001F1ED\U0001F1F0HK_2|1.4MB/s"
-      network: ws
-      password: 8r<[9'l6hAO#8ZQi
-      port: 443
-      server: 43.168.16.112
+    - name: "\U0001F1F9\U0001F1FCTW_3|868KB/s"
+      password: 268a199d-c9a2-4d3f-b65b-3037accf8fb4
+      port: 13763
+      server: a1.lsyllzf.cn
       skip-cert-verify: true
-      sni: Koma-YT.PAGeS.Dev
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: Koma-YT.PAGeS.Dev
-        path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-    - name: "\U0001F1FA\U0001F1F8US_10|883KB/s"
-      password: 9b588953-7586-4bac-a53a-f2c066430971
-      port: 40022
-      server: us2.catzl.top
       type: anytls
       udp: true
-    - name: "\U0001F1E9\U0001F1EADE_3|576KB/s"
-      password: 9b588953-7586-4bac-a53a-f2c066430971
-      port: 10849
+    - name: "\U0001F1F0\U0001F1F7KR_4|815KB/s"
+      password: 268a199d-c9a2-4d3f-b65b-3037accf8fb4
+      port: 23008
+      server: a1.lsyllzf.cn
+      skip-cert-verify: true
+      type: anytls
+      udp: true
+    - name: "\U0001F1F2\U0001F1FEMY_1|525KB/s"
+      password: 4ad6a816-9c37-478b-a2c8-1e82d5725f82
+      port: 15064
       server: a1.lsyllzf.cn
       skip-cert-verify: true
       type: anytls
