@@ -1,194 +1,28 @@
 proxies:
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_1|1.1MB/s"
-    port: 9002
-    server: world.t.51guangtaobao.com
-    type: vmess
-    uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-    network: tcp
-  - name: "\U0001F1ED\U0001F1F0HK_2|6.4MB/s"
-    password: 339729b3-7eb6-4a99-9a62-a8dfd00113ee
+  - name: "\U0001F1ED\U0001F1F0HK_1|2.5MB/s"
+    password: 318fc2cb-7068-4acc-b613-4115fd02e765
     port: 40011
     server: hk1.catzl.top
     type: anytls
     udp: true
     sni: hk1.catzl.top
-  - name: "\U0001F1ED\U0001F1F0HK_3|4.7MB/s"
-    password: 965f25ae-d660-4638-80ae-f40fb5597b3b
-    port: 40012
-    server: hk2.catzl.top
-    type: anytls
-    udp: true
-    sni: hk2.catzl.top
-  - cipher: aes-128-gcm
-    name: "\U0001F1ED\U0001F1F0HK_4|3.1MB/s"
-    password: '666'
-    plugin: v2ray-plugin
-    plugin-opts:
-      host: edcloudwasm.nellewizaijn.workers.dev
-      mode: websocket
-      mux: false
-      skip-cert-verify: false
-    port: 80
-    server: youxuan.cf.090227.xyz
-    skip-cert-verify: false
-    type: ss
-    udp: false
-  - name: "\U0001F1ED\U0001F1F0HK_5|4.3MB/s"
-    password: 339729b3-7eb6-4a99-9a62-a8dfd00113ee
-    port: 40012
-    server: hk2.catzl.top
-    type: anytls
-    udp: true
-    sni: hk2.catzl.top
-  - client-fingerprint: edge
-    flow: xtls-rprx-vision-udp443
-    name: "\U0001F1FA\U0001F1F8US_1|721KB/s"
-    port: 22231
-    server: r1.mizulina.top
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    network: tcp
-    servername: r1.mizulina.top
-  - client-fingerprint: chrome
-    encryption: none
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1E9\U0001F1EADE_1|2.2MB/s"
-    network: tcp
-    port: 8443
-    reality-opts:
-      public-key: Crjd0I6hcasRXZcfNf7cs-YtJLpQ8u-t1CbwHIDAciU
-      short-id: "478dc6"
-    server: 178.215.238.148
-    tls: true
-    type: vless
-    udp: true
-    uuid: 21c1132b-068c-46fb-880e-3268f6a30e7f
-    xudp: true
-    servername: eh.vk.com
-  - name: "\U0001F1F8\U0001F1ECSG_1|1.7MB/s"
-    password: 16955d72-1794-11f0-a035-f23c95b6f51d
-    port: 3233
-    server: 4b41083b-tea5c0-tequ5b-dnss.fourtwo.cdnbytescm.com
-    tls: true
-    type: http
-    username: 16955d72-1794-11f0-a035-f23c95b6f51d
-    sni: 4b41083b-tea5c0-tequ5b-dnss.fourtwo.cdnbytescm.com
-  - name: "\U0001F1ED\U0001F1F0HK_6|4.1MB/s"
-    password: 965f25ae-d660-4638-80ae-f40fb5597b3b
+  - name: "\U0001F1ED\U0001F1F0HK_2|6.8MB/s"
+    password: 27a57511-124b-43b4-b9d6-7efa48aee4db
     port: 40011
     server: hk1.catzl.top
     type: anytls
     udp: true
     sni: hk1.catzl.top
-  - name: "\U0001F1F8\U0001F1ECSG_2|1.4MB/s"
-    password: 1b609740-eec2-11ef-8543-f23c93136cb3
-    port: 3233
-    server: b5eb2edf-te8ao0-tfnl0i-au6.fourtwo.cdnbytescm.com
-    tls: true
-    type: http
-    username: 1b609740-eec2-11ef-8543-f23c93136cb3
-    sni: b5eb2edf-te8ao0-tfnl0i-au6.fourtwo.cdnbytescm.com
-  - name: "\U0001F1F7\U0001F1F4RO_1|1.3MB/s"
-    port: 9002
-    server: 193.176.84.36
-    skip-cert-verify: true
-    sni: www.bing.com
-    tls: true
-    type: http
-  - auth: 18d80a11-df8a-427c-9ab1-ea2ed28f3f92
-    name: "\U0001F1F8\U0001F1ECSG_3|2.6MB/s"
-    obfs: salamander
-    obfs-password: dsez8efdmWiRiLNR
-    password: 18d80a11-df8a-427c-9ab1-ea2ed28f3f92
-    port: 42541
-    server: sg01.molllati.co
-    skip-cert-verify: true
-    sni: sg01.molllati.co
-    type: hysteria2
-    udp: true
-  - multiplexing: MULTIPLEXING_LOW
-    name: "\U0001F1FF\U0001F1E6ZA_1|2.4MB/s"
-    password: dongtaiwang.com
-    port: 28866
-    server: 45.221.98.11
-    transport: TCP
-    type: mieru
-    username: dongtaiwang.com
-  - name: "\U0001F1F7\U0001F1F4RO_2|1.9MB/s"
-    port: 9002
-    server: 84.239.14.158
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8US_2|1.2MB/s"
-    password: 965f25ae-d660-4638-80ae-f40fb5597b3b
-    port: 40022
-    server: us2.catzl.top
+  - name: "\U0001F1ED\U0001F1F0HK_3|4.5MB/s"
+    password: 318fc2cb-7068-4acc-b613-4115fd02e765
+    port: 40012
+    server: hk2.catzl.top
     type: anytls
     udp: true
-    sni: us2.catzl.top
+    sni: hk2.catzl.top
   - alterId: '0'
     cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_7|2.6MB/s"
-    network: tcp
-    port: 9002
-    server: world.t.51guangtaobao.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-    xudp: true
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1F8\U0001F1ECSG_4|2.3MB/s"
-    network: tcp
-    port: 2504
-    server: world.t.51guangtaobao.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-    xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EC\U0001F1E7GB_1|1.5MB/s"
-    network: ws
-    port: 443
-    server: 208.103.161.12
-    tls: true
-    type: vless
-    udp: true
-    uuid: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
-    ws-opts:
-      headers:
-        Host: afrcloud2.c01.kr
-        User-Agent: >-
-          Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
-          (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-      path: '/2.56.206.114:8443'
-    xudp: true
-    servername: afrcloud2.c01.kr
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_1|689KB/s"
-    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-    port: 50099
-    server: nbmrcg0034686rw.cybervena.com
-    type: ss
-    udp: true
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_8|1.9MB/s"
+    name: "\U0001F1ED\U0001F1F0HK_4|2.2MB/s"
     network: tcp
     port: 6012
     server: world.t.51guangtaobao.com
@@ -198,33 +32,161 @@ proxies:
     udp: true
     uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
     xudp: true
-  - alpn:
-      - h2
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EB\U0001F1F7FR_1|1.5MB/s"
+  - name: "\U0001F1ED\U0001F1F0HK_5|6.7MB/s"
+    password: 27a57511-124b-43b4-b9d6-7efa48aee4db
+    port: 40012
+    server: hk2.catzl.top
+    type: anytls
+    udp: true
+    sni: hk2.catzl.top
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_6|851KB/s"
+    port: 9002
+    server: world.t.51guangtaobao.com
+    type: vmess
+    uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
     network: tcp
-    port: 8443
-    server: cdg-1.fromblancwithlove.com
+  - cipher: aes-256-cfb
+    name: "\U0001F1E9\U0001F1EADE_1|1.1MB/s"
+    password: amazonskr05
+    port: 443
+    server: 3.76.99.252
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1E9\U0001F1EADE_2|1.6MB/s"
+    password: amazonskr05
+    port: 443
+    server: 18.195.95.15
+    type: ss
+    udp: true
+  - name: "\U0001F1EF\U0001F1F5JP_1|917KB/s"
+    password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+    port: 443
+    server: cffa61bc-t9zts0-tatrrz-yjq0.jp.oshuawei.com
+    sni: cffa61bc-t9zts0-tatrrz-yjq0.jp.oshuawei.com
+    tls: true
+    type: http
+    username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+  - auth: 18d80a11-df8a-427c-9ab1-ea2ed28f3f92
+    name: "\U0001F1F8\U0001F1ECSG_1|2.2MB/s"
+    obfs: salamander
+    obfs-password: dsez8efdmWiRiLNR
+    password: 18d80a11-df8a-427c-9ab1-ea2ed28f3f92
+    port: 42541
+    server: sg01.molllati.co
+    skip-cert-verify: true
+    sni: sg01.molllati.co
+    type: hysteria2
+    udp: true
+  - name: "\U0001F1F9\U0001F1FCTW_1|2.5MB/s"
+    password: 318fc2cb-7068-4acc-b613-4115fd02e765
+    port: 40072
+    server: tw2.catzl.top
+    type: anytls
+    udp: true
+    sni: tw2.catzl.top
+  - name: "\U0001F1ED\U0001F1F0HK_7|557KB/s"
+    password: 318fc2cb-7068-4acc-b613-4115fd02e765
+    port: 4691
+    server: a1.lsyllzf.cn
+    skip-cert-verify: true
+    type: anytls
+    udp: true
+    sni: a1.lsyllzf.cn
+  - name: "\U0001F1FA\U0001F1F8US_1|2.0MB/s"
+    password: 318fc2cb-7068-4acc-b613-4115fd02e765
+    port: 40022
+    server: us2.catzl.top
+    type: anytls
+    udp: true
+    sni: us2.catzl.top
+  - name: "\U0001F1E9\U0001F1EADE_3|1.6MB/s"
+    password: 965f25ae-d660-4638-80ae-f40fb5597b3b
+    port: 40062
+    server: de2.catzl.top
+    type: anytls
+    udp: true
+    sni: de2.catzl.top
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_8|1.2MB/s"
+    port: 6012
+    server: world.t.51guangtaobao.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+    network: tcp
+  - multiplexing: MULTIPLEXING_LOW
+    name: "\U0001F1FA\U0001F1F8US_2|787KB/s"
+    password: dongtaiwang.com
+    port: 34567
+    server: 157.254.223.44
+    transport: TCP
+    type: mieru
+    username: dongtaiwang.com
+  - name: "\U0001F1F9\U0001F1FCTW_2|521KB/s"
+    password: f9a5d10c-99ab-456c-ab1e-ba9eb2a6834c
+    port: 61480
+    server: a1.lsyllzf.cn
+    skip-cert-verify: true
+    type: anytls
+    udp: true
+    sni: a1.lsyllzf.cn
+  - name: "\U0001F1EE\U0001F1E9ID_1|749KB/s"
+    password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+    port: 32233
+    server: f3cce2bd-ta1og0-tatrrz-yjq0.id.oshuawei.com
+    sni: f3cce2bd-ta1og0-tatrrz-yjq0.id.oshuawei.com
+    tls: true
+    type: http
+    username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+  - name: "\U0001F1ED\U0001F1F0HK_9|3.7MB/s"
+    password: f9a5d10c-99ab-456c-ab1e-ba9eb2a6834c
+    port: 40011
+    server: hk1.catzl.top
+    type: anytls
+    udp: true
+    sni: hk1.catzl.top
+  - name: "\U0001F1FA\U0001F1F8US_3|535KB/s"
+    password: gs4BXwT6SW
+    port: 10988
+    server: 154.26.192.123
+    skip-cert-verify: false
+    tls: false
+    type: http
+    username: fQ67Dpe5dU
+  - name: "\U0001F1ED\U0001F1F0HK_10|5.3MB/s"
+    password: 3c6f3e41-6ff1-4111-845e-5234bcba1ea4
+    port: 40012
+    server: hk2.catzl.top
+    type: anytls
+    udp: true
+    sni: hk2.catzl.top
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1E9\U0001F1EADE_4|929KB/s"
+    network: tcp
+    port: 8444
+    reality-opts:
+      public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+      short-id: "abcd"
+    server: 89.125.20.89
+    skip-cert-verify: false
     tls: true
     type: vless
     udp: true
-    uuid: 55f7d143-a594-4a91-b030-f227039f85ef
+    uuid: 386066cb-9257-42da-8f2e-cae2096a6097
     xudp: true
-    servername: cdg-1.fromblancwithlove.com
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_2|1.1MB/s"
-    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-    port: 50099
-    server: 1.161.240.114
-    type: ss
-    udp: true
+    servername: yandex.ru
   - alpn:
       - h2
       - http/1.1
     client-fingerprint: chrome
     encryption: mlkem768x25519plus.native.0rtt.bgqmvppyqaHyHPHZXMTlM49okx_O5AWML7IZkg1UZSs
-    name: "\U0001F1E9\U0001F1EADE_2|2.0MB/s"
+    name: "\U0001F1E9\U0001F1EADE_5|686KB/s"
     network: xhttp
     port: 443
     server: 66.81.247.104
@@ -237,308 +199,18 @@ proxies:
       path: /c544c1d5248bf014e3a8
     xudp: true
     servername: 1-cloudflare.lapis-lazuli.tech
-  - cipher: aes-256-cfb
-    name: "\U0001F1FA\U0001F1F8US_3|812KB/s"
-    password: amazonskr05
-    port: 443
-    server: 13.218.172.80
-    type: ss
-    udp: true
-  - name: "\U0001F1F9\U0001F1FCTW_3|6.2MB/s"
-    password: 2219f67e-f3da-4d66-901b-0fa2864c33fb
-    port: 443
-    server: tw10.xiaoliebao.club
-    skip-cert-verify: false
-    type: trojan
-    udp: true
-    network: tcp
-    sni: tw10.xiaoliebao.club
-  - insecure: '1'
-    name: "\U0001F1FA\U0001F1F8US_4|823KB/s"
-    obfs: salamander
-    obfs-password: YzgyOTkwNDk42TU23T365A==
-    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-    port: 60041
-    server: zf.9966690.xyz
-    skip-cert-verify: true
-    type: hysteria2
-    sni: zf.9966690.xyz
-  - client-fingerprint: random
-    flow: xtls-rprx-vision
-    name: "\U0001F1F8\U0001F1ECSG_5|2.0MB/s"
-    port: 443
-    reality-opts:
-      public-key: fS59W37_i8457GqkbB9_kdCfLCtWbl14qmVRnm2ty2I
-      short-id: "2da4299da566b7"
-    server: 84.32.22.143
-    tls: true
-    type: vless
-    uuid: 91a3f712-c4e0-42a0-9475-bdd551a06e73
-    network: tcp
-    servername: maps.apple.com
-  - encryption: none
-    name: "\U0001F1EC\U0001F1E7GB_2|2.6MB/s"
-    network: ws
-    port: 443
-    security: tls
-    server: 208.103.161.11
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
-    ws-opts:
-      headers:
-        Host: afrcloud2.c01.kr
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/67.0.3396.99 Safari/537.36
-      path: '/139.45.214.126:443'
-    xudp: true
-    servername: afrcloud2.c01.kr
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1EC\U0001F1E7GB_3|1.5MB/s"
-    port: 6009
-    server: world.t.51guangtaobao.com
-    type: vmess
-    uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-    network: tcp
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    down: 1000
-    name: "\U0001F1E9\U0001F1EADE_3|883KB/s"
-    port: 54177
-    protocol: udp
-    server: 5.83.129.90
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    udp: true
-    up: 500
-  - encryption: none
-    name: "\U0001F1FA\U0001F1F8US_5|1.6MB/s"
-    network: ws
-    port: 443
-    security: tls
-    server: 69.84.182.62
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
-    ws-opts:
-      headers:
-        Host: afrcloud2.c01.kr
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/41.0.2272.76 Safari/537.36
-      path: '/2.56.204.183:443'
-    xudp: true
-    servername: afrcloud2.c01.kr
-  - name: "\U0001F1ED\U0001F1F0HK_9|8.1MB/s"
-    password: 318fc2cb-7068-4acc-b613-4115fd02e765
-    port: 40011
-    server: hk1.catzl.top
-    type: anytls
-    udp: true
-    sni: hk1.catzl.top
-  - name: "\U0001F1F8\U0001F1ECSG_6|3.4MB/s"
-    password: 2219f67e-f3da-4d66-901b-0fa2864c33fb
-    port: 443
-    server: xig.xiaoliebao.club
-    skip-cert-verify: false
-    type: trojan
-    udp: true
-    network: tcp
-    sni: xig.xiaoliebao.club
-  - alpn:
-      - h3
-    auth-str: github.com/Alvin9999-newpac/fanqiang
-    down: '55'
-    name: "\U0001F1E9\U0001F1EADE_4|2.3MB/s"
-    port: 10066
-    protocol: udp
-    server: 62.210.29.98
-    skip-cert-verify: true
-    sni: bing.com
-    type: hysteria
-    up: '11'
-  - alpn:
-      - h3
-    congestion-controller: bbr
-    disable-sni: false
-    name: "\U0001F1E9\U0001F1EADE_5|2.9MB/s"
-    password: dongtaiwang.com
-    port: 30006
-    server: 5.178.101.117
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: tuic
-    udp: true
-    udp-relay-mode: native
-    uuid: 36106e0f-4d9a-470b-a3fd-535f3b7a1e92
-    version: 5
-  - name: "\U0001F1F9\U0001F1FCTW_4|4.0MB/s"
-    password: 965f25ae-d660-4638-80ae-f40fb5597b3b
-    port: 40072
-    server: tw2.catzl.top
-    type: anytls
-    udp: true
-    sni: tw2.catzl.top
-  - name: "\U0001F1EF\U0001F1F5JP_1|1.4MB/s"
-    password: 339729b3-7eb6-4a99-9a62-a8dfd00113ee
-    port: 40054
-    server: jp4.catzl.top
-    type: anytls
-    udp: true
-    sni: jp4.catzl.top
-  - auth: 12249831-8c60-41b0-955a-629376031ecf
-    name: "\U0001F1FA\U0001F1F8US_6|1.7MB/s"
-    password: 12249831-8c60-41b0-955a-629376031ecf
-    port: 30004
-    server: usflare1.cloudaddy.top
-    skip-cert-verify: false
-    sni: us1.cloudsegl1.ccwu.cc
-    type: hysteria2
-    udp: true
-  - auth: 12249831-8c60-41b0-955a-629376031ecf
-    name: "\U0001F1FA\U0001F1F8US_7|1.6MB/s"
-    password: 12249831-8c60-41b0-955a-629376031ecf
-    port: 30005
-    server: usflare1.cloudaddy.top
-    skip-cert-verify: true
-    sni: www.iq.com
-    type: hysteria2
-    udp: true
-  - auth: 12249831-8c60-41b0-955a-629376031ecf
-    name: "\U0001F1FA\U0001F1F8US_8|2.0MB/s"
-    password: 12249831-8c60-41b0-955a-629376031ecf
-    port: 30003
-    server: usflare1.cloudaddy.top
-    skip-cert-verify: true
-    sni: www.iq.com
-    type: hysteria2
-    udp: true
-  - name: "\U0001F1F8\U0001F1E8SC_1|2.3MB/s"
-    password: 27a57511-124b-43b4-b9d6-7efa48aee4db
-    port: 10849
-    server: a1.lsyllzf.cn
-    skip-cert-verify: true
-    type: anytls
-    udp: true
-    sni: a1.lsyllzf.cn
-  - name: "\U0001F1ED\U0001F1F0HK_10|3.3MB/s"
-    password: 318fc2cb-7068-4acc-b613-4115fd02e765
-    port: 4691
-    server: a1.lsyllzf.cn
-    skip-cert-verify: true
-    type: anytls
-    udp: true
-    sni: a1.lsyllzf.cn
-  - name: "\U0001F1FA\U0001F1F8US_9|3.0MB/s"
-    password: 318fc2cb-7068-4acc-b613-4115fd02e765
-    port: 62597
-    server: a1.lsyllzf.cn
-    skip-cert-verify: true
-    type: anytls
-    udp: true
-    sni: a1.lsyllzf.cn
-  - name: "\U0001F1EF\U0001F1F5JP_2|2.7MB/s"
-    password: 318fc2cb-7068-4acc-b613-4115fd02e765
-    port: 46905
-    server: a1.lsyllzf.cn
-    skip-cert-verify: true
-    type: anytls
-    udp: true
-    sni: a1.lsyllzf.cn
-  - name: "\U0001F1F9\U0001F1FCTW_5|2.6MB/s"
-    password: 27a57511-124b-43b4-b9d6-7efa48aee4db
-    port: 61480
-    server: a1.lsyllzf.cn
-    skip-cert-verify: true
-    type: anytls
-    udp: true
-    sni: a1.lsyllzf.cn
-  - name: "\U0001F1F9\U0001F1FCTW_6|2.8MB/s"
-    password: 318fc2cb-7068-4acc-b613-4115fd02e765
-    port: 61480
-    server: a1.lsyllzf.cn
-    skip-cert-verify: true
-    type: anytls
-    udp: true
-    sni: a1.lsyllzf.cn
-  - name: "\U0001F1FA\U0001F1F8US_10|891KB/s"
-    password: 2219f67e-f3da-4d66-901b-0fa2864c33fb
-    port: 4434
-    server: mg5.xiaoliebao.club
-    skip-cert-verify: false
-    type: trojan
-    udp: true
-    network: tcp
-    sni: mg5.xiaoliebao.club
-  - auth: 1b664352-d3aa-4028-b914-9159a5a0ddf7
-    down: 5000
-    name: "\U0001F1FA\U0001F1F8US_11|2.1MB/s"
-    password: 1b664352-d3aa-4028-b914-9159a5a0ddf7
-    port: 30005
-    server: usflare1.cloudaddy.top
-    skip-cert-verify: true
-    sni: www.iq.com
-    type: hysteria2
-    udp: true
-    up: 5000
-  - client-fingerprint: random
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1ED\U0001F1F0HK_11|808KB/s"
-    network: tcp
-    port: 443
-    server: s306.okgg.top
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6d49fae1-374d-313e-b360-1227b0ea8dea
-    xudp: true
-    servername: e788s306.okgg.top
-  - auth: 12249831-8c60-41b0-955a-629376031ecf
-    name: "\U0001F1FA\U0001F1F8US_12|2.1MB/s"
-    password: 12249831-8c60-41b0-955a-629376031ecf
-    port: 30006
-    server: usflare1.cloudaddy.top
-    skip-cert-verify: true
-    sni: www.iq.com
-    type: hysteria2
-    udp: true
-  - name: "\U0001F1ED\U0001F1F0HK_12|3.0MB/s"
-    password: 27a57511-124b-43b4-b9d6-7efa48aee4db
+  - name: "\U0001F1ED\U0001F1F0HK_11|4.5MB/s"
+    password: f9a5d10c-99ab-456c-ab1e-ba9eb2a6834c
     port: 40012
     server: hk2.catzl.top
     type: anytls
     udp: true
     sni: hk2.catzl.top
-  - name: "\U0001F1ED\U0001F1F0HK_13|5.2MB/s"
-    password: 27a57511-124b-43b4-b9d6-7efa48aee4db
-    port: 40011
-    server: hk1.catzl.top
-    type: anytls
-    udp: true
-    sni: hk1.catzl.top
-  - name: "\U0001F1EF\U0001F1F5JP_3|3.1MB/s"
-    password: 27a57511-124b-43b4-b9d6-7efa48aee4db
-    port: 46905
-    server: a1.lsyllzf.cn
-    skip-cert-verify: true
-    type: anytls
-    udp: true
-    sni: a1.lsyllzf.cn
-  - alterId: '0'
+  - alterId: 0
     cipher: auto
-    name: "\U0001F1EC\U0001F1E7GB_4|1.3MB/s"
-    network: tcp
-    port: 6009
+    name: "\U0001F1ED\U0001F1F0HK_12|797KB/s"
+    network: raw
+    port: 6012
     server: world.t.51guangtaobao.com
     skip-cert-verify: false
     tls: false
@@ -546,41 +218,31 @@ proxies:
     udp: true
     uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
     xudp: true
-  - name: "\U0001F1FA\U0001F1F8US_13|623KB/s"
-    password: 339729b3-7eb6-4a99-9a62-a8dfd00113ee
+  - name: "\U0001F1ED\U0001F1F0HK_13|5.1MB/s"
+    password: 3c6f3e41-6ff1-4111-845e-5234bcba1ea4
+    port: 40011
+    server: hk1.catzl.top
+    type: anytls
+    udp: true
+    sni: hk1.catzl.top
+  - name: "\U0001F1FA\U0001F1F8US_4|1.0MB/s"
+    password: 3c6f3e41-6ff1-4111-845e-5234bcba1ea4
     port: 40022
     server: us2.catzl.top
     type: anytls
     udp: true
     sni: us2.catzl.top
-  - name: "\U0001F1ED\U0001F1F0HK_14|3.3MB/s"
+  - name: "\U0001F1FA\U0001F1F8US_5|1.6MB/s"
     password: 27a57511-124b-43b4-b9d6-7efa48aee4db
-    port: 60453
-    server: a1.lsyllzf.cn
-    skip-cert-verify: true
+    port: 40022
+    server: us2.catzl.top
     type: anytls
     udp: true
-    sni: a1.lsyllzf.cn
-  - name: "\U0001F1ED\U0001F1F0HK_15|2.7MB/s"
-    password: 318fc2cb-7068-4acc-b613-4115fd02e765
-    port: 60453
-    server: a1.lsyllzf.cn
-    skip-cert-verify: true
-    type: anytls
-    udp: true
-    sni: a1.lsyllzf.cn
-  - name: "\U0001F1EC\U0001F1E7GB_5|1.6MB/s"
-    password: 318fc2cb-7068-4acc-b613-4115fd02e765
-    port: 24696
-    server: a1.lsyllzf.cn
-    skip-cert-verify: true
-    type: anytls
-    udp: true
-    sni: a1.lsyllzf.cn
-  - auth: 1b664352-d3aa-4028-b914-9159a5a0ddf7
+    sni: us2.catzl.top
+  - auth: 9e397a48-82e2-4cb7-9694-39abe2a0134d
     down: 5000
-    name: "\U0001F1FA\U0001F1F8US_14|2.1MB/s"
-    password: 1b664352-d3aa-4028-b914-9159a5a0ddf7
+    name: "\U0001F1FA\U0001F1F8US_6|2.2MB/s"
+    password: 9e397a48-82e2-4cb7-9694-39abe2a0134d
     port: 30003
     server: usflare1.cloudaddy.top
     skip-cert-verify: true
@@ -588,143 +250,35 @@ proxies:
     type: hysteria2
     udp: true
     up: 5000
-  - name: "\U0001F1EC\U0001F1E7GB_6|2.4MB/s"
+  - name: "\U0001F1F9\U0001F1FCTW_3|616KB/s"
     password: 27a57511-124b-43b4-b9d6-7efa48aee4db
-    port: 24696
-    server: a1.lsyllzf.cn
-    skip-cert-verify: true
+    port: 40072
+    server: tw2.catzl.top
     type: anytls
     udp: true
-    sni: a1.lsyllzf.cn
-  - name: "\U0001F1ED\U0001F1F0HK_16|2.9MB/s"
-    password: 318fc2cb-7068-4acc-b613-4115fd02e765
-    port: 40012
-    server: hk2.catzl.top
-    type: anytls
-    udp: true
-    sni: hk2.catzl.top
-  - name: "\U0001F1F8\U0001F1E8SC_2|947KB/s"
-    password: 27a57511-124b-43b4-b9d6-7efa48aee4db
-    port: 48383
-    server: a1.lsyllzf.cn
-    skip-cert-verify: true
-    type: anytls
-    udp: true
-    sni: a1.lsyllzf.cn
-  - name: "\U0001F1EC\U0001F1E7GB_7|731KB/s"
-    password: 27a57511-124b-43b4-b9d6-7efa48aee4db
-    port: 33761
-    server: a1.lsyllzf.cn
-    skip-cert-verify: true
-    type: anytls
-    udp: true
-    sni: a1.lsyllzf.cn
-  - name: "\U0001F1F8\U0001F1E8SC_3|2.7MB/s"
-    password: 318fc2cb-7068-4acc-b613-4115fd02e765
-    port: 10849
-    server: a1.lsyllzf.cn
-    skip-cert-verify: true
-    type: anytls
-    udp: true
-    sni: a1.lsyllzf.cn
-  - name: "\U0001F1F8\U0001F1E8SC_4|2.8MB/s"
-    password: 318fc2cb-7068-4acc-b613-4115fd02e765
-    port: 48383
-    server: a1.lsyllzf.cn
-    skip-cert-verify: true
-    type: anytls
-    udp: true
-    sni: a1.lsyllzf.cn
-  - name: "\U0001F1EC\U0001F1E7GB_8|2.4MB/s"
-    password: 318fc2cb-7068-4acc-b613-4115fd02e765
-    port: 33761
-    server: a1.lsyllzf.cn
-    skip-cert-verify: true
-    type: anytls
-    udp: true
-    sni: a1.lsyllzf.cn
-  - name: "\U0001F1F0\U0001F1F7KR_1|1.3MB/s"
-    password: 318fc2cb-7068-4acc-b613-4115fd02e765
-    port: 13003
-    server: a1.lsyllzf.cn
-    skip-cert-verify: true
-    type: anytls
-    udp: true
-    sni: a1.lsyllzf.cn
-  - name: "\U0001F1FA\U0001F1F8US_15|1.5MB/s"
-    password: 27a57511-124b-43b4-b9d6-7efa48aee4db
-    port: 38445
-    server: a1.lsyllzf.cn
-    skip-cert-verify: true
-    type: anytls
-    udp: true
-    sni: a1.lsyllzf.cn
-  - name: "\U0001F1FA\U0001F1F8US_16|2.6MB/s"
-    password: 27a57511-124b-43b4-b9d6-7efa48aee4db
-    port: 62597
-    server: a1.lsyllzf.cn
-    skip-cert-verify: true
-    type: anytls
-    udp: true
-    sni: a1.lsyllzf.cn
-  - name: "\U0001F1FA\U0001F1F8US_17|593KB/s"
-    password: 318fc2cb-7068-4acc-b613-4115fd02e765
+    sni: tw2.catzl.top
+  - name: "\U0001F1FA\U0001F1F8US_7|1.4MB/s"
+    password: f9a5d10c-99ab-456c-ab1e-ba9eb2a6834c
     port: 40022
     server: us2.catzl.top
     type: anytls
     udp: true
     sni: us2.catzl.top
-  - auth: 1b664352-d3aa-4028-b914-9159a5a0ddf7
+  - auth: 9e397a48-82e2-4cb7-9694-39abe2a0134d
     down: 5000
-    name: "\U0001F1FA\U0001F1F8US_18|2.1MB/s"
-    password: 1b664352-d3aa-4028-b914-9159a5a0ddf7
-    port: 30006
+    name: "\U0001F1FA\U0001F1F8US_8|2.5MB/s"
+    password: 9e397a48-82e2-4cb7-9694-39abe2a0134d
+    port: 30005
     server: usflare1.cloudaddy.top
     skip-cert-verify: true
     sni: www.iq.com
     type: hysteria2
     udp: true
     up: 5000
-  - name: "\U0001F1ED\U0001F1F0HK_17|2.7MB/s"
-    password: 27a57511-124b-43b4-b9d6-7efa48aee4db
-    port: 4691
-    server: a1.lsyllzf.cn
-    skip-cert-verify: true
-    type: anytls
-    udp: true
-    sni: a1.lsyllzf.cn
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1EB\U0001F1F7FR_2|2.2MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: ZnlCl_Jc2dV5-KK_ymmMcEDoe5lPyZ-5z_LGMRoiNTU
-      short-id: "b87063a35aaa942e"
-    server: 51.255.71.16
-    tls: true
-    type: vless
-    udp: true
-    uuid: 43488128-319e-f480-64ea-0acdc712e2a8
-    xudp: true
-    servername: www.booking.com
-  - name: "\U0001F1FA\U0001F1F8US_19|1.1MB/s"
-    password: 318fc2cb-7068-4acc-b613-4115fd02e765
-    port: 38445
-    server: a1.lsyllzf.cn
-    skip-cert-verify: true
-    type: anytls
-    udp: true
-    sni: a1.lsyllzf.cn
-  - auth: 1b664352-d3aa-4028-b914-9159a5a0ddf7
+  - auth: 9e397a48-82e2-4cb7-9694-39abe2a0134d
     down: 5000
-    name: "\U0001F1FA\U0001F1F8US_20|2.1MB/s"
-    password: 1b664352-d3aa-4028-b914-9159a5a0ddf7
+    name: "\U0001F1FA\U0001F1F8US_9|1.7MB/s"
+    password: 9e397a48-82e2-4cb7-9694-39abe2a0134d
     port: 30004
     server: usflare1.cloudaddy.top
     skip-cert-verify: false
@@ -732,12 +286,43 @@ proxies:
     type: hysteria2
     udp: true
     up: 5000
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_1|960KB/s"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.208
+  - cipher: aes-128-gcm
+    name: "\U0001F1ED\U0001F1F0HK_14|1.3MB/s"
+    password: '666'
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: edcloudwasm.nellewizaijn.workers.dev
+      mode: websocket
+      mux: false
+      skip-cert-verify: false
+    port: 80
+    server: youxuan.cf.090227.xyz
+    skip-cert-verify: false
     type: ss
+    udp: false
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_15|1.1MB/s"
+    network: tcp
+    port: 9002
+    server: world.t.51guangtaobao.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+    xudp: true
+  - auth: 9e397a48-82e2-4cb7-9694-39abe2a0134d
+    down: 5000
+    name: "\U0001F1FA\U0001F1F8US_10|1.8MB/s"
+    password: 9e397a48-82e2-4cb7-9694-39abe2a0134d
+    port: 30006
+    server: usflare1.cloudaddy.top
+    skip-cert-verify: true
+    sni: www.iq.com
+    type: hysteria2
+    udp: true
+    up: 5000
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
