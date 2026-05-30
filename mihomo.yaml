@@ -1,73 +1,12 @@
 proxies:
-  - name: "\U0001F1ED\U0001F1F0HK_1|1.8MB/s"
-    password: f23eacfb-59be-42b3-a80f-3d3946b6f8ce
-    port: 44424
-    server: 291c25f0b2.node.tro.cac.cab
-    skip-cert-verify: true
-    sni: hk.01.naiun.bilibili.com
-    type: trojan
-    udp: true
-    network: tcp
   - multiplexing: MULTIPLEXING_LOW
-    name: "\U0001F1FF\U0001F1E6ZA_1|761KB/s"
+    name: "\U0001F1FF\U0001F1E6ZA_1|986KB/s"
     password: dongtaiwang.com
     port: 28866
     server: 45.221.98.11
     transport: TCP
     type: mieru
     username: dongtaiwang.com
-  - name: "\U0001F1EF\U0001F1F5JP_1|1.1MB/s"
-    password: f23eacfb-59be-42b3-a80f-3d3946b6f8ce
-    port: 42074
-    server: 291c25f0b2.node.tro.cac.cab
-    skip-cert-verify: true
-    sni: jp.01.naiun.bilibili.com
-    type: trojan
-    udp: true
-    network: tcp
-  - name: "\U0001F1FA\U0001F1F8US_1|687KB/s"
-    password: f23eacfb-59be-42b3-a80f-3d3946b6f8ce
-    port: 47033
-    server: 291c25f0b2.node.tro.cac.cab
-    skip-cert-verify: true
-    sni: us.01.naiun.bilibili.com
-    type: trojan
-    udp: true
-    network: tcp
-  - name: "\U0001F1F9\U0001F1EDTH_1|549KB/s"
-    password: f23eacfb-59be-42b3-a80f-3d3946b6f8ce
-    port: 44247
-    server: 291c25f0b2.node.tro.cac.cab
-    skip-cert-verify: true
-    sni: th.01.naiun.bilibili.com
-    type: trojan
-    udp: true
-    network: tcp
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_2|929KB/s"
-    network: ws
-    port: 33408
-    server: yd3.ainivp.com
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-    ws-opts:
-      headers:
-        Host: yd3.ainivp.com
-      path: /ray
-    servername: yd3.ainivp.com
-  - name: "\U0001F1ED\U0001F1F0HK_3|1.4MB/s"
-    password: f23eacfb-59be-42b3-a80f-3d3946b6f8ce
-    port: 40160
-    server: 291c25f0b2.node.tro.cac.cab
-    skip-cert-verify: true
-    sni: tw.01.naiun.bilibili.com
-    type: trojan
-    udp: true
-    network: tcp
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
