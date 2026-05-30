@@ -1,51 +1,8 @@
 proxies:
-    - cipher: aes-256-cfb
-      name: "\U0001F1E9\U0001F1EADE_1|747KB/s"
-      password: amazonskr05
-      port: 443
-      server: 35.159.110.250
-      type: ss
-    - name: "\U0001F1ED\U0001F1F0HK_1|1.1MB/s"
-      password: 337c37c6-7cf9-487d-b0ec-9cb07f97856b
-      port: 46167
-      server: cf88d28ad8.node.tro.cac.cab
-      skip-cert-verify: true
-      sni: hk.01.naiun.bilibili.com
-      type: trojan
-      udp: true
-    - name: "\U0001F1ED\U0001F1F0HK_2|517KB/s"
-      password: c1785de0-212f-11ef-92aa-f23c9164ca5d
-      port: 5228
-      server: fc26ffd1-t9zts0-tfpsin-1q3dm.cm4.oshuawei.com
-      tls: true
-      type: http
-      username: c1785de0-212f-11ef-92aa-f23c9164ca5d
-    - name: "\U0001F1F8\U0001F1ECSG_1|1.4MB/s"
-      password: 7fadb9a0-d77e-458a-9b6a-96fb25b4957a
-      port: 443
-      server: xig.xiaoliebao.club
-      skip-cert-verify: false
-      type: trojan
-      udp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0HK_3|1.7MB/s"
-      network: ws
-      port: 33410
-      server: ct3.ainivp.com
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      udp: true
-      uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-      ws-opts:
-        headers:
-            Host: ct3.ainivp.com
-        path: /ray
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1E8\U0001F1FECY_1|956KB/s"
+      name: "\U0001F1E8\U0001F1FECY_1|772KB/s"
       network: tcp
       port: 1443
       reality-opts:
@@ -59,216 +16,277 @@ proxies:
       udp: true
       uuid: 8cddd533-9611-4fc4-adda-7d629743b4b2
       xudp: true
-    - name: "\U0001F1F8\U0001F1ECSG_2|1.3MB/s"
-      password: 337c37c6-7cf9-487d-b0ec-9cb07f97856b
-      port: 45320
-      server: cf88d28ad8.node.tro.cac.cab
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F3\U0001F1F1NL_1|1.9MB/s"
+      network: xhttp
+      port: "443"
+      reality-opts:
+        public-key: PyV8IrAs0LkE2d_DdjvdCtpWG7MZyUKsYkb52GUmuDM
+        short-id: "67"
+      server: 91.84.117.29
+      servername: vk.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: a4037b4c-6a9d-528c-9efb-7d801cce8adb
+      xudp: true
+    - delay: 1155
+      name: "\U0001F1F7\U0001F1F4RO_1|626KB/s"
+      port: 9002
+      server: 84.239.49.58
       skip-cert-verify: true
-      sni: sg.01.naiun.bilibili.com
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1ED\U0001F1F0HK_1|3.0MB/s"
+      password: f23eacfb-59be-42b3-a80f-3d3946b6f8ce
+      port: 44424
+      server: 291c25f0b2.node.tro.cac.cab
+      skip-cert-verify: true
+      sni: hk.01.naiun.bilibili.com
       type: trojan
       udp: true
-    - name: "\U0001F1EF\U0001F1F5JP_1|2.5MB/s"
-      password: 337c37c6-7cf9-487d-b0ec-9cb07f97856b
-      port: 44380
-      server: cf88d28ad8.node.tro.cac.cab
-      skip-cert-verify: true
-      sni: jp.01.naiun.bilibili.com
-      type: trojan
+    - cipher: aes-256-cfb
+      name: "\U0001F1E9\U0001F1EADE_1|1.5MB/s"
+      password: amazonskr05
+      port: 443
+      server: 18.195.213.130
+      type: ss
       udp: true
+    - encryption: none
+      name: "\U0001F1E9\U0001F1EADE_2|1002KB/s"
+      network: tcp
+      port: "666"
+      server: 194.59.183.234
+      type: vless
+      udp: true
+      uuid: '@IR_NETLIFY'
+      xudp: true
     - multiplexing: MULTIPLEXING_LOW
-      name: "\U0001F1FF\U0001F1E6ZA_1|1.9MB/s"
+      name: "\U0001F1FF\U0001F1E6ZA_1|2.2MB/s"
       password: dongtaiwang.com
       port: 28866
       server: 45.221.98.11
       transport: TCP
       type: mieru
       username: dongtaiwang.com
-    - name: "\U0001F1F9\U0001F1EDTH_1|1.2MB/s"
-      password: 337c37c6-7cf9-487d-b0ec-9cb07f97856b
-      port: 41711
-      server: cf88d28ad8.node.tro.cac.cab
-      skip-cert-verify: true
-      sni: th.01.naiun.bilibili.com
-      type: trojan
-      udp: true
     - alterId: 0
       cipher: auto
-      country: "\U0001F1E8\U0001F1F3CN"
-      delay: 1035
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1ED\U0001F1F0HK_4|1.1MB/s"
+      name: "\U0001F1EF\U0001F1F5JP_1|1.5MB/s"
       network: ws
-      port: 33410
-      server: ct3.ainivp.com
-      servername: ct3.ainivp.com
-      skip-cert-verify: true
+      port: 36411
+      server: nube219.lijiuling.com
+      servername: nube219.lijiuling.com
       tls: true
       type: vmess
-      uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+      udp: true
+      uuid: d17b68db-1f28-4ff0-a0de-ffe821d663eb
       ws-opts:
         headers:
-            HOST: ct3.ainivp.com
-        path: /ray
-    - name: "\U0001F1EF\U0001F1F5JP_2|2.6MB/s"
-      password: 1ada3ac4-44a9-4438-9e0a-4c3808ac428b
-      port: 46964
-      server: b15d723992.node.tro.cac.cab
-      skip-cert-verify: true
-      sni: jp.01.naiun.bilibili.com
-      type: trojan
-      udp: true
-    - name: "\U0001F1F9\U0001F1FCTW_1|4.0MB/s"
-      password: 7fadb9a0-d77e-458a-9b6a-96fb25b4957a
-      port: 443
-      server: tw10.xiaoliebao.club
-      skip-cert-verify: false
-      type: trojan
-      udp: true
-    - auth: 4a44578e-5cb5-458c-b73f-2039c23210e0
-      name: "\U0001F1FA\U0001F1F8US_1|1.4MB/s"
-      password: 4a44578e-5cb5-458c-b73f-2039c23210e0
-      port: 30003
-      server: usflare1.cloudaddy.top
-      skip-cert-verify: true
-      sni: www.iq.com
-      type: hysteria2
-      udp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1E9\U0001F1EADE_2|1.4MB/s"
-      network: xhttp
-      port: "443"
-      server: www.iranapplecenter.com
-      servername: cp.shahanpet.ir
+            Host: baidu.com
+        path: /hhhhsk
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5JP_2|1.1MB/s"
+      network: ws
+      port: 25431
+      server: 27.efaka.top
+      servername: 27.efaka.top
       tls: true
-      type: vless
+      type: vmess
       udp: true
-      uuid: 0ca31b9b-e360-4d04-8bde-9ec4f286abbb
-      xudp: true
+      uuid: d17b68db-1f28-4ff0-a0de-ffe821d663eb
+      ws-opts:
+        headers:
+            Host: baidu.com
+        path: /hhhhsk
     - multiplexing: MULTIPLEXING_LOW
-      name: "\U0001F1FA\U0001F1F8US_2|2.0MB/s"
+      name: "\U0001F1FA\U0001F1F8US_1|1.6MB/s"
       password: dongtaiwang.com
       port: 34567
       server: 157.254.223.44
       transport: TCP
       type: mieru
       username: dongtaiwang.com
-    - name: "\U0001F1FA\U0001F1F8US_3|1.0MB/s"
-      port: 443
-      server: 155.117.127.137
-      tls: false
+    - client-fingerprint: chrome
+      encryption: none
+      grpc-opts:
+        grpc-service-name: vless
+      name: "\U0001F1EA\U0001F1EAEE_1|1.8MB/s"
+      network: grpc
+      port: "443"
+      reality-opts:
+        public-key: QobAF8R0o6yO2clMtVMNzji7PG2VZ418T4HvjNy4Mk0
+        short-id: 1a2b3c4d5e6f
+      server: 194.156.101.115
+      servername: 0w7ymj.spectrum.vu
+      tls: true
       type: vless
       udp: true
-      uuid: 5a20b5d0-3a98-4792-9559-95f4e24277ec
-    - name: "\U0001F1ED\U0001F1F0HK_5|1.3MB/s"
-      password: 1ada3ac4-44a9-4438-9e0a-4c3808ac428b
-      port: 44094
-      server: b15d723992.node.tro.cac.cab
-      skip-cert-verify: true
-      sni: hk.01.naiun.bilibili.com
+      uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+      xudp: true
+    - name: "\U0001F1F8\U0001F1ECSG_1|793KB/s"
+      password: d17b68db-1f28-4ff0-a0de-ffe821d663eb
+      port: 9484
+      server: 15.efaka.top
+      skip-cert-verify: false
+      sni: 15.efaka.top
       type: trojan
       udp: true
-    - name: "\U0001F1F9\U0001F1FCTW_2|749KB/s"
-      password: 1ada3ac4-44a9-4438-9e0a-4c3808ac428b
-      port: 41975
-      server: b15d723992.node.tro.cac.cab
+    - name: "\U0001F1F9\U0001F1FCTW_1|1.0MB/s"
+      password: f23eacfb-59be-42b3-a80f-3d3946b6f8ce
+      port: 40160
+      server: 291c25f0b2.node.tro.cac.cab
       skip-cert-verify: true
       sni: tw.01.naiun.bilibili.com
       type: trojan
       udp: true
-    - name: "\U0001F1F7\U0001F1FARU_1|874KB/s"
-      password: 337c37c6-7cf9-487d-b0ec-9cb07f97856b
-      port: 45668
-      server: cf88d28ad8.node.tro.cac.cab
-      skip-cert-verify: true
-      sni: ru.01.naiun.bilibili.com
-      type: trojan
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1EF\U0001F1F5JP_3|3.0MB/s"
+      network: tcp
+      port: "61750"
+      reality-opts:
+        public-key: AavBPGGJUpyGWiriV_Fbx-SrAvR5t-9mHeQY8uIltyo
+        short-id: 41b9cb10b696
+      server: appvless.tnjxaon.cn
+      servername: www.tue.nl
+      tls: true
+      type: vless
       udp: true
-    - auth: 4a44578e-5cb5-458c-b73f-2039c23210e0
-      name: "\U0001F1FA\U0001F1F8US_4|1.5MB/s"
-      password: 4a44578e-5cb5-458c-b73f-2039c23210e0
-      port: 30006
-      server: usflare1.cloudaddy.top
-      skip-cert-verify: true
-      sni: www.iq.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1F9\U0001F1EDTH_2|1.1MB/s"
-      password: 1ada3ac4-44a9-4438-9e0a-4c3808ac428b
-      port: 49513
-      server: b15d723992.node.tro.cac.cab
+      uuid: 1f81303d-bdb7-4cf9-8bef-f4f8cd9562ff
+      xudp: true
+    - name: "\U0001F1F9\U0001F1EDTH_1|1.6MB/s"
+      password: f23eacfb-59be-42b3-a80f-3d3946b6f8ce
+      port: 44247
+      server: 291c25f0b2.node.tro.cac.cab
       skip-cert-verify: true
       sni: th.01.naiun.bilibili.com
       type: trojan
       udp: true
-    - auth: 54bd5451-748d-49d2-a166-6a5b3e25de78
-      down: 5000
-      name: "\U0001F1FA\U0001F1F8US_5|852KB/s"
-      password: 54bd5451-748d-49d2-a166-6a5b3e25de78
+    - name: "\U0001F1FA\U0001F1F8US_2|2.1MB/s"
+      password: f23eacfb-59be-42b3-a80f-3d3946b6f8ce
+      port: 47033
+      server: 291c25f0b2.node.tro.cac.cab
+      skip-cert-verify: true
+      sni: us.01.naiun.bilibili.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_4|1.8MB/s"
+      password: f23eacfb-59be-42b3-a80f-3d3946b6f8ce
+      port: 42074
+      server: 291c25f0b2.node.tro.cac.cab
+      skip-cert-verify: true
+      sni: jp.01.naiun.bilibili.com
+      type: trojan
+      udp: true
+    - auth: a8d7b1cf-18f1-4c92-89e6-980e866234e5
+      name: "\U0001F1FA\U0001F1F8US_3|821KB/s"
+      password: a8d7b1cf-18f1-4c92-89e6-980e866234e5
       port: 30006
       server: usflare1.cloudaddy.top
       skip-cert-verify: true
       sni: www.iq.com
       type: hysteria2
       udp: true
-      up: 5000
-    - name: "\U0001F1F8\U0001F1ECSG_3|1.5MB/s"
-      password: 1ada3ac4-44a9-4438-9e0a-4c3808ac428b
-      port: 48272
-      server: b15d723992.node.tro.cac.cab
-      skip-cert-verify: true
-      sni: sg.01.naiun.bilibili.com
-      type: trojan
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_6|895KB/s"
-      password: 1ada3ac4-44a9-4438-9e0a-4c3808ac428b
-      port: 40980
-      server: b15d723992.node.tro.cac.cab
-      skip-cert-verify: true
-      sni: us.01.naiun.bilibili.com
-      type: trojan
-      udp: true
-    - name: "\U0001F1E8\U0001F1EDCH_1|1.4MB/s"
+    - name: "\U0001F1ED\U0001F1F0HK_2|746KB/s"
       password: 4f4d1167-ef14-4304-9bce-0740472503ef
-      port: 45553
+      port: 41943
       server: 90081bb25c.node.tro.cac.cab
       skip-cert-verify: true
-      sni: ch.01.naiun.bilibili.com
+      sni: az.01.naiun.bilibili.com
       tls: true
       type: trojan
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_1|533KB/s"
-      network: raw
-      port: "443"
-      reality-opts:
-        public-key: GsKY4XpP6sr905aHvCrj0JEHhgcAD5aEcmbjyLSNjAU
-        short-id: 72e15d2b99
-      server: 95.140.158.82
-      servername: cdp.x5.ru
+    - delay: 1828
+      name: "\U0001F1EB\U0001F1F7FR_1|778KB/s"
+      password: 4f4d1167-ef14-4304-9bce-0740472503ef
+      port: 48697
+      server: 90081bb25c.node.tro.cac.cab
+      skip-cert-verify: true
+      sni: gh.01.naiun.bilibili.com
+      type: trojan
+      udp: true
+    - delay: 2782
+      name: "\U0001F1EE\U0001F1F8IS_1|867KB/s"
+      password: 4f4d1167-ef14-4304-9bce-0740472503ef
+      port: 47909
+      server: 90081bb25c.node.tro.cac.cab
+      skip-cert-verify: true
+      sni: is.01.naiun.bilibili.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1ED\U0001F1F0HK_3|1.3MB/s"
+      password: 4f4d1167-ef14-4304-9bce-0740472503ef
+      port: 46424
+      server: 90081bb25c.node.tro.cac.cab
+      skip-cert-verify: true
+      sni: de.01.naiun.bilibili.com
       tls: true
+      type: trojan
+    - encryption: none
+      name: "\U0001F1E9\U0001F1EADE_3|847KB/s"
+      network: ws
+      port: "80"
+      server: fx3033.game2lizard.com
       type: vless
       udp: true
-      uuid: ea484535-0170-4ec8-bb3c-a9dbaa7412d7
+      uuid: 5b6e7300-8fc8-404e-8dc9-40a5393dd881
+      ws-opts:
+        headers:
+            Host: line.smartphone1.azazilvpn.sbs
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+        path: /XnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXn?ed=2560
       xudp: true
-    - auth: 54bd5451-748d-49d2-a166-6a5b3e25de78
-      down: 5000
-      name: "\U0001F1FA\U0001F1F8US_7|1.5MB/s"
-      password: 54bd5451-748d-49d2-a166-6a5b3e25de78
-      port: 30005
-      server: usflare1.cloudaddy.top
+    - name: "\U0001F1EC\U0001F1F1GL_1|622KB/s"
+      password: f23eacfb-59be-42b3-a80f-3d3946b6f8ce
+      port: 49618
+      server: 291c25f0b2.node.tro.cac.cab
       skip-cert-verify: true
-      sni: www.iq.com
-      type: hysteria2
+      sni: gl.01.naiun.bilibili.com
+      type: trojan
       udp: true
-      up: 5000
-    - name: "\U0001F1F2\U0001F1FDMX_1|700KB/s"
-      password: 1ada3ac4-44a9-4438-9e0a-4c3808ac428b
-      port: 41663
-      server: b15d723992.node.tro.cac.cab
+    - name: "\U0001F1EE\U0001F1F9IT_1|632KB/s"
+      password: f23eacfb-59be-42b3-a80f-3d3946b6f8ce
+      port: 46238
+      server: 291c25f0b2.node.tro.cac.cab
       skip-cert-verify: true
-      sni: mx.01.naiun.bilibili.com
+      sni: it.01.naiun.bilibili.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1FA\U0001F1E6UA_1|714KB/s"
+      password: f23eacfb-59be-42b3-a80f-3d3946b6f8ce
+      port: 46840
+      server: 291c25f0b2.node.tro.cac.cab
+      skip-cert-verify: true
+      sni: ua.01.naiun.bilibili.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1ED\U0001F1F0HK_4|727KB/s"
+      password: f23eacfb-59be-42b3-a80f-3d3946b6f8ce
+      port: 43283
+      server: 291c25f0b2.node.tro.cac.cab
+      skip-cert-verify: true
+      sni: tr.01.naiun.bilibili.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1F0\U0001F1FFKZ_1|971KB/s"
+      password: f23eacfb-59be-42b3-a80f-3d3946b6f8ce
+      port: 44624
+      server: 291c25f0b2.node.tro.cac.cab
+      skip-cert-verify: true
+      sni: kz.01.naiun.bilibili.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1EE\U0001F1F1IL_1|703KB/s"
+      password: f23eacfb-59be-42b3-a80f-3d3946b6f8ce
+      port: 46666
+      server: 291c25f0b2.node.tro.cac.cab
+      skip-cert-verify: true
+      sni: il.01.naiun.bilibili.com
       type: trojan
       udp: true
