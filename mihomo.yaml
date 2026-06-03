@@ -10,7 +10,16 @@ proxies:
     uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
     network: tcp
     servername: r1.mizulina.top
-  - name: "\U0001F1EB\U0001F1F7FR_1|2.6MB/s"
+  - name: "\U0001F1E8\U0001F1EDCH_1|2.1MB/s"
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    port: 45553
+    server: 90081bb25c.node.tro.cac.cab
+    skip-cert-verify: true
+    sni: ch.01.naiun.bilibili.com
+    type: trojan
+    udp: true
+    network: tcp
+  - name: "\U0001F1EB\U0001F1F7FR_1|1.4MB/s"
     password: 4f4d1167-ef14-4304-9bce-0740472503ef
     port: 45619
     server: 90081bb25c.node.tro.cac.cab
@@ -19,7 +28,7 @@ proxies:
     type: trojan
     udp: true
     network: tcp
-  - name: "\U0001F1EE\U0001F1F8IS_1|1.4MB/s"
+  - name: "\U0001F1EE\U0001F1F8IS_1|2.2MB/s"
     password: 4f4d1167-ef14-4304-9bce-0740472503ef
     port: 47909
     server: 90081bb25c.node.tro.cac.cab
@@ -28,7 +37,7 @@ proxies:
     type: trojan
     udp: true
     network: tcp
-  - name: "\U0001F1E6\U0001F1FFAZ_1|2.7MB/s"
+  - name: "\U0001F1ED\U0001F1F0HK_1|2.2MB/s"
     password: 4f4d1167-ef14-4304-9bce-0740472503ef
     port: 41943
     server: 90081bb25c.node.tro.cac.cab
@@ -48,22 +57,93 @@ proxies:
     uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
     network: tcp
     servername: r1.mizulina.top
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_3|2.5MB/s"
+    port: 180
+    server: 82.198.246.37
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    network: tcp
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_4|2.3MB/s"
+    port: 180
+    server: 82.198.246.250
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    network: tcp
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_1|811KB/s"
+    name: "\U0001F1F9\U0001F1FCTW_1|971KB/s"
     password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
     port: 50099
     server: r3mrcg001286ek2.cybervena.com
     type: ss
-  - name: "\U0001F1ED\U0001F1F0HK_1|2.9MB/s"
-    password: <password>
-    port: 8443
-    server: 14468f84-te5ts0-tflsjv-zn8y.hkt.cdnhuawei.com
-    tls: true
-    type: http
+  - cipher: chacha20-ietf
+    name: "\U0001F1ED\U0001F1F0HK_2|892KB/s"
+    password: asd123456
+    port: 8388
+    server: 103.149.182.79
+    type: ss
+  - cipher: aes-256-gcm
+    name: "\U0001F1F8\U0001F1ECSG_1|3.4MB/s"
+    password: c770a24nZJYv
+    port: 8388
+    server: 194.87.10.139
+    type: ss
     udp: true
-    username: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
-    sni: 14468f84-te5ts0-tflsjv-zn8y.hkt.cdnhuawei.com
-  - name: "\U0001F1F8\U0001F1ECSG_1|1.2MB/s"
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1EC\U0001F1E7GB_1|1.3MB/s"
+    port: 443
+    reality-opts:
+      public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
+      short-id: "7a3f9e2b1c8d4f6a"
+    server: 31.76.113.114
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+    network: tcp
+    servername: it.s3-cloud.xyz
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1EE\U0001F1F9IT_1|1.7MB/s"
+    port: 443
+    reality-opts:
+      public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
+      short-id: "7a3f9e2b1c8d4f6a"
+    server: 31.76.113.30
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+    network: tcp
+    servername: it.s3-cloud.xyz
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1EE\U0001F1F9IT_2|1.2MB/s"
+    port: 443
+    reality-opts:
+      public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
+      short-id: "7a3f9e2b1c8d4f6a"
+    server: 31.76.113.26
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+    network: tcp
+    servername: it.s3-cloud.xyz
+  - name: "\U0001F1F8\U0001F1ECSG_2|1.9MB/s"
     password: 16955d72-1794-11f0-a035-f23c95b6f51d
     port: 3233
     server: 4b41083b-tea5c0-tequ5b-dnss.fourtwo.cdnbytescm.com
@@ -72,7 +152,7 @@ proxies:
     udp: true
     username: 16955d72-1794-11f0-a035-f23c95b6f51d
     sni: 4b41083b-tea5c0-tequ5b-dnss.fourtwo.cdnbytescm.com
-  - name: "\U0001F1F8\U0001F1ECSG_2|1.4MB/s"
+  - name: "\U0001F1F8\U0001F1ECSG_3|2.0MB/s"
     password: 1b609740-eec2-11ef-8543-f23c93136cb3
     port: 3233
     server: b5eb2edf-te8ao0-tfnl0i-au6.fourtwo.cdnbytescm.com
@@ -81,16 +161,37 @@ proxies:
     udp: true
     username: 1b609740-eec2-11ef-8543-f23c93136cb3
     sni: b5eb2edf-te8ao0-tfnl0i-au6.fourtwo.cdnbytescm.com
-  - name: "\U0001F1F7\U0001F1F4RO_1|1.7MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_1|742KB/s"
     port: 9002
-    server: 84.239.49.185
+    server: 84.239.14.158
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_2|835KB/s"
+    port: 9002
+    server: 84.239.49.201
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_3|1.6MB/s"
+    port: 9002
+    server: 84.239.49.211
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_4|1.0MB/s"
+    port: 9002
+    server: 84.239.49.154
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
   - client-fingerprint: chrome
     flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US_3|1.5MB/s"
+    name: "\U0001F1FA\U0001F1F8US_5|1.5MB/s"
     port: 22231
     server: r1.mizulina.top
     skip-cert-verify: false
@@ -100,122 +201,112 @@ proxies:
     uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
     network: tcp
     servername: r1.mizulina.top
-  - name: "\U0001F1FA\U0001F1F8US_4|2.5MB/s"
-    password: BxceQaOe
-    port: 2520
-    server: 95.40.4.37
-    skip-cert-verify: true
-    sni: t.me/ripaojiedian
-    type: trojan
-    udp: true
-    network: tcp
-  - name: "\U0001F1ED\U0001F1F0HK_2|836KB/s"
-    network: tcp
-    password: d84665c37878196ecf983cf6910e3b44
-    port: 53018
-    server: 18.181.199.223
-    skip-cert-verify: true
-    sni: www.nintendogames.net
-    type: trojan
-  - name: "\U0001F1FA\U0001F1F8US_5|2.4MB/s"
-    network: tcp
-    password: BxceQaOe
-    port: 2702
-    server: 95.40.68.150
-    skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_6|1.1MB/s"
-    network: tcp
-    port: 180
-    server: 82.198.246.250
-    servername: ''
-    tls: false
-    type: vmess
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_7|2.7MB/s"
-    password: BxceQaOe
-    port: 2520
-    server: 95.40.4.37
-    skip-cert-verify: true
-    sni: 95.40.4.37
-    type: trojan
-    udp: true
-    network: tcp
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_8|2.5MB/s"
-    password: BxceQaOe
-    port: 2702
-    server: 95.40.68.150
-    skip-cert-verify: true
-    sni: t.me/ripaojiedian
-    type: trojan
-    udp: true
-    network: tcp
-  - client-fingerprint: edge
-    flow: xtls-rprx-vision-udp443
-    name: "\U0001F1FA\U0001F1F8US_9|2.0MB/s"
-    network: tcp
-    port: 22231
-    server: r1.mizulina.top
-    tls: true
-    type: vless
-    udp: true
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    xudp: true
-    servername: r1.mizulina.top
-  - name: "\U0001F1FA\U0001F1F8US_10|2.1MB/s"
-    network: tcp
-    password: BxceQaOe
-    port: 2520
-    server: 95.40.4.37
-    skip-cert-verify: true
-    sni: t.me/ripaojiedian
-    type: trojan
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8US_11|2.1MB/s"
-    network: tcp
-    password: BxceQaOe
-    port: 2520
-    server: 95.40.4.37
-    skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_2|2.1MB/s"
-    port: 9002
-    server: 193.176.84.36
+  - name: "\U0001F1F9\U0001F1FCTW_2|749KB/s"
+    password: mrwdfNTD8M79LCukCieldrqZWqs=
+    port: 1443
+    server: twmoon1-cdn-route.couldflare-cdn.com
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1ED\U0001F1F0HK_3|2.8MB/s"
-    password: <password>
-    port: 8443
-    server: 14468f84-te5ts0-tflsjv-zn8y.hkt.cdnhuawei.com
-    sni: 14468f84-te5ts0-tflsjv-zn8y.hkt.cdnhuawei.com
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    sni: twmoon1-cdn-route.couldflare-cdn.com
+  - name: "\U0001F1F9\U0001F1FCTW_3|640KB/s"
+    password: exaxgqkKkd0TAMrCxeonWg==
+    port: 1443
+    server: twmoon1-cdn-route.couldflare-cdn.com
     tls: true
     type: http
-    username: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EADE_1|1.2MB/s"
-    network: xhttp
-    port: 3389
-    server: 172.65.150.143
-    type: vless
     udp: true
-    uuid: d497a244-9f20-fc6c-b303-8d01a528f53e
-    xhttp-opts:
-      mode: packet-up
-      path: /ed
-    xudp: true
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    sni: twmoon1-cdn-route.couldflare-cdn.com
+  - name: "\U0001F1FA\U0001F1F8US_6|3.2MB/s"
+    password: BxceQaOe
+    port: 2520
+    server: 95.40.4.37
+    skip-cert-verify: true
+    sni: t.me/ripaojiedian
+    type: trojan
+    udp: true
+    network: tcp
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_7|2.8MB/s"
+    password: BxceQaOe
+    port: 17801
+    server: 95.40.68.192
+    skip-cert-verify: true
+    sni: t.me/ripaojiedian
+    type: trojan
+    udp: true
+    network: tcp
   - client-fingerprint: chrome
     encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US_12|2.5MB/s"
+    name: "\U0001F1F8\U0001F1F0SK_1|1.8MB/s"
+    network: tcp
+    port: 8443
+    server: cdn7-39.vk-cdnvideo.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+    xudp: true
+    servername: cdn7-39.vk-cdnvideo.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_1|1.6MB/s"
+    network: tcp
+    port: 8443
+    server: cdn9-33.vk-cdnvideo.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+    xudp: true
+    servername: cdn9-33.vk-cdnvideo.com
+  - alpn:
+      - h3
+    down: ''
+    fingerprint: ''
+    name: ❓Other_1|3.3MB/s
+    obfs: ''
+    obfs-password: ''
+    password: 205d6869-02ca-3b36-b933-be2465250c7e
+    port: 443
+    server: 38.54.50.210
+    skip-cert-verify: false
+    sni: u716087us1456.csgfw.top
+    type: hysteria2
+    up: ''
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EC\U0001F1E7GB_2|1.5MB/s"
+    network: tcp
+    port: 8443
+    server: 152.233.28.196
+    tls: true
+    type: vless
+    udp: true
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    xudp: true
+    servername: uk1.fromblancwithlove.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_8|2.1MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: HlxgAXuwwby0lujjT2LKBPF0udWK4SVjtMPyKtiNdEw
+      short-id: "232cd9a21e42"
+    server: 31.207.5.73
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6d088fbd-528d-4f2a-be26-317dcda3c6ee
+    xudp: true
+    servername: www.amd.com
+  - client-fingerprint: edge
+    flow: xtls-rprx-vision-udp443
+    name: "\U0001F1FA\U0001F1F8US_9|2.1MB/s"
     network: tcp
     port: 22231
     server: 85.234.114.53
@@ -225,40 +316,60 @@ proxies:
     uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
     xudp: true
     servername: r1.mizulina.top
-  - encryption: none
-    name: "\U0001F1EB\U0001F1EEFI_1|2.1MB/s"
-    network: ws
-    port: 80
-    server: 140.248.187.74
-    type: vless
-    udp: true
-    uuid: cd51db86-be9a-48b0-8910-eeb4dcadc7d9
-    ws-opts:
-      headers:
-        Host: rb24.ir
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/45.0.2454.85 Safari/537.36
-      path: >-
-        /ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048
-    xudp: true
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E6\U0001F1F9AT_1|1.2MB/s"
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1F9\U0001F1FCTW_4|561KB/s"
     network: tcp
-    port: 8443
-    server: 130.49.219.126
+    port: 2512
+    server: world.t.51guangtaobao.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+    xudp: true
+  - alterId: 0
+    cipher: aes-128-gcm
+    name: "\U0001F1FA\U0001F1F8US_10|2.5MB/s"
+    network: tcp
+    port: 180
+    server: 82.198.246.37
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    xudp: true
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1EC\U0001F1E7GB_3|2.1MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
+      short-id: "7a3f9e2b1c8d4f6a"
+    server: 31.76.113.91
     tls: true
     type: vless
     udp: true
-    uuid: 2ee2b77f-e4cd-4e5d-af22-f9d919eeadd5
+    uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
     xudp: true
-    servername: at16.fastlanehosting.ru
+    servername: it.s3-cloud.xyz
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_2|1.7MB/s"
+    network: tcp
+    port: 8443
+    server: cdn9-33.vk-cdnvideo.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+    xudp: true
+    servername: cdn9-33.vk-cdnvideo.com
   - encryption: none
-    name: "\U0001F1EB\U0001F1EEFI_2|2.4MB/s"
+    name: "\U0001F1EB\U0001F1EEFI_1|2.4MB/s"
     network: ws
     port: 80
     server: 146.75.119.82
@@ -269,25 +380,375 @@ proxies:
       headers:
         Host: rb24.ir
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.77 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.102 Safari/537.36
       path: >-
         /ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048
     xudp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1E9\U0001F1EADE_2|691KB/s"
-    password: 4a4cb575-15bd-4664-b94d-2e6a6b4ccda8
-    port: 28655
-    server: 109.120.138.95
-    type: ss
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1E9\U0001F1EADE_3|2.5MB/s"
+    network: tcp
+    port: 9443
+    reality-opts:
+      public-key: MbYR2O0XBSeG74gGYpFIofXsILcf5lG2gc36GyURBXQ
+      short-id: "0199436dd359351b"
+    server: 144.31.135.162
+    tls: true
+    type: vless
     udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_2|3.7MB/s"
-    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-    port: 50099
-    server: 61.231.18.14
-    type: ss
+    uuid: b54d36d1-43c3-4b8f-a5f8-cf6504db0562
+    xudp: true
+    servername: apple.com
+  - encryption: none
+    name: "\U0001F1EB\U0001F1EEFI_2|2.2MB/s"
+    network: ws
+    port: 80
+    server: 140.248.187.74
+    type: vless
     udp: true
+    uuid: cd51db86-be9a-48b0-8910-eeb4dcadc7d9
+    ws-opts:
+      headers:
+        Host: rb24.ir
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
+          Safari/537.36
+      path: >-
+        /ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048
+    xudp: true
+  - delay: 974
+    name: "\U0001F1EC\U0001F1EDGH_1|851KB/s"
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    port: 48697
+    server: 155.117.198.82
+    skip-cert-verify: true
+    sni: gh.01.naiun.bilibili.com
+    type: trojan
+    udp: true
+    network: tcp
+  - client-fingerprint: chrome
+    encryption: none
+    name: ❓Other_2|690KB/s
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: i4Mx_tDND0Xxac3WyA7HgT9rvXdZlXpm5m1EGiQF-Uk
+      short-id: "b8aa"
+    server: 194.226.169.36
+    tls: true
+    type: vless
+    udp: true
+    uuid: fae3277c-0541-4ae9-bbbb-8247453ea652
+    xudp: true
+    servername: yahoo.com
+  - alpn:
+      - ''
+    alterId: '0'
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_11|631KB/s"
+    network: tcp
+    port: 180
+    server: 82.198.246.37
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    xudp: true
+    servername: <nil>
+  - auth: 78ad2858-c3b0-4397-9f35-365dc2f184ec
+    down: 5000
+    name: "\U0001F1FA\U0001F1F8US_12|2.5MB/s"
+    password: 78ad2858-c3b0-4397-9f35-365dc2f184ec
+    port: 30006
+    server: usflare1.cloudaddy.top
+    skip-cert-verify: true
+    sni: www.iq.com
+    type: hysteria2
+    udp: true
+    up: 5000
+  - auth: e38180b8-6c88-4919-870b-5dacf2ceccbb
+    down: 5000
+    name: "\U0001F1FA\U0001F1F8US_13|2.1MB/s"
+    password: e38180b8-6c88-4919-870b-5dacf2ceccbb
+    port: 30003
+    server: usflare1.cloudaddy.top
+    skip-cert-verify: true
+    sni: www.iq.com
+    type: hysteria2
+    udp: true
+    up: 5000
+  - auth: 78ad2858-c3b0-4397-9f35-365dc2f184ec
+    down: 5000
+    name: "\U0001F1FA\U0001F1F8US_14|2.6MB/s"
+    password: 78ad2858-c3b0-4397-9f35-365dc2f184ec
+    port: 30004
+    server: usflare1.cloudaddy.top
+    skip-cert-verify: false
+    sni: us1.cloudsegl1.ccwu.cc
+    type: hysteria2
+    udp: true
+    up: 5000
+  - auth: 78ad2858-c3b0-4397-9f35-365dc2f184ec
+    down: 5000
+    name: "\U0001F1FA\U0001F1F8US_15|2.7MB/s"
+    password: 78ad2858-c3b0-4397-9f35-365dc2f184ec
+    port: 30005
+    server: usflare1.cloudaddy.top
+    skip-cert-verify: true
+    sni: www.iq.com
+    type: hysteria2
+    udp: true
+    up: 5000
+  - auth: e38180b8-6c88-4919-870b-5dacf2ceccbb
+    down: 5000
+    name: "\U0001F1FA\U0001F1F8US_16|2.5MB/s"
+    password: e38180b8-6c88-4919-870b-5dacf2ceccbb
+    port: 30005
+    server: usflare1.cloudaddy.top
+    skip-cert-verify: true
+    sni: www.iq.com
+    type: hysteria2
+    udp: true
+    up: 5000
+  - auth: e38180b8-6c88-4919-870b-5dacf2ceccbb
+    down: 5000
+    name: "\U0001F1FA\U0001F1F8US_17|2.5MB/s"
+    password: e38180b8-6c88-4919-870b-5dacf2ceccbb
+    port: 30004
+    server: usflare1.cloudaddy.top
+    skip-cert-verify: false
+    sni: us1.cloudsegl1.ccwu.cc
+    type: hysteria2
+    udp: true
+    up: 5000
+  - auth: e38180b8-6c88-4919-870b-5dacf2ceccbb
+    down: 5000
+    name: "\U0001F1FA\U0001F1F8US_18|2.1MB/s"
+    password: e38180b8-6c88-4919-870b-5dacf2ceccbb
+    port: 30006
+    server: usflare1.cloudaddy.top
+    skip-cert-verify: true
+    sni: www.iq.com
+    type: hysteria2
+    udp: true
+    up: 5000
+  - auth: 78ad2858-c3b0-4397-9f35-365dc2f184ec
+    down: 5000
+    name: "\U0001F1FA\U0001F1F8US_19|2.1MB/s"
+    password: 78ad2858-c3b0-4397-9f35-365dc2f184ec
+    port: 30003
+    server: usflare1.cloudaddy.top
+    skip-cert-verify: true
+    sni: www.iq.com
+    type: hysteria2
+    udp: true
+    up: 5000
+  - auth: ff9a4043-9756-4642-bf51-31eecbd40d9f
+    name: "\U0001F1FA\U0001F1F8US_20|1.1MB/s"
+    password: ff9a4043-9756-4642-bf51-31eecbd40d9f
+    port: 30004
+    server: usflare1.cloudaddy.top
+    skip-cert-verify: false
+    sni: us1.cloudsegl1.ccwu.cc
+    type: hysteria2
+    udp: true
+  - auth: ff9a4043-9756-4642-bf51-31eecbd40d9f
+    name: "\U0001F1FA\U0001F1F8US_21|2.1MB/s"
+    password: ff9a4043-9756-4642-bf51-31eecbd40d9f
+    port: 30006
+    server: usflare1.cloudaddy.top
+    skip-cert-verify: true
+    sni: www.iq.com
+    type: hysteria2
+    udp: true
+  - auth: ff9a4043-9756-4642-bf51-31eecbd40d9f
+    name: "\U0001F1FA\U0001F1F8US_22|2.5MB/s"
+    password: ff9a4043-9756-4642-bf51-31eecbd40d9f
+    port: 30003
+    server: usflare1.cloudaddy.top
+    skip-cert-verify: true
+    sni: www.iq.com
+    type: hysteria2
+    udp: true
+  - auth: ff9a4043-9756-4642-bf51-31eecbd40d9f
+    name: "\U0001F1FA\U0001F1F8US_23|2.8MB/s"
+    password: ff9a4043-9756-4642-bf51-31eecbd40d9f
+    port: 30005
+    server: usflare1.cloudaddy.top
+    skip-cert-verify: true
+    sni: www.iq.com
+    type: hysteria2
+    udp: true
+  - name: "\U0001F1ED\U0001F1F0HK_3|2.8MB/s"
+    network: tcp
+    password: d84665c37878196ecf983cf6910e3b44
+    port: 53018
+    server: 18.181.199.223
+    skip-cert-verify: true
+    sni: www.nintendogames.net
+    type: trojan
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_24|2.7MB/s"
+    network: tcp
+    password: BxceQaOe
+    port: 2520
+    server: 95.40.4.37
+    skip-cert-verify: true
+    sni: t.me/ripaojiedian
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_25|2.7MB/s"
+    network: tcp
+    password: BxceQaOe
+    port: 2520
+    server: 95.40.4.37
+    skip-cert-verify: true
+    sni: t.me%2Fripaojiedian
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1F7FR_2|673KB/s"
+    port: 443
+    reality-opts:
+      public-key: i4Mx_tDND0Xxac3WyA7HgT9rvXdZlXpm5m1EGiQF-Uk
+      short-id: "b8aa"
+    server: 194.226.169.36
+    tls: true
+    type: vless
+    udp: true
+    uuid: 4706d9c3-eec0-4666-9d84-e608a200e872
+    network: tcp
+    servername: yahoo.com
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_26|571KB/s"
+    port: 180
+    server: 82.198.246.37
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    network: tcp
+    servername: <nil>
+  - name: "\U0001F1F8\U0001F1F0SK_2|1.9MB/s"
+    port: 8443
+    server: cdn7-39.vk-cdnvideo.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+    network: tcp
+    servername: cdn7-39.vk-cdnvideo.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1EC\U0001F1E7GB_4|1.6MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
+      short-id: "7a3f9e2b1c8d4f6a"
+    server: 31.76.113.114
+    tls: true
+    type: vless
+    udp: true
+    uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+    xudp: true
+    servername: it.s3-cloud.xyz
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1EC\U0001F1E7GB_5|1.6MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
+      short-id: "7a3f9e2b1c8d4f6a"
+    server: 31.76.113.30
+    tls: true
+    type: vless
+    udp: true
+    uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+    xudp: true
+    servername: it.s3-cloud.xyz
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1EC\U0001F1E7GB_6|1.5MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
+      short-id: "7a3f9e2b1c8d4f6a"
+    server: 31.76.113.110
+    tls: true
+    type: vless
+    udp: true
+    uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+    xudp: true
+    servername: it.s3-cloud.xyz
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1EC\U0001F1E7GB_7|1.6MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
+      short-id: "7a3f9e2b1c8d4f6a"
+    server: 31.76.113.26
+    tls: true
+    type: vless
+    udp: true
+    uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+    xudp: true
+    servername: it.s3-cloud.xyz
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1EC\U0001F1E7GB_8|1.8MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
+      short-id: "7a3f9e2b1c8d4f6a"
+    server: 31.76.113.123
+    tls: true
+    type: vless
+    udp: true
+    uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+    xudp: true
+    servername: it.s3-cloud.xyz
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E6\U0001F1EAAE_1|2.1MB/s"
+    network: xhttp
+    port: 443
+    reality-opts:
+      public-key: HVhOxkUi3RhGJc-nc5gdM82XRymOnG5L_TOJ4eHL7jY
+      short-id: "7d951e7eba51ed0e"
+    server: 31.56.188.25
+    tls: true
+    type: vless
+    udp: true
+    uuid: d248c9d7-6469-4a17-b269-d64805cfd3ae
+    xhttp-opts:
+      host: vk.com
+      mode: auto
+      path: /api/v1/be463283
+    xudp: true
+    servername: sberbank.ru
+  - alpn:
+      - http/1.1
+    name: "\U0001F1EB\U0001F1F7FR_3|1.4MB/s"
+    network: tcp
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    port: 45619
+    server: 155.117.198.83
+    skip-cert-verify: true
+    sni: fr.01.naiun.bilibili.com
+    type: trojan
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
