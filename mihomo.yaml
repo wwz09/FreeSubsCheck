@@ -1,5 +1,25 @@
 proxies:
-  - name: "\U0001F1ED\U0001F1F0HK_1|1.4MB/s"
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_1|2.3MB/s"
+    port: 22231
+    server: 85.234.114.53
+    tls: true
+    type: vless
+    udp: true
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    network: tcp
+    servername: r1.mizulina.top
+  - name: "\U0001F1EB\U0001F1F7FR_1|2.6MB/s"
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    port: 45619
+    server: 90081bb25c.node.tro.cac.cab
+    skip-cert-verify: true
+    sni: fr.01.naiun.bilibili.com
+    type: trojan
+    udp: true
+    network: tcp
+  - name: "\U0001F1EE\U0001F1F8IS_1|1.4MB/s"
     password: 4f4d1167-ef14-4304-9bce-0740472503ef
     port: 47909
     server: 90081bb25c.node.tro.cac.cab
@@ -8,7 +28,7 @@ proxies:
     type: trojan
     udp: true
     network: tcp
-  - name: "\U0001F1ED\U0001F1F0HK_2|2.2MB/s"
+  - name: "\U0001F1E6\U0001F1FFAZ_1|2.7MB/s"
     password: 4f4d1167-ef14-4304-9bce-0740472503ef
     port: 41943
     server: 90081bb25c.node.tro.cac.cab
@@ -17,40 +37,87 @@ proxies:
     type: trojan
     udp: true
     network: tcp
+  - client-fingerprint: edge
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_2|2.0MB/s"
+    port: 22231
+    server: r1.mizulina.top
+    tls: true
+    type: vless
+    udp: true
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    network: tcp
+    servername: r1.mizulina.top
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F9\U0001F1FCTW_1|811KB/s"
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+    port: 50099
+    server: r3mrcg001286ek2.cybervena.com
+    type: ss
+  - name: "\U0001F1ED\U0001F1F0HK_1|2.9MB/s"
+    password: <password>
+    port: 8443
+    server: 14468f84-te5ts0-tflsjv-zn8y.hkt.cdnhuawei.com
+    tls: true
+    type: http
+    udp: true
+    username: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
+    sni: 14468f84-te5ts0-tflsjv-zn8y.hkt.cdnhuawei.com
+  - name: "\U0001F1F8\U0001F1ECSG_1|1.2MB/s"
+    password: 16955d72-1794-11f0-a035-f23c95b6f51d
+    port: 3233
+    server: 4b41083b-tea5c0-tequ5b-dnss.fourtwo.cdnbytescm.com
+    tls: true
+    type: http
+    udp: true
+    username: 16955d72-1794-11f0-a035-f23c95b6f51d
+    sni: 4b41083b-tea5c0-tequ5b-dnss.fourtwo.cdnbytescm.com
+  - name: "\U0001F1F8\U0001F1ECSG_2|1.4MB/s"
+    password: 1b609740-eec2-11ef-8543-f23c93136cb3
+    port: 3233
+    server: b5eb2edf-te8ao0-tfnl0i-au6.fourtwo.cdnbytescm.com
+    tls: true
+    type: http
+    udp: true
+    username: 1b609740-eec2-11ef-8543-f23c93136cb3
+    sni: b5eb2edf-te8ao0-tfnl0i-au6.fourtwo.cdnbytescm.com
+  - name: "\U0001F1F7\U0001F1F4RO_1|1.7MB/s"
+    port: 9002
+    server: 84.239.49.185
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
   - client-fingerprint: chrome
     flow: xtls-rprx-vision
-    name: "\U0001F1EB\U0001F1F7FR_1|988KB/s"
-    port: 443
-    reality-opts:
-      public-key: FurqA-2jJHS4vNj92Ya5i2ZTxf0sWSjUTaz5Y_KMBgk
-      short-id: "57cc65bfd5ef7465"
-    server: 185.212.117.34
+    name: "\U0001F1FA\U0001F1F8US_3|1.5MB/s"
+    port: 22231
+    server: r1.mizulina.top
     skip-cert-verify: false
     tls: true
     type: vless
     udp: true
-    uuid: bb2b0112-577f-4862-886a-3c2ee004ca23
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
     network: tcp
-    servername: www.scaleway.com
-  - name: "\U0001F1FA\U0001F1F8US_1|1.5MB/s"
+    servername: r1.mizulina.top
+  - name: "\U0001F1FA\U0001F1F8US_4|2.5MB/s"
     password: BxceQaOe
     port: 2520
     server: 95.40.4.37
     skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
+    sni: t.me/ripaojiedian
     type: trojan
     udp: true
     network: tcp
-  - name: "\U0001F1FA\U0001F1F8US_2|2.6MB/s"
-    password: BxceQaOe
-    port: 17801
-    server: 95.40.68.192
+  - name: "\U0001F1ED\U0001F1F0HK_2|836KB/s"
+    network: tcp
+    password: d84665c37878196ecf983cf6910e3b44
+    port: 53018
+    server: 18.181.199.223
     skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
+    sni: www.nintendogames.net
     type: trojan
-    udp: true
-    network: tcp
-  - name: "\U0001F1FA\U0001F1F8US_3|2.0MB/s"
+  - name: "\U0001F1FA\U0001F1F8US_5|2.4MB/s"
     network: tcp
     password: BxceQaOe
     port: 2702
@@ -58,8 +125,28 @@ proxies:
     skip-cert-verify: true
     sni: t.me%2Fripaojiedian
     type: trojan
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_6|1.1MB/s"
+    network: tcp
+    port: 180
+    server: 82.198.246.250
+    servername: ''
+    tls: false
+    type: vmess
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_4|2.4MB/s"
+    name: "\U0001F1FA\U0001F1F8US_7|2.7MB/s"
+    password: BxceQaOe
+    port: 2520
+    server: 95.40.4.37
+    skip-cert-verify: true
+    sni: 95.40.4.37
+    type: trojan
+    udp: true
+    network: tcp
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_8|2.5MB/s"
     password: BxceQaOe
     port: 2702
     server: 95.40.68.150
@@ -68,16 +155,44 @@ proxies:
     type: trojan
     udp: true
     network: tcp
-  - alpn:
-      - h3
-    name: "\U0001F1F8\U0001F1ECSG_1|2.8MB/s"
-    password: ff488c48-b745-4d65-a6a1-0339be0b7fd7
-    port: 17398
-    server: osg01.7770123.xyz
-    sni: osg01.7770123.xyz
-    type: hysteria2
+  - client-fingerprint: edge
+    flow: xtls-rprx-vision-udp443
+    name: "\U0001F1FA\U0001F1F8US_9|2.0MB/s"
+    network: tcp
+    port: 22231
+    server: r1.mizulina.top
+    tls: true
+    type: vless
     udp: true
-  - name: "\U0001F1ED\U0001F1F0HK_3|2.1MB/s"
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    xudp: true
+    servername: r1.mizulina.top
+  - name: "\U0001F1FA\U0001F1F8US_10|2.1MB/s"
+    network: tcp
+    password: BxceQaOe
+    port: 2520
+    server: 95.40.4.37
+    skip-cert-verify: true
+    sni: t.me/ripaojiedian
+    type: trojan
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8US_11|2.1MB/s"
+    network: tcp
+    password: BxceQaOe
+    port: 2520
+    server: 95.40.4.37
+    skip-cert-verify: true
+    sni: t.me%2Fripaojiedian
+    type: trojan
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_2|2.1MB/s"
+    port: 9002
+    server: 193.176.84.36
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1ED\U0001F1F0HK_3|2.8MB/s"
     password: <password>
     port: 8443
     server: 14468f84-te5ts0-tflsjv-zn8y.hkt.cdnhuawei.com
@@ -85,36 +200,94 @@ proxies:
     tls: true
     type: http
     username: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1FA\U0001F1F8US"
-    delay: 601
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1FA\U0001F1F8US_5|969KB/s"
-    network: ws
-    port: 80
-    server: 64.83.17.92
-    skip-cert-verify: true
-    type: vmess
-    uuid: rootface
-    ws-opts:
-      path: "/\U0001226D\U000131A9@rootface\U0001219C\U0001226D TELEGRAM"
+  - encryption: none
+    name: "\U0001F1E9\U0001F1EADE_1|1.2MB/s"
+    network: xhttp
+    port: 3389
+    server: 172.65.150.143
+    type: vless
+    udp: true
+    uuid: d497a244-9f20-fc6c-b303-8d01a528f53e
+    xhttp-opts:
+      mode: packet-up
+      path: /ed
+    xudp: true
   - client-fingerprint: chrome
+    encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1EB\U0001F1F7FR_2|1007KB/s"
+    name: "\U0001F1FA\U0001F1F8US_12|2.5MB/s"
     network: tcp
-    port: 443
-    reality-opts:
-      public-key: FurqA-2jJHS4vNj92Ya5i2ZTxf0sWSjUTaz5Y_KMBgk
-      short-id: "57cc65bfd5ef7465"
-    server: 185.212.117.34
+    port: 22231
+    server: 85.234.114.53
     tls: true
     type: vless
     udp: true
-    uuid: bb2b0112-577f-4862-886a-3c2ee004ca23
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
     xudp: true
-    servername: www.scaleway.com
+    servername: r1.mizulina.top
+  - encryption: none
+    name: "\U0001F1EB\U0001F1EEFI_1|2.1MB/s"
+    network: ws
+    port: 80
+    server: 140.248.187.74
+    type: vless
+    udp: true
+    uuid: cd51db86-be9a-48b0-8910-eeb4dcadc7d9
+    ws-opts:
+      headers:
+        Host: rb24.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/45.0.2454.85 Safari/537.36
+      path: >-
+        /ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048
+    xudp: true
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E6\U0001F1F9AT_1|1.2MB/s"
+    network: tcp
+    port: 8443
+    server: 130.49.219.126
+    tls: true
+    type: vless
+    udp: true
+    uuid: 2ee2b77f-e4cd-4e5d-af22-f9d919eeadd5
+    xudp: true
+    servername: at16.fastlanehosting.ru
+  - encryption: none
+    name: "\U0001F1EB\U0001F1EEFI_2|2.4MB/s"
+    network: ws
+    port: 80
+    server: 146.75.119.82
+    type: vless
+    udp: true
+    uuid: cd51db86-be9a-48b0-8910-eeb4dcadc7d9
+    ws-opts:
+      headers:
+        Host: rb24.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      path: >-
+        /ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048
+    xudp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1E9\U0001F1EADE_2|691KB/s"
+    password: 4a4cb575-15bd-4664-b94d-2e6a6b4ccda8
+    port: 28655
+    server: 109.120.138.95
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F9\U0001F1FCTW_2|3.7MB/s"
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+    port: 50099
+    server: 61.231.18.14
+    type: ss
+    udp: true
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
