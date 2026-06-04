@@ -1,5 +1,5 @@
 proxies:
-    - name: "\U0001F1E8\U0001F1EDCH_1|2.2MB/s"
+    - name: "\U0001F1ED\U0001F1F0HK_1|2.0MB/s"
       password: 4f4d1167-ef14-4304-9bce-0740472503ef
       port: 45553
       server: 90081bb25c.node.tro.cac.cab
@@ -8,16 +8,7 @@ proxies:
       tls: false
       type: trojan
       udp: true
-    - name: "\U0001F1EE\U0001F1F8IS_1|2.1MB/s"
-      password: 4f4d1167-ef14-4304-9bce-0740472503ef
-      port: 47909
-      server: 90081bb25c.node.tro.cac.cab
-      skip-cert-verify: true
-      sni: is.01.naiun.bilibili.com
-      tls: false
-      type: trojan
-      udp: true
-    - name: "\U0001F1F8\U0001F1ECSG_1|777KB/s"
+    - name: "\U0001F1F8\U0001F1ECSG_1|522KB/s"
       password: 16955d72-1794-11f0-a035-f23c95b6f51d
       port: 3233
       server: 4b41083b-tea5c0-tequ5b-dnss.fourtwo.cdnbytescm.com
@@ -25,19 +16,45 @@ proxies:
       type: http
       udp: true
       username: 16955d72-1794-11f0-a035-f23c95b6f51d
-    - name: "\U0001F1F8\U0001F1ECSG_2|780KB/s"
-      password: 1b609740-eec2-11ef-8543-f23c93136cb3
-      port: 3233
-      server: b5eb2edf-te8ao0-tfnl0i-au6.fourtwo.cdnbytescm.com
+    - name: "\U0001F1EF\U0001F1F5JP_1|2.0MB/s"
+      password: 0b869f32-657e-11ee-a90c-f23c9313b177
+      port: 3443
+      server: 9bbaef12-ta0g00-taad0h-24c4.tkydc3.cdnbytescm.com
+      sni: 9bbaef12-ta0g00-taad0h-24c4.tkydc3.cdnbytescm.com
       tls: true
       type: http
-      udp: true
-      username: 1b609740-eec2-11ef-8543-f23c93136cb3
-    - name: "\U0001F1ED\U0001F1F0HK_1|4.9MB/s"
-      password: e3a5bb40be52de65
-      port: 55555
-      server: 89.251.26.111
+      username: 0b869f32-657e-11ee-a90c-f23c9313b177
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_1|1.6MB/s"
+      network: ws
+      port: 10086
+      server: 107.148.185.16
+      type: vmess
+      uuid: a75d95d5-ae5b-4207-a6a3-ada2943776b9
+    - name: "\U0001F1EB\U0001F1F7FR_1|2.6MB/s"
+      password: github.com/Alvin9999-newpac/fanqiang
+      port: 64772
+      server: 62.210.26.173
       skip-cert-verify: true
-      sni: apps.apple.com
+      sni: bing.com
       tfo: false
       type: hysteria2
+    - alpn:
+        - h2
+        - http/1.1
+      client-fingerprint: chrome
+      encryption: mlkem768x25519plus.native.0rtt.bgqmvppyqaHyHPHZXMTlM49okx_O5AWML7IZkg1UZSs
+      name: "\U0001F1E9\U0001F1EADE_1|2.1MB/s"
+      network: xhttp
+      port: "443"
+      server: 66.81.247.104
+      servername: 1-cloudflare.lapis-lazuli.tech
+      tls: true
+      type: vless
+      udp: true
+      uuid: 58225ed2-9017-4204-8852-1b5cc1311fb8
+      xhttp-opts:
+        mode: auto
+        path: /c544c1d5248bf014e3a8
+      xudp: true
