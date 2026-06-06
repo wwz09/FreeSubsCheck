@@ -1,93 +1,6 @@
 proxies:
-  - cipher: aes-256-cfb
-    name: "\U0001F1E8\U0001F1E6CA_1|676KB/s"
-    password: amazonskr05
-    port: 443
-    server: 52.60.99.199
-    type: ss
-  - multiplexing: MULTIPLEXING_LOW
-    name: "\U0001F1FF\U0001F1E6ZA_1|1.3MB/s"
-    password: dongtaiwang.com
-    port: 28866
-    server: 45.221.98.11
-    transport: TCP
-    type: mieru
-    username: dongtaiwang.com
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1E6\U0001F1EAAE_1|934KB/s"
-    obfs: salamander
-    obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-    password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-    port: 443
-    server: hy2.aspidnet.xyz
-    skip-cert-verify: false
-    sni: hy2.aspidnet.xyz
-    type: hysteria2
-    up: ''
-  - alpn:
-      - h3
-    congestion-controller: bbr
-    name: "\U0001F1F8\U0001F1ECSG_1|882KB/s"
-    password: 48b603e6-6568-464e-a32f-4cf0526a9f1a
-    port: 5835
-    server: 8.219.215.193
-    sni: claw.isbigdick.cc.cd
-    type: tuic
-    udp: true
-    uuid: 48b603e6-6568-464e-a32f-4cf0526a9f1a
-    udp-relay-mode: native
-    version: 5
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E8\U0001F1EDCH_1|814KB/s"
-    network: tcp
-    port: 443
-    server: 195.15.253.119
-    tls: true
-    type: vless
-    udp: true
-    uuid: e72dfecf-7d26-4065-94cc-3fc6ce2d8314
-    xudp: true
-    servername: free2.masir-sefid-1.my
-  - auth: 21f1418e-aa7f-42b2-8a24-e7137005888d
-    down: 5000
-    name: "\U0001F1FA\U0001F1F8US_1|2.0MB/s"
-    password: 21f1418e-aa7f-42b2-8a24-e7137005888d
-    port: 30005
-    server: usflare1.cloudaddy.top
-    skip-cert-verify: true
-    sni: www.iq.com
-    type: hysteria2
-    udp: true
-    up: 5000
-  - auth: 21f1418e-aa7f-42b2-8a24-e7137005888d
-    down: 5000
-    name: "\U0001F1FA\U0001F1F8US_2|2.0MB/s"
-    password: 21f1418e-aa7f-42b2-8a24-e7137005888d
-    port: 30006
-    server: usflare1.cloudaddy.top
-    skip-cert-verify: true
-    sni: www.iq.com
-    type: hysteria2
-    udp: true
-    up: 5000
-  - auth: 21f1418e-aa7f-42b2-8a24-e7137005888d
-    down: 5000
-    name: "\U0001F1FA\U0001F1F8US_3|2.1MB/s"
-    password: 21f1418e-aa7f-42b2-8a24-e7137005888d
-    port: 30004
-    server: usflare1.cloudaddy.top
-    skip-cert-verify: false
-    sni: us1.cloudsegl1.ccwu.cc
-    type: hysteria2
-    udp: true
-    up: 5000
   - auth: 4f2a4a28-fb22-4324-a6d8-32dea01e5b26
-    name: "\U0001F1FA\U0001F1F8US_4|2.9MB/s"
+    name: "\U0001F1FA\U0001F1F8US_1|2.5MB/s"
     obfs: salamander
     obfs-password: f4ck
     password: 4f2a4a28-fb22-4324-a6d8-32dea01e5b26
@@ -98,7 +11,7 @@ proxies:
     type: hysteria2
     udp: true
   - auth: c8de0c9a-390e-4093-a379-34e61298d9d4
-    name: "\U0001F1FA\U0001F1F8US_5|2.9MB/s"
+    name: "\U0001F1FA\U0001F1F8US_2|2.5MB/s"
     obfs: salamander
     obfs-password: f4ck
     password: c8de0c9a-390e-4093-a379-34e61298d9d4
@@ -108,8 +21,19 @@ proxies:
     sni: node.bluexray.net
     type: hysteria2
     udp: true
+  - auth: 677ade99-5f81-4d1a-acec-881445da1af4
+    name: "\U0001F1FA\U0001F1F8US_3|2.5MB/s"
+    obfs: salamander
+    obfs-password: f4ck
+    password: 677ade99-5f81-4d1a-acec-881445da1af4
+    port: 36000
+    server: node.bluexray.net
+    skip-cert-verify: false
+    sni: node.bluexray.net
+    type: hysteria2
+    udp: true
   - auth: 51dd2480-dd9b-462e-8603-aa3efee00473
-    name: "\U0001F1FA\U0001F1F8US_6|2.7MB/s"
+    name: "\U0001F1FA\U0001F1F8US_4|2.6MB/s"
     obfs: salamander
     obfs-password: f4ck
     password: 51dd2480-dd9b-462e-8603-aa3efee00473
@@ -120,7 +44,7 @@ proxies:
     type: hysteria2
     udp: true
   - auth: 1cdefb87-0f3d-4960-a19b-4fa389d33b7f
-    name: "\U0001F1FA\U0001F1F8US_7|2.7MB/s"
+    name: "\U0001F1FA\U0001F1F8US_5|2.6MB/s"
     obfs: salamander
     obfs-password: f4ck
     password: 1cdefb87-0f3d-4960-a19b-4fa389d33b7f
@@ -131,7 +55,7 @@ proxies:
     type: hysteria2
     udp: true
   - auth: e50ea237-aa1b-466f-89f1-b0be5b9e162e
-    name: "\U0001F1FA\U0001F1F8US_8|3.4MB/s"
+    name: "\U0001F1FA\U0001F1F8US_6|3.1MB/s"
     obfs: salamander
     obfs-password: f4ck
     password: e50ea237-aa1b-466f-89f1-b0be5b9e162e
@@ -141,6 +65,22 @@ proxies:
     sni: node.bluexray.net
     type: hysteria2
     udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F9\U0001F1F7TR_1|558KB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0
+      short-id: "122218f4c1f172e4"
+    server: tr.c2horizon.app
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6a2eb00f-990a-4cfc-be96-907270f1577b
+    xudp: true
+    servername: tr.c2horizon.app
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
