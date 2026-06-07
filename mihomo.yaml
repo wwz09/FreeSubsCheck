@@ -1,107 +1,35 @@
 proxies:
-  - name: "\U0001F1ED\U0001F1F0HK_1|1.3MB/s"
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    port: 47909
-    server: 90081bb25c.node.tro.cac.cab
-    skip-cert-verify: true
-    sni: is.01.naiun.bilibili.com
-    type: trojan
-    udp: true
-    network: tcp
-  - client-fingerprint: qq
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1F2\U0001F1E9MD_1|861KB/s"
-    network: tcp
-    packet-encoding: xudp
-    port: 8443
-    reality-opts:
-      public-key: BrGL0gTKK_Ir2VwJOa91Vd8870DswnOXhA6-F92RBGI
-      short-id: "a987b6bd1781daa3"
-    server: 5.35.85.51
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 888403d1-621b-481a-b5dc-7aca518a787b
-    servername: www.kinopoisk.ru
-  - multiplexing: MULTIPLEXING_LOW
-    name: "\U0001F1FA\U0001F1F8US_1|775KB/s"
-    password: dongtaiwang.com
-    port: 34567
-    server: 157.254.223.44
-    transport: TCP
-    type: mieru
-    username: dongtaiwang.com
-  - encryption: none
-    http-opts:
-      headers:
-        Host:
-          - varzesh3.com
-      path:
-        - /
-    name: "\U0001F1E9\U0001F1EADE_1|583KB/s"
-    network: http
-    port: 2044
-    server: em-3.speedmizban.net
-    type: vless
-    udp: true
-    uuid: 103571d2-d1c2-40d1-b156-c5ba2450b86c
-    xudp: true
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F8\U0001F1EASE_1|1.5MB/s"
-    network: xhttp
-    port: 80
-    server: se.riotvpn.eu
-    tls: true
-    type: vless
-    udp: true
-    uuid: ac0321ed-0ecf-4200-9d5a-a8321252fb28
-    xhttp-opts:
-      mode: auto
-      path: /
-    xudp: true
-    servername: obhod.riotvpn.eu
-  - auth: c84cb0f9-325f-4509-ace1-388c5f7cb20d
-    name: "\U0001F1FA\U0001F1F8US_2|4.1MB/s"
-    password: c84cb0f9-325f-4509-ace1-388c5f7cb20d
-    port: 40003
-    server: node3.adami.icu
-    skip-cert-verify: true
-    sni: node3.adami.icua
-    type: hysteria2
-    udp: true
-  - auth: e4c51775-3a30-4349-a8b2-d08f6602795a
-    name: "\U0001F1FA\U0001F1F8US_3|2.0MB/s"
-    password: e4c51775-3a30-4349-a8b2-d08f6602795a
-    port: 30004
-    server: usflare1.cloudaddy.top
-    skip-cert-verify: false
-    sni: us1.cloudsegl1.ccwu.cc
-    type: hysteria2
-    udp: true
-  - auth: e4c51775-3a30-4349-a8b2-d08f6602795a
-    name: "\U0001F1FA\U0001F1F8US_4|2.2MB/s"
-    password: e4c51775-3a30-4349-a8b2-d08f6602795a
-    port: 30006
-    server: usflare1.cloudaddy.top
-    skip-cert-verify: true
-    sni: www.iq.com
-    type: hysteria2
-    udp: true
-  - auth: c84cb0f9-325f-4509-ace1-388c5f7cb20d
-    name: "\U0001F1FA\U0001F1F8US_5|3.3MB/s"
+  - auth: fd072787-16ed-433f-a19f-9b1fb3699417
+    name: "\U0001F1FA\U0001F1F8US_1|2.1MB/s"
     obfs: salamander
-    obfs-password: ZVY8lIsu22AMT4kO
-    password: c84cb0f9-325f-4509-ace1-388c5f7cb20d
-    port: 40006
-    server: node3.adami.icu
-    skip-cert-verify: true
-    sni: node3.adami.icu
+    obfs-password: f4ck
+    password: fd072787-16ed-433f-a19f-9b1fb3699417
+    port: 36000
+    server: node.bluexray.net
+    skip-cert-verify: false
+    sni: node.bluexray.net
+    type: hysteria2
+    udp: true
+  - auth: cefe28fe-00f8-4e26-a2bd-70e2751b440b
+    name: "\U0001F1FA\U0001F1F8US_2|2.1MB/s"
+    obfs: salamander
+    obfs-password: f4ck
+    password: cefe28fe-00f8-4e26-a2bd-70e2751b440b
+    port: 36000
+    server: node.bluexray.net
+    skip-cert-verify: false
+    sni: node.bluexray.net
+    type: hysteria2
+    udp: true
+  - auth: 5106ac89-5c13-4b57-8ab1-7fe5ede05206
+    name: "\U0001F1FA\U0001F1F8US_3|1.6MB/s"
+    obfs: salamander
+    obfs-password: f4ck
+    password: 5106ac89-5c13-4b57-8ab1-7fe5ede05206
+    port: 36000
+    server: node.bluexray.net
+    skip-cert-verify: false
+    sni: node.bluexray.net
     type: hysteria2
     udp: true
 proxy-groups:
