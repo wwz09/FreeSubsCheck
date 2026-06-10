@@ -1,7 +1,7 @@
 proxies:
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_1|972KB/s"
+      name: "\U0001F1FA\U0001F1F8US_1|1.7MB/s"
       port: 22231
       server: 85.234.114.53
       servername: r1.mizulina.top
@@ -9,120 +9,110 @@ proxies:
       type: vless
       udp: true
       uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    - client-fingerprint: edge
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_2|1.5MB/s"
-      port: 22231
-      server: r1.mizulina.top
-      servername: r1.mizulina.top
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
     - name: "\U0001F1F7\U0001F1F4RO_1|1.2MB/s"
       port: 9002
-      server: 84.239.49.57
+      server: 84.239.49.215
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_2|576KB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_2|985KB/s"
       port: 9002
-      server: 84.239.49.242
+      server: 84.239.49.155
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_3|895KB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_3|616KB/s"
       port: 9002
-      server: 84.239.49.164
+      server: 84.239.49.183
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_4|578KB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_4|713KB/s"
       port: 9002
       server: 84.239.49.199
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_5|863KB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_5|1.2MB/s"
       port: 9002
-      server: 84.239.49.55
+      server: 84.239.49.249
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_6|863KB/s"
-      port: 9002
-      server: 84.239.49.212
-      skip-cert-verify: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision-udp443
+      name: "\U0001F1FA\U0001F1F8US_2|1.7MB/s"
+      port: 22231
+      server: r1.mizulina.top
+      skip-cert-verify: false
       tls: true
-      type: http
+      type: vless
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_7|1.1MB/s"
-      port: 9002
-      server: 84.239.14.146
+      uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_3|1.4MB/s"
+      network: tcp
+      port: "180"
+      server: 82.198.246.250
+      servername: ""
+      tls: false
+      type: vmess
+      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    - alpn:
+        - h3
+      down: ""
+      fingerprint: ""
+      name: "\U0001F1EF\U0001F1F5JP_1|2.2MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: 80deaf6e-6747-35f1-848e-b8e8aeb8b2fa
+      port: "443"
+      server: 66.245.221.42
+      skip-cert-verify: false
+      sni: u727887us1737.csgfw.top
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1E9\U0001F1EADE_1|1.9MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+      port: "4433"
+      server: 185.228.139.247
       skip-cert-verify: true
-      tls: true
-      type: http
+      sni: de2.xiaoliyu.cyou
+      type: hysteria2
+      up: ""
+    - encryption: none
+      http-opts:
+        headers: {}
+        path:
+            - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
+      name: "\U0001F1E8\U0001F1EDCH_1|800KB/s"
+      network: http
+      port: "22"
+      server: 172.65.111.43
+      type: vless
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_8|707KB/s"
-      port: 9002
-      server: 84.239.14.148
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_9|533KB/s"
-      port: 9002
-      server: 84.239.49.219
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_10|816KB/s"
-      port: 9002
-      server: 84.239.14.157
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_11|577KB/s"
-      port: 9002
-      server: 84.239.14.159
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
+      uuid: 8a38623a-3e7f-5598-bdc9-894cbad4c5b6
+      xudp: true
     - alterId: 2
       cipher: auto
-      name: "\U0001F1F8\U0001F1ECSG_1|1.2MB/s"
+      name: "\U0001F1F8\U0001F1ECSG_1|2.3MB/s"
       port: 30845
       server: 103.182.97.12
       type: vmess
       uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5JP_1|2.6MB/s"
-      network: tcp
-      port: 5454
-      reality-opts:
-        public-key: 7Mb18pl7fH3NvhVevIVTgRdPlAorUucOWMlUaTrDV0o
-        short-id: 4265cc8365
-      server: 1.sdwan.realm-sync.com
-      servername: swcdn.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 8faf6e38-0531-4d63-91f0-2aba5b9ff864
-      xudp: true
     - down: ""
       fingerprint: ""
-      name: "\U0001F1E6\U0001F1FAAU_1|605KB/s"
+      name: "\U0001F1E6\U0001F1FAAU_1|2.1MB/s"
       obfs: ""
       obfs-password: ""
       password: d1db0080-669a-4357-ab9f-ab16719ed736
@@ -132,59 +122,39 @@ proxies:
       sni: cn.cremedelamer.com
       type: hysteria2
       up: ""
-    - name: "\U0001F1F7\U0001F1F4RO_12|815KB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_6|1.5MB/s"
       port: 9002
-      server: 84.239.49.178
+      server: 84.239.49.196
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
       type: http
-    - name: "\U0001F1F7\U0001F1F4RO_13|1.3MB/s"
-      port: 9002
-      server: 84.239.49.184
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_14|535KB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_7|658KB/s"
       port: 9002
       server: 84.239.49.40
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
       type: http
-    - name: "\U0001F1F7\U0001F1F4RO_15|1.4MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_8|841KB/s"
       port: 9002
-      server: 84.239.49.240
+      server: 84.239.49.215
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
       type: http
-    - name: "\U0001F1F7\U0001F1F4RO_16|578KB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_9|697KB/s"
       port: 9002
-      server: 84.239.49.155
+      server: 193.176.84.31
       skip-cert-verify: true
       sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_17|551KB/s"
-      port: 9002
-      server: 84.239.49.235
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_18|1.7MB/s"
-      port: 9002
-      server: 193.176.84.39
-      skip-cert-verify: true
       tls: true
       type: http
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       down: "1000"
-      name: "\U0001F1E9\U0001F1EADE_1|987KB/s"
+      name: "\U0001F1E9\U0001F1EADE_2|1.8MB/s"
       port: 20088
       protocol: udp
       server: 5.83.129.153
@@ -192,34 +162,44 @@ proxies:
       sni: apple.com
       type: hysteria
       up: "500"
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1F7\U0001F1FARU_1|973KB/s"
+      obfs: salamander
+      obfs-password: oMgvuBy5Lj5kYM57sGsnjpjNcSEQ
+      password: rs2mR3g9bZiMloftx6lZQ59Um1Ld
+      port: 9443
+      server: 80.66.81.78
+      skip-cert-verify: false
+      sni: tunel1.washing.help
+      type: hysteria2
+      up: ""
     - multiplexing: MULTIPLEXING_LOW
-      name: "\U0001F1FA\U0001F1F8US_3|722KB/s"
+      name: "\U0001F1FA\U0001F1F8US_4|2.6MB/s"
       password: dongtaiwang.com
       port: 34567
       server: 157.254.223.44
       transport: TCP
       type: mieru
       username: dongtaiwang.com
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_4|644KB/s"
-      network: tcp
-      port: "58823"
-      reality-opts:
-        public-key: twGHV7f1O22dko-CPLFQocfPAJ67rZluNboOQUU9mUc
-        short-id: 0a
-      server: 172.86.91.107
-      servername: www.intel.com
-      tls: true
+    - encryption: none
+      name: "\U0001F1E9\U0001F1EADE_3|1.1MB/s"
+      network: ws
+      port: "80"
+      server: 151.101.194.219
       type: vless
       udp: true
-      uuid: 3608c517-6068-4305-9a36-58ae780507b3
+      uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+      ws-opts:
+        headers:
+            Host: max-gb1.global.ssl.fastly.net
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        path: /
       xudp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_5|1.6MB/s"
+      name: "\U0001F1FA\U0001F1F8US_5|2.0MB/s"
       network: tcp
       port: "22231"
       server: 85.234.114.53
@@ -230,51 +210,111 @@ proxies:
       uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
       xudp: true
     - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_2|1.3MB/s"
+      name: "\U0001F1E9\U0001F1EADE_4|2.4MB/s"
       network: ws
       port: "80"
-      server: speedtest.net
+      server: 151.101.2.219
       type: vless
       udp: true
       uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
       ws-opts:
         headers:
             Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
         path: /
       xudp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F5\U0001F1F1PL_1|1.2MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: C1hW1bTA9WOacIK-fHHg-HLkDZ3FY7FhEhAyldMSUEA
+        short-id: a1b2c3d4e5f6
+      server: 138.124.104.106
+      servername: cloudflare.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3ef170be-05d0-479c-9753-aa2f860964ea
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F7\U0001F1FARU_2|1.3MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: TRZ2Vk_hy21ukC2wGI8ideB50TSziIrJf8J-SlqO7lw
+        short-id: 98d60f94c874fac5
+      server: usa.port-server.online
+      servername: usa.port-server.online
+      tls: true
+      type: vless
+      udp: true
+      uuid: dbfa97b8-f4fb-4687-96dc-a5a2aebfae11
+      xudp: true
     - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_3|1.6MB/s"
+      name: "\U0001F1E9\U0001F1EADE_5|790KB/s"
       network: ws
       port: "80"
-      server: 151.101.194.219
+      server: 151.101.66.219
       type: vless
       udp: true
       uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
       ws-opts:
         headers:
             Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36
         path: /
       xudp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1FARU_1|1.3MB/s"
+      name: "\U0001F1F7\U0001F1FARU_3|1.4MB/s"
       network: tcp
       port: "443"
       reality-opts:
-        public-key: gYMI6_kvxK_r6sOPHp91ZYYKSUQfSp8JADHB3ZfuGUo
-        short-id: af11583cadc0f8c2
-      server: 194.242.127.59
-      servername: freenl.aiage.work
+        public-key: A_bQLZE6D32TJUdAf9doQTPaTUXyJjPXLSklplG4V1g
+        short-id: c8813f516bbb12c4
+      server: 213.165.56.102
+      servername: freede.aiage.work
       tls: true
       type: vless
       udp: true
       uuid: 0a12381a-e241-4b63-a03c-1a5a45a95977
       xudp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: ❓Other_1|539KB/s
+      network: tcp
+      port: "8443"
+      reality-opts:
+        public-key: 5XOAmA_awHUD2jyfv7KmWiiLOfrQC14zipdA-2scPlA
+        short-id: ""
+      server: 186.246.23.136
+      servername: www.vk.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: b6eaf50a-0b56-45c4-a993-4cc4d3dd1ede
+      xudp: true
     - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_4|2.0MB/s"
+      name: "\U0001F1E9\U0001F1EADE_6|2.4MB/s"
+      network: ws
+      port: "80"
+      server: 151.101.0.1
+      type: vless
+      udp: true
+      uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+      ws-opts:
+        headers:
+            Host: max-gb1.global.ssl.fastly.net
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+        path: /
+      xudp: true
+    - encryption: none
+      name: "\U0001F1E9\U0001F1EADE_7|2.5MB/s"
       network: ws
       port: "80"
       server: 151.101.0.1
@@ -284,75 +324,43 @@ proxies:
       ws-opts:
         headers:
             Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
         path: /
       xudp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F9\U0001F1F7TR_1|1.6MB/s"
+      name: "\U0001F1F7\U0001F1FARU_4|1.3MB/s"
       network: tcp
-      port: "8443"
-      reality-opts:
-        public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-        short-id: 205748bc0f24a747
-      server: bypass.quarenty.site
-      servername: storage.yandex.net
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0d5cba76-b113-4085-ae38-1cd3f0f77523
-      xudp: true
-    - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_5|2.2MB/s"
-      network: ws
-      port: "5050"
-      server: 91.107.190.72
-      type: vless
-      udp: true
-      uuid: 6631b0ef-0e81-4632-a6bf-fa4b10a325c5
-      ws-opts:
-        headers:
-            Host: ""
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17 (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-        path: /
-      xudp: true
-    - alpn:
-        - h2
-        - http/1.1
-      client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EC\U0001F1F7GR_1|1.1MB/s"
-      network: xhttp
       port: "443"
-      server: fl.gamelistak.com
+      reality-opts:
+        public-key: TRZ2Vk_hy21ukC2wGI8ideB50TSziIrJf8J-SlqO7lw
+        short-id: 98d60f94c874fac5
+      server: 138.124.68.27
+      servername: usa.port-server.online
       tls: true
       type: vless
       udp: true
-      uuid: 5add5b1e-e628-46df-b8b5-98990dbaf7a9
-      xhttp-opts:
-        host: fl.gamelistak.com
-        mode: auto
-        path: /@MrNexTV2RAY
-        x-padding-bytes: 100-1000
-      xudp: true
-    - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_6|808KB/s"
-      network: ws
-      port: "80"
-      server: 151.101.130.219
-      type: vless
-      udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-        path: /
+      uuid: dbfa97b8-f4fb-4687-96dc-a5a2aebfae11
       xudp: true
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_7|1.4MB/s"
+      name: "\U0001F1E9\U0001F1EADE_8|1.0MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: 8eP4hunZeynHEGlONFchnyVPffyWcIWOrxefwK-Bw38
+        short-id: 5fbc3141
+      server: 13.140.29.123
+      servername: bg1.americanprime.vip
+      tls: true
+      type: vless
+      udp: true
+      uuid: a30bc003-9449-4035-9904-c7a2ef8b7bec
+      xudp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EADE_9|1.1MB/s"
       network: tcp
       port: "2083"
       reality-opts:
@@ -366,7 +374,65 @@ proxies:
       uuid: dedb4728-a885-4f01-8f1f-370feb39ac7b
       xudp: true
     - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_8|2.1MB/s"
+      http-opts:
+        headers: {}
+        path:
+            - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
+      name: "\U0001F1E8\U0001F1EDCH_2|2.2MB/s"
+      network: http
+      port: "22"
+      server: 172.65.111.43
+      type: vless
+      udp: true
+      uuid: monacoVPN
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1E9\U0001F1EADE_10|1.5MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: i3FAVLuR28LvzvTOE0L7aZiQEF6H5I3se0O-px2e8C0
+        short-id: "39"
+      server: 91.107.152.217
+      servername: yahoo.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 38109dda-a28c-4c33-9ae7-ca38dc2ecd68
+      xudp: true
+    - encryption: none
+      name: "\U0001F1E9\U0001F1EADE_11|2.5MB/s"
+      network: ws
+      port: "80"
+      server: 151.101.130.219
+      type: vless
+      udp: true
+      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+      ws-opts:
+        headers:
+            Host: max-gb1.global.ssl.fastly.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1EA\U0001F1EAEE_1|787KB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: h18Rbgv9RV558p-9Pl4g_--jJjXlTZL0-jHqNK5M_n4
+        short-id: 2b8c3e90e14740d2
+      server: 212.113.120.126
+      servername: ru7.cdn-global.pro
+      tls: true
+      type: vless
+      udp: true
+      uuid: dc22c1b5-ea27-4d89-89ae-c0580ed94ca5
+      xudp: true
+    - encryption: none
+      name: "\U0001F1E9\U0001F1EADE_12|2.1MB/s"
       network: xhttp
       port: "7000"
       server: 89.106.64.15
@@ -379,44 +445,36 @@ proxies:
         path: /
         x-padding-bytes: 100-1000
       xudp: true
-    - encryption: none
-      http-opts:
-        headers: {}
-        path:
-            - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
-      name: "\U0001F1E8\U0001F1EDCH_1|747KB/s"
-      network: http
-      port: "22"
-      server: 172.65.111.43
-      type: vless
-      udp: true
-      uuid: monacoVPN
-      xudp: true
-    - client-fingerprint: chrome
+    - alpn:
+        - h2
+        - http/1.1
+      client-fingerprint: chrome
       encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_6|1.0MB/s"
-      network: tcp
-      port: "443"
-      server: 85.234.114.53
-      servername: r1.mizulina.top
+      name: "\U0001F1E9\U0001F1EADE_13|3.5MB/s"
+      network: xhttp
+      port: "2087"
+      server: www.speedtest.net
+      servername: r1.firefly-service.com
       tls: true
       type: vless
       udp: true
-      uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+      uuid: 2330f424-ef1f-47ad-a42a-815e5c576820
+      xhttp-opts:
+        mode: stream-up
+        path: /
       xudp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F1F0\U0001F1F7 KR"
-      delay: 264
-      name: "\U0001F1F0\U0001F1F7KR_1|2.9MB/s"
-      password: qwerREWQ@@
-      port: 8314
-      server: 211.201.169.70
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1476
+      name: "\U0001F1FA\U0001F1F8US_6|1.3MB/s"
+      password: 097H_-eSMWbWFtuktVuT8wWjANSN9tmh
+      port: 1080
+      server: 198.71.54.21
       type: ss
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_7|1.6MB/s"
+      name: "\U0001F1FA\U0001F1F8US_7|1.0MB/s"
       network: tcp
       port: "22231"
       server: r1.mizulina.top
@@ -428,7 +486,7 @@ proxies:
       xudp: true
     - alterId: 0
       cipher: auto
-      name: "\U0001F1EF\U0001F1F5JP_2|2.5MB/s"
+      name: "\U0001F1EF\U0001F1F5JP_2|592KB/s"
       network: ws
       port: 12001
       server: rb2.needss.top
@@ -440,91 +498,69 @@ proxies:
         headers:
             Host: rb2.needss.top
         path: /
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5JP_3|612KB/s"
-      network: ws
-      port: 12001
-      server: rb2.needss.top
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 22a5c2e5-70dd-4879-a480-7cd780adadf5
-      ws-opts:
-        headers:
-            Host: rb2.needss.top
-        path: /
-    - auth: 4bcdd9b8-9c8d-47a4-b1d4-9cf194413616
-      name: "\U0001F1FA\U0001F1F8US_8|2.1MB/s"
-      password: 4bcdd9b8-9c8d-47a4-b1d4-9cf194413616
-      port: 30006
-      server: usflare1.cloudaddy.top
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5JP_3|3.6MB/s"
+      port: 5454
+      reality-opts:
+        public-key: 7Mb18pl7fH3NvhVevIVTgRdPlAorUucOWMlUaTrDV0o
+        short-id: 4265cc8365
+      server: 1.sdwan.realm-sync.com
+      servername: swcdn.apple.com
       skip-cert-verify: true
-      sni: www.iq.com
-      type: hysteria2
-      udp: true
-    - auth: 4bcdd9b8-9c8d-47a4-b1d4-9cf194413616
-      name: "\U0001F1FA\U0001F1F8US_9|2.1MB/s"
-      password: 4bcdd9b8-9c8d-47a4-b1d4-9cf194413616
-      port: 30004
-      server: usflare1.cloudaddy.top
-      skip-cert-verify: false
-      sni: us1.cloudsegl1.ccwu.cc
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1EB\U0001F1F7FR_1|889KB/s"
-      password: 4f4d1167-ef14-4304-9bce-0740472503ef
-      port: 45619
-      server: 188.253.12.92
-      skip-cert-verify: true
-      sni: fr.01.naiun.bilibili.com
       tls: true
-      type: trojan
-      udp: true
-    - name: "\U0001F1ED\U0001F1F0HK_1|1.6MB/s"
-      password: 4f4d1167-ef14-4304-9bce-0740472503ef
-      port: 45619
-      server: 188.253.12.98
-      skip-cert-verify: true
-      sni: fr.01.naiun.bilibili.com
-      tls: true
-      type: trojan
-      udp: true
-    - encryption: none
-      http-opts:
-        headers: {}
-        path:
-            - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
-      name: "\U0001F1E8\U0001F1EDCH_2|1.2MB/s"
-      network: http
-      port: "22"
-      server: 172.65.111.43
       type: vless
       udp: true
-      uuid: 8a38623a-3e7f-5598-bdc9-894cbad4c5b6
-      xudp: true
+      uuid: 8faf6e38-0531-4d63-91f0-2aba5b9ff864
+    - name: "\U0001F1EB\U0001F1F7FR_1|883KB/s"
+      password: 4f4d1167-ef14-4304-9bce-0740472503ef
+      port: 45619
+      server: 188.253.12.99
+      skip-cert-verify: true
+      sni: fr.01.naiun.bilibili.com
+      tls: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1ED\U0001F1F0HK_1|519KB/s"
+      password: 4f4d1167-ef14-4304-9bce-0740472503ef
+      port: 41943
+      server: 188.253.12.99
+      skip-cert-verify: true
+      sni: az.01.naiun.bilibili.com
+      tls: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1E8\U0001F1EDCH_3|1.0MB/s"
+      password: 4f4d1167-ef14-4304-9bce-0740472503ef
+      port: 45553
+      server: 188.253.12.94
+      skip-cert-verify: true
+      sni: ch.01.naiun.bilibili.com
+      tls: true
+      type: trojan
+      udp: true
     - alpn:
-        - h2
-        - http/1.1
+        - networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-
       client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1E9\U0001F1EADE_9|706KB/s"
-      network: xhttp
+      flow: xtls-rprx-vision
+      name: "\U0001F1E6\U0001F1EAAE_1|1.0MB/s"
+      network: tcp
       port: "443"
-      server: de01.botovod.space
-      servername: de01.botovod.space
+      reality-opts:
+        public-key: C1hW1bTA9WOacIK-fHHg-HLkDZ3FY7FhEhAyldMSUEA
+        short-id: a1b2c3d4e5f6
+      server: 78.17.96.198
+      servername: cloudflare.com
       tls: true
       type: vless
       udp: true
-      uuid: cc5201c6-b6b9-4065-adad-ab6d17958b94
-      xhttp-opts:
-        mode: auto
-        path: /
+      uuid: 3ef170be-05d0-479c-9753-aa2f860964ea
       xudp: true
     - client-fingerprint: chrome
       grpc-opts:
         grpc-service-name: api
-      name: "\U0001F1F3\U0001F1F1NL_1|622KB/s"
+      name: "\U0001F1F3\U0001F1F1NL_1|2.0MB/s"
       network: grpc
       port: "23356"
       reality-opts:
