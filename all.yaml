@@ -1,100 +1,77 @@
 proxies:
-    - name: "\U0001F1F7\U0001F1F4RO_1|522KB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_1|717KB/s"
       port: 9002
-      server: 84.239.49.201
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_2|747KB/s"
-      port: 9002
-      server: 84.239.49.155
+      server: 84.239.14.157
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
     - multiplexing: MULTIPLEXING_LOW
-      name: "\U0001F1FA\U0001F1F8US_1|805KB/s"
+      name: "\U0001F1FA\U0001F1F8US_1|591KB/s"
       password: dongtaiwang.com
       port: 34567
       server: 157.254.223.44
       transport: TCP
       type: mieru
       username: dongtaiwang.com
-    - name: "\U0001F1F7\U0001F1F4RO_3|852KB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_2|1006KB/s"
       port: 9002
-      server: 84.239.49.245
+      server: 84.239.14.152
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
       type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_4|652KB/s"
-      port: 9002
-      server: 193.176.84.37
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F3\U0001F1F1NL_1|698KB/s"
-      port: 1080
-      server: 5.255.99.75
-      type: socks5
-    - name: "\U0001F1F7\U0001F1F4RO_5|732KB/s"
-      port: 9002
-      server: 193.176.84.19
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_6|820KB/s"
-      port: 9002
-      server: 84.239.49.233
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_7|577KB/s"
-      port: 9002
-      server: 84.239.49.170
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_8|965KB/s"
-      port: 9002
-      server: 84.239.14.154
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_9|607KB/s"
-      port: 9002
-      server: 193.176.84.27
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1E9\U0001F1EADE_1|681KB/s"
+    - alpn:
+        - ""
+      alterId: "0"
+      cipher: auto
+      name: "\U0001F1E9\U0001F1EADE_1|2.5MB/s"
       network: ws
-      port: 80
-      server: 151.101.133.151
-      skip-cert-verify: true
+      port: "8080"
+      server: www.speedtest.net
+      skip-cert-verify: false
       tls: false
-      type: vless
+      type: vmess
       udp: true
-      uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+      uuid: 9e7bd162-ce13-4912-8959-3b32805b462e
       ws-opts:
         headers:
-            Host: max-gb1.global.ssl.fastly.net
-        path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    - name: "\U0001F1F3\U0001F1F1NL_2|528KB/s"
-      port: 8443
-      server: 169.150.245.5
-      servername: ams1.fromblancwithlove.com
-      skip-cert-verify: true
-      tls: true
-      type: vless
+            Host: dl.summercart.net
+        path: /
+      xudp: true
+    - auth: 7b4c88a8-6ae1-427d-ac1d-6cff9383fd1f
+      down: 5000
+      name: "\U0001F1FA\U0001F1F8US_2|1.0MB/s"
+      password: 7b4c88a8-6ae1-427d-ac1d-6cff9383fd1f
+      port: 30004
+      server: usflare1.cloudaddy.top
+      skip-cert-verify: false
+      sni: us1.cloudsegl1.ccwu.cc
+      type: hysteria2
       udp: true
-      uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+      up: 5000
+    - auth: 7b4c88a8-6ae1-427d-ac1d-6cff9383fd1f
+      down: 5000
+      name: "\U0001F1FA\U0001F1F8US_3|1.2MB/s"
+      password: 7b4c88a8-6ae1-427d-ac1d-6cff9383fd1f
+      port: 30003
+      server: usflare1.cloudaddy.top
+      skip-cert-verify: true
+      sni: www.iq.com
+      type: hysteria2
+      udp: true
+      up: 5000
+    - auth: 7b4c88a8-6ae1-427d-ac1d-6cff9383fd1f
+      down: 5000
+      name: "\U0001F1FA\U0001F1F8US_4|1.0MB/s"
+      password: 7b4c88a8-6ae1-427d-ac1d-6cff9383fd1f
+      port: 30005
+      server: usflare1.cloudaddy.top
+      skip-cert-verify: true
+      sni: www.iq.com
+      type: hysteria2
+      udp: true
+      up: 5000
     - alpn:
         - h2
         - http/1.1
@@ -104,7 +81,7 @@ proxies:
         headers: {}
         path:
             - /
-      name: "\U0001F1E9\U0001F1EADE_2|1.9MB/s"
+      name: "\U0001F1E9\U0001F1EADE_2|851KB/s"
       network: http
       port: "2087"
       server: de.abalahrar.ir
@@ -112,21 +89,4 @@ proxies:
       type: vless
       udp: true
       uuid: 28fa8060-e7c2-4301-b12c-4448fb7b96fb
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      grpc-opts:
-        grpc-service-name: moktana.net.v1.StreamService
-      name: ❓Other_1|1.3MB/s
-      network: grpc
-      port: "443"
-      reality-opts:
-        public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
-        short-id: 3f8e2d1c9b4a7e6f
-      server: lt.moktana.app
-      servername: lt.moktana.app
-      tls: true
-      type: vless
-      udp: true
-      uuid: 2cc9f9ae-657b-43fc-916f-049690c4e07a
       xudp: true
