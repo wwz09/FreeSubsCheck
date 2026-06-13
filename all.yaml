@@ -1,77 +1,12 @@
 proxies:
-    - name: "\U0001F1F7\U0001F1F4RO_1|717KB/s"
-      port: 9002
-      server: 84.239.14.157
-      skip-cert-verify: true
+    - name: "\U0001F1EE\U0001F1E9ID_1|2.0MB/s"
+      password: e29de954-ea01-11ef-a271-f23c91cfbbc9
+      port: 32233
+      server: f6091546-t9zts0-taj9mo-1tco3.id.oshuawei.com
+      sni: f6091546-t9zts0-taj9mo-1tco3.id.oshuawei.com
       tls: true
       type: http
-      udp: true
-    - multiplexing: MULTIPLEXING_LOW
-      name: "\U0001F1FA\U0001F1F8US_1|591KB/s"
-      password: dongtaiwang.com
-      port: 34567
-      server: 157.254.223.44
-      transport: TCP
-      type: mieru
-      username: dongtaiwang.com
-    - name: "\U0001F1F7\U0001F1F4RO_2|1006KB/s"
-      port: 9002
-      server: 84.239.14.152
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - alpn:
-        - ""
-      alterId: "0"
-      cipher: auto
-      name: "\U0001F1E9\U0001F1EADE_1|2.5MB/s"
-      network: ws
-      port: "8080"
-      server: www.speedtest.net
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 9e7bd162-ce13-4912-8959-3b32805b462e
-      ws-opts:
-        headers:
-            Host: dl.summercart.net
-        path: /
-      xudp: true
-    - auth: 7b4c88a8-6ae1-427d-ac1d-6cff9383fd1f
-      down: 5000
-      name: "\U0001F1FA\U0001F1F8US_2|1.0MB/s"
-      password: 7b4c88a8-6ae1-427d-ac1d-6cff9383fd1f
-      port: 30004
-      server: usflare1.cloudaddy.top
-      skip-cert-verify: false
-      sni: us1.cloudsegl1.ccwu.cc
-      type: hysteria2
-      udp: true
-      up: 5000
-    - auth: 7b4c88a8-6ae1-427d-ac1d-6cff9383fd1f
-      down: 5000
-      name: "\U0001F1FA\U0001F1F8US_3|1.2MB/s"
-      password: 7b4c88a8-6ae1-427d-ac1d-6cff9383fd1f
-      port: 30003
-      server: usflare1.cloudaddy.top
-      skip-cert-verify: true
-      sni: www.iq.com
-      type: hysteria2
-      udp: true
-      up: 5000
-    - auth: 7b4c88a8-6ae1-427d-ac1d-6cff9383fd1f
-      down: 5000
-      name: "\U0001F1FA\U0001F1F8US_4|1.0MB/s"
-      password: 7b4c88a8-6ae1-427d-ac1d-6cff9383fd1f
-      port: 30005
-      server: usflare1.cloudaddy.top
-      skip-cert-verify: true
-      sni: www.iq.com
-      type: hysteria2
-      udp: true
-      up: 5000
+      username: e29de954-ea01-11ef-a271-f23c91cfbbc9
     - alpn:
         - h2
         - http/1.1
@@ -81,7 +16,7 @@ proxies:
         headers: {}
         path:
             - /
-      name: "\U0001F1E9\U0001F1EADE_2|851KB/s"
+      name: "\U0001F1E9\U0001F1EADE_1|829KB/s"
       network: http
       port: "2087"
       server: de.abalahrar.ir
