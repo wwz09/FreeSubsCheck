@@ -1,5 +1,27 @@
 proxies:
-  - name: "\U0001F1EE\U0001F1E9ID_1|2.0MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_1|1016KB/s"
+    port: 9002
+    server: 84.239.49.234
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_2|525KB/s"
+    port: 9002
+    server: 84.239.49.223
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8US_1|538KB/s"
+    password: gs4BXwT6SW
+    port: 10988
+    server: 154.26.192.123
+    skip-cert-verify: false
+    tls: false
+    type: http
+    username: fQ67Dpe5dU
+  - name: "\U0001F1EE\U0001F1E9ID_1|2.1MB/s"
     password: e29de954-ea01-11ef-a271-f23c91cfbbc9
     port: 32233
     server: f6091546-t9zts0-taj9mo-1tco3.id.oshuawei.com
@@ -7,25 +29,114 @@ proxies:
     tls: true
     type: http
     username: e29de954-ea01-11ef-a271-f23c91cfbbc9
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1E9\U0001F1EADE_1|829KB/s"
-    network: http
-    port: 2087
-    server: de.abalahrar.ir
+  - name: "\U0001F1F7\U0001F1F4RO_3|769KB/s"
+    port: 9002
+    server: 84.239.49.198
+    skip-cert-verify: true
     tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_4|525KB/s"
+    port: 9002
+    server: 84.239.49.159
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_5|595KB/s"
+    port: 9002
+    server: 84.239.49.160
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - encryption: none
+    name: "\U0001F1F3\U0001F1F1NL_1|1.0MB/s"
+    network: ws
+    port: 25260
+    server: 193.151.143.75
     type: vless
     udp: true
-    uuid: 28fa8060-e7c2-4301-b12c-4448fb7b96fb
+    uuid: 64cd4898-b619-4471-abcd-0cbb26c4a5f5
+    ws-opts:
+      headers:
+        Host: myket.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/40.0.2214.115 Safari/537.36
+      path: /
     xudp: true
-    servername: de.abalahrar.ir
+  - encryption: none
+    name: "\U0001F1E9\U0001F1EADE_1|1.7MB/s"
+    network: ws
+    port: 2052
+    server: www.speedtest.net
+    type: vless
+    udp: true
+    uuid: b8a47567-be06-4ef5-a707-8879be68caec
+    ws-opts:
+      headers:
+        Host: dl.summercart.net
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /
+    xudp: true
+  - auth: dde41ec7-9646-430d-99a0-d49f1ef54bea
+    down: 5000
+    name: "\U0001F1FA\U0001F1F8US_2|1.9MB/s"
+    password: dde41ec7-9646-430d-99a0-d49f1ef54bea
+    port: 30006
+    server: usflare1.cloudaddy.top
+    skip-cert-verify: true
+    sni: www.iq.com
+    type: hysteria2
+    udp: true
+    up: 5000
+  - auth: dde41ec7-9646-430d-99a0-d49f1ef54bea
+    down: 5000
+    name: "\U0001F1FA\U0001F1F8US_3|1.1MB/s"
+    password: dde41ec7-9646-430d-99a0-d49f1ef54bea
+    port: 30005
+    server: usflare1.cloudaddy.top
+    skip-cert-verify: true
+    sni: www.iq.com
+    type: hysteria2
+    udp: true
+    up: 5000
+  - auth: dde41ec7-9646-430d-99a0-d49f1ef54bea
+    down: 5000
+    name: "\U0001F1FA\U0001F1F8US_4|840KB/s"
+    password: dde41ec7-9646-430d-99a0-d49f1ef54bea
+    port: 30003
+    server: usflare1.cloudaddy.top
+    skip-cert-verify: true
+    sni: www.iq.com
+    type: hysteria2
+    udp: true
+    up: 5000
+  - auth: dde41ec7-9646-430d-99a0-d49f1ef54bea
+    down: 5000
+    name: "\U0001F1FA\U0001F1F8US_5|1.5MB/s"
+    password: dde41ec7-9646-430d-99a0-d49f1ef54bea
+    port: 30004
+    server: usflare1.cloudaddy.top
+    skip-cert-verify: false
+    sni: us1.cloudsegl1.ccwu.cc
+    type: hysteria2
+    udp: true
+    up: 5000
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F8\U0001F1ECSG_1|5.2MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: dd4xmofilrdbpqwx
+    port: 443
+    server: 696969696969.duckdns.org
+    skip-cert-verify: false
+    sni: 104.248.149.145
+    type: hysteria2
+    up: ''
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
